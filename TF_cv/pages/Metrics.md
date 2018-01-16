@@ -4,7 +4,7 @@
 
     A summary of the most common evaluation metrics:
 
-<img src="images/metrics.png" width="1000">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/metrics.png" width="1000">
 
 
 TensorFlow metrics module **`tf.metrics`**
@@ -74,7 +74,7 @@ accuracy = tf.metrics.mean_per_class_accuracy(labels, predictions)
 
 # Recall and F-1 Score
 
-<img src="images/recall.png" width="200">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/recall.png" width="200">
 
 $$Recall = \frac{TruePositive}{PositiveSamples} = \frac{TruePositive}{TruePositive + FalseNegative} $$
 
@@ -118,7 +118,7 @@ def recall(labels, predictions):
 - **AUC** is a good way summarize the **classifier's performance** in a single number. This number is between 0.5 and 1. The **Area Under the Curve (AUC)** is literally just the percentage of the box that is under the curve. This metric quantifies the performance of a classifier into one number for model comparaison.
 
 
-<img src="images/roc1.png" width="300">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/roc1.png" width="300">
 
 
 - think of AUC as representing the **probability that a classifier will rank a randomly chosen positive observation higher than a randomly chosen negative observation**, and thus it is a useful metric even for datasets with **highly unbalanced classes**.
