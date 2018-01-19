@@ -51,6 +51,15 @@
 - 1.初始化一个随机的嵌入矩阵 mxD：
 	- m：类别变量的不同层次(星期一、星期二……)的数量
 	- D：用于表示的所需的维度，这是一个可以取值 1 到 m-1 的超参数(取 1 就是标签编码，取 m 就是 one-hot 编码)
-![]()
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/md/images/3.png)
+
 - 2.然后，对于神经网络中的每一次前向通过，我们都在该嵌入矩阵中查询一次给定的标签(比如为「dow」查询星期一)，这会得到一个 1xD 的向量
 	
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/md/images/4.png)
+
+- 3.将这个 1×D 的向量附加到我们的输入向量(数值向量)上。你可以把这个过程看作是矩阵增强，其中我们为每一个类别都增加一个嵌入向量，这是通过为每一特定行执行查找而得到的
+
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/md/images/5.png)
+
+- 4.在执行反向传播的同时，我们也以梯度的方式来更新这些嵌入向量，以最小化我们的损失函数
+
