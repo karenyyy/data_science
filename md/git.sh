@@ -1,3 +1,3 @@
 git add .
 git commit -m 'update'
-git push origin master -u karenyyy -p sutur1,.95
+git push -u origin master
