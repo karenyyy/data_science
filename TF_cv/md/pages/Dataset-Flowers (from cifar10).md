@@ -76,7 +76,7 @@ def load_data_files(base_dir):
     for class_name in sub_dir:
         print("the class name is:", class_name)
         imgs = glob(os.path.join(RAW_DATASET,class_name,"*.jpg"))
-        print(imgs[0])
+        #print(imgs[0])
         data_dic[class_name] = imgs
         print("Class: {}".format(class_name))
         print("Number of images: {} \n".format(len(imgs)))
@@ -92,27 +92,22 @@ data_dic
 
     /home/karen/Downloads/data/flower_photos
     the class name is: dandelion
-    /home/karen/Downloads/data/flower_photos/dandelion/4716316039_044e4d2d1a.jpg
     Class: dandelion
     Number of images: 898 
     
     the class name is: sunflowers
-    /home/karen/Downloads/data/flower_photos/sunflowers/14741813010_5d44e33088_n.jpg
     Class: sunflowers
     Number of images: 699 
     
     the class name is: daisy
-    /home/karen/Downloads/data/flower_photos/daisy/2408024540_37f0be7cc0_n.jpg
     Class: daisy
     Number of images: 633 
     
     the class name is: roses
-    /home/karen/Downloads/data/flower_photos/roses/16100313047_c2e23cbb3d_n.jpg
     Class: roses
     Number of images: 641 
     
     the class name is: tulips
-    /home/karen/Downloads/data/flower_photos/tulips/3990989735_59e2751151_n.jpg
     Class: tulips
     Number of images: 799 
     
