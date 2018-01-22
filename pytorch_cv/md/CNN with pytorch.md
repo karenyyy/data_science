@@ -56,7 +56,7 @@ test_dataset[0][0].size()
 
 
 
-    torch.Size([1, 28, 28])
+   torch.Size([1, 28, 28])
 
 
 
@@ -72,9 +72,6 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
-
-
 
 ```python
 # labels
@@ -84,7 +81,7 @@ test_dataset[0][1]
 
 
 
-    7
+   7
 
 
 
@@ -108,7 +105,7 @@ num_epochs
 
 
 
-    5.0
+   5.0
 
 
 
@@ -132,7 +129,7 @@ isinstance(train_gen, collections.Iterable)
 
 
 
-    True
+   True
 
 
 
