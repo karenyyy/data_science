@@ -62,7 +62,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/pytorch_cv/images/output_7_0.png)
 
 
 
