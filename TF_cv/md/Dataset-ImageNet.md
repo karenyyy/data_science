@@ -17,16 +17,16 @@ import tensorflow as tf
 # Download ImageNet Images
 
 **Clone [ImageNet_Utils](https://github.com/tzutalin/ImageNet_Utils) repository**
-```
-git clone git@github.com:tzutalin/ImageNet_Utils.git
-```
+
+> git clone git@github.com:tzutalin/ImageNet_Utils.git
+
 
 
 **Download Images given wnid**
-```
-cd ImageNet_Utils
+
+> cd ImageNet_Utils
 ./downloadutils.py --downloadImages --wnid n02472987
-```
+
 
 
 ```python
@@ -77,7 +77,7 @@ plot_pixel_distribution(os.path.join(get_class_path("human"), g_image))
 ```
 
 
-![png](output_8_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_8_0.png)
 
 
 # Example of Bad Image
@@ -89,7 +89,7 @@ plot_pixel_distribution(os.path.join(get_class_path("dog"), b_image))
 ```
 
 
-![png](output_10_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_10_0.png)
 
 
 # Filter Bad Images
@@ -167,7 +167,7 @@ plot_image_grid(b_images[:16])
 ```
 
 
-![png](output_17_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_17_0.png)
 
 
 # Filter and Explore Every Classes
@@ -198,7 +198,7 @@ for class_name, wind_number in classes.items():
 
 
 
-![png](output_19_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_19_1.png)
 
 
     Class Name: house
@@ -210,7 +210,7 @@ for class_name, wind_number in classes.items():
 
 
 
-![png](output_19_3.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_19_3.png)
 
 
     Class Name: dog
@@ -222,7 +222,7 @@ for class_name, wind_number in classes.items():
 
 
 
-![png](output_19_5.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_19_5.png)
 
 
     Class Name: car
@@ -234,7 +234,7 @@ for class_name, wind_number in classes.items():
 
 
 
-![png](output_19_7.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_19_7.png)
 
 
 # Split Into Train and Validation Sets
