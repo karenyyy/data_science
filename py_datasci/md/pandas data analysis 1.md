@@ -367,12 +367,8 @@ df['State'].unique()
 df['CustomerCount'].plot(figsize=(15,5));
 ```
 
-    /usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py:830: MatplotlibDeprecationWarning: axes.color_cycle is deprecated and replaced with axes.prop_cycle; please use the latter.
-      mplDeprecation)
 
-
-
-![png](output_19_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_19_1.png)
 
 
 
@@ -920,24 +916,19 @@ Daily.loc['NY'].plot()
 Daily.loc['TX'].plot();
 ```
 
-    /usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py:830: MatplotlibDeprecationWarning: axes.color_cycle is deprecated and replaced with axes.prop_cycle; please use the latter.
-      mplDeprecation)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_27_1.png)
 
 
 
-![png](output_27_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_27_2.png)
 
 
 
-![png](output_27_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_27_3.png)
 
 
 
-![png](output_27_3.png)
-
-
-
-![png](output_27_4.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_27_4.png)
 
 
 
@@ -948,24 +939,21 @@ Daily.loc['NY']['2012':].plot()
 Daily.loc['TX']['2012':].plot();
 ```
 
-    /usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py:830: MatplotlibDeprecationWarning: axes.color_cycle is deprecated and replaced with axes.prop_cycle; please use the latter.
-      mplDeprecation)
+
+
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_28_1.png)
 
 
 
-![png](output_28_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_28_2.png)
 
 
 
-![png](output_28_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_28_3.png)
 
 
 
-![png](output_28_3.png)
-
-
-
-![png](output_28_4.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_28_4.png)
 
 
 
@@ -1382,7 +1370,7 @@ plt.legend(loc='best');
 ```
 
 
-![png](output_41_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_41_0.png)
 
 
 
@@ -1514,7 +1502,7 @@ interest
 
 
 
-    -0.041036717062635009
+   -0.041036717062635009
 
 
 
@@ -1526,7 +1514,7 @@ interest
 
 
 
-    851.55939524838016
+   851.55939524838016
 
 
 
@@ -1551,14 +1539,9 @@ axes[1,0].set_title('Texas')
 axes[1,1].set_title('North East');
 ```
 
-    /usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py:830: MatplotlibDeprecationWarning: axes.color_cycle is deprecated and replaced with axes.prop_cycle; please use the latter.
-      mplDeprecation)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_46_1.png)
 
 
 
-![png](output_46_1.png)
-
-
-
-![png](output_46_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_46_2.png)
 
