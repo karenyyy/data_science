@@ -276,7 +276,7 @@ plot_accuracy_and_loss(history)
 ```
 
 
-![png](output_15_0.png)
+<img>
 
 
 # Save Model Weights And Configuration
