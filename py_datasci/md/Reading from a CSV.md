@@ -162,45 +162,15 @@ df['Berri1']
 df['Berri1'].plot(figsize=(15,10))
 ```
 
-    /usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py:830: MatplotlibDeprecationWarning: axes.color_cycle is deprecated and replaced with axes.prop_cycle; please use the latter.
-      mplDeprecation)
 
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x7f94848730f0>
-
-
-
-    /usr/local/lib/python3.5/dist-packages/matplotlib/font_manager.py:1316: UserWarning: findfont: Font family ['monospace'] not found. Falling back to DejaVu Sans
-      (prop.get_family(), self.defaultFamily[fontext]))
-
-
-
-![png](output_8_3.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_8_3.png)
 
 
 
 ```python
-fixed_df.plot(figsize=(15, 10))
+df.plot(figsize=(15, 10))
 ```
 
-    /usr/local/lib/python3.5/dist-packages/matplotlib/__init__.py:830: MatplotlibDeprecationWarning: axes.color_cycle is deprecated and replaced with axes.prop_cycle; please use the latter.
-      mplDeprecation)
 
-
-
-
-
-    <matplotlib.axes._subplots.AxesSubplot at 0x7f948490d860>
-
-
-
-    /usr/local/lib/python3.5/dist-packages/matplotlib/font_manager.py:1316: UserWarning: findfont: Font family ['monospace'] not found. Falling back to DejaVu Sans
-      (prop.get_family(), self.defaultFamily[fontext]))
-
-
-
-![png](output_9_3.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_9_3.png)
 
