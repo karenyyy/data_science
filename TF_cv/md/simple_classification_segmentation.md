@@ -1,5 +1,5 @@
 
-## Tensorflow Slim 101
+## Tensorflow Slim - Simple Segmentation
 
 
 ```python
@@ -181,11 +181,11 @@ with tf.Graph().as_default():
 ```
 
 
-![png](output_8_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_8_0.png)
 
 
 
-![png](output_8_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_8_1.png)
 
 
     Probability 1.00 => [school bus]
@@ -335,11 +335,11 @@ discrete_matshow(data=relabeled_image, labels_names=labels_names, title="Segment
 ```
 
 
-![png](output_12_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_12_0.png)
 
 
 
-![png](output_12_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_12_1.png)
 
 
 The segmentation that was obtained shows that network:
@@ -349,7 +349,7 @@ The segmentation that was obtained shows that network:
 - able to locate windows at the top-left corner and even made a hypothesis that it is a library (we don't know if that is true). 
 - It also made a certain number of not so correct predictions. 
 
-``Those are usually caused by the fact that the network can only see a part of image when it is centered at a pixel.`` The characteristic of a network that represents it is called G__receptive field__. 
+``Those are usually caused by the fact that the network can only see a part of image when it is centered at a pixel.`` The characteristic of a network that represents it is called __receptive field__. 
 
 Receptive
 field of the network that we use in this blog is _404_ pixels. So when network can
