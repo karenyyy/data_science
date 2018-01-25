@@ -17,7 +17,7 @@ regularizers = tf.contrib.keras.regularizers
 
 # Xception Model
 
-<img src="../images/xception0.png" width="800">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/xception0.png" width="800">
 
 ## Convolution Block
 
@@ -36,7 +36,7 @@ def conv_block(x, filters, block_num, conv_num, strides=(1,1)):
 
 ## Separable Convolution Block
 
-<img src="../images/xception1.jpg" width="500">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/xception1.jpg" width="500">
 
 
 
@@ -60,7 +60,7 @@ def separable_conv_block(x, filters, block_num, conv_num, pre_activation=None):
 
 ## Middle Flow Block
 
-<img src="../images/middle-flow.png" width="200">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/middle-flow.png" width="200">
 
 
 
@@ -77,7 +77,7 @@ def middle_flow_block(x, filters, block_num):
 
 ## Xception Block
 
-<img src="../images/xception-block1.png" width="400">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/xception-block1.png" width="400">
 
 
 
@@ -102,7 +102,7 @@ def xception_block(x, filters, block_num, pre_activation=True):
 
 # Entry Flow
 
-<img src="../images/entry-flow.png" width="300">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/entry-flow.png" width="300">
 
 
 
@@ -124,7 +124,7 @@ x = xception_block(x, (728, 728), '4')
 
 # Middle Flow
 
-<img src="../images/middle-flow.png" width="200">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/middle-flow.png" width="200">
 
 
 
@@ -137,7 +137,7 @@ for i in range(8):
 
 # Exit Flow
 
-<img src="../images/exit-flow.png" width="300">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/exit-flow.png" width="300">
 
 
 
@@ -498,9 +498,3 @@ xception.summary()
     Non-trainable params: 54,528
     ____________________________________________________________________________________________________
 
-
-## Next Lesson
-### Train and Evaluate Xception
-- Image classification task with ImageNet dataset
-
-<img src="../../images/divider.png" width="100">

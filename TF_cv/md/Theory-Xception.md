@@ -8,7 +8,7 @@
 - The Xception architecture is a __linear stack of depthwise separable convolution layers with residual connections__
 - Simple and modular architecture
 
-<img src="../images/xception-result.png" width="500">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/xception-result.png" width="500">
 
 
 # Depthwise Separable Convolution
@@ -21,7 +21,7 @@
 - spatial convolution: 3x3 convolutions for each channel
 - depthwise convolution: 1x1 convolutions on concatenated channels
 
-<img src="../images/xception1.jpg" width="500">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/xception1.jpg" width="500">
 
 **Example:**
 take 3x3 convolutional layer on 16 input channels and 32 output channels.
@@ -34,7 +34,7 @@ take 3x3 convolutional layer on 16 input channels and 32 output channels.
 
 # Inception Model
 
-<img src="../images/inception.png" width="500">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/inception.png" width="500">
 
 - fundamental hypothesis: cross-channel correlations and spatial correlations are sufficiently decoupled
 - first looks at crosschannel correlations via a set of 1x1 convolutions.
@@ -43,7 +43,7 @@ take 3x3 convolutional layer on 16 input channels and 32 output channels.
 
 **“extreme” version of Inception module:**
 
-<img src="../images/xception2.png" width="600">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/xception2.png" width="600">
 
 - first use a 1x1 convolution to map cross-channel correlations
 - then separately map the spatial correlations of every output channel (instead of just 3-4 partitions)
@@ -66,5 +66,5 @@ an Inception module and a depthwise separable convolution
 - composed of 36 convolutional layers forming the feature extraction base of the network
 - structured into 14 modules, all of which have linear residual connections around them, except for the first and last modules.
 
-<img src="../images/xception0.png" width="800">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/xception0.png" width="800">
 
