@@ -30,7 +30,7 @@ base_model = applications.Xception(include_top=False,
                                    pooling='avg')
 ```
 
-    Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.4/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
+   Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.4/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
     83410944/83683744 [============================>.] - ETA: 0s
 
 
@@ -40,11 +40,11 @@ print("Model output shape: {}\n".format(base_model.output_shape))
 print("Model number of layers: {}\n".format(len(base_model.layers)))
 ```
 
-    Model input shape: (None, 299, 299, 3)
+   Model input shape: (None, 299, 299, 3)
     
-    Model output shape: (None, 2048)
+   Model output shape: (None, 2048)
     
-    Model number of layers: 133
+   Model number of layers: 133
     
 
 
@@ -435,8 +435,8 @@ validation_generator = test_datagen.flow_from_directory(
     shuffle=True)
 ```
 
-    Found 2063 images belonging to 4 classes.
-    Found 881 images belonging to 4 classes.
+   Found 2063 images belonging to 4 classes.
+   Found 881 images belonging to 4 classes.
 
 
 # Train Model on ImageNet Dataset
@@ -505,7 +505,7 @@ plot_accuracy_and_loss(history)
 ```
 
 
-![png](output_17_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_17_0.png)
 
 
 ## Notes:
@@ -513,7 +513,7 @@ plot_accuracy_and_loss(history)
 ### If the train accuracy curve presents a stable trend and tends to converge smoothly, while the test accuracy curve oscilliates heavily and tends to be unstable, that indicates it is overfitting
 
 - should train with more data
-- apply regularization (like l2)
+- apply regularization (like L2)
 - or train again with lower learning rate
 
 # Save Model Weights And Configuration
