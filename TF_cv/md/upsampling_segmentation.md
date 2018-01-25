@@ -185,12 +185,12 @@ io.imshow(img, interpolation='none')
 
 
 
-    <matplotlib.image.AxesImage at 0x7f01d55a3dd8>
+   <matplotlib.image.AxesImage at 0x7f01d55a3dd8>
 
 
 
 
-![png](output_11_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_11_1.png)
 
 
 ###  factor
@@ -226,12 +226,12 @@ io.imshow(upsampled_img_skimage, interpolation='none')
 
 
 
-    <matplotlib.image.AxesImage at 0x7f0192fde470>
+   <matplotlib.image.AxesImage at 0x7f0192fde470>
 
 
 
 
-![png](output_13_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_13_1.png)
 
 
 ## Transposed convolution
@@ -353,12 +353,12 @@ io.imshow(upsampled_img_tf)
 
 
 
-    <matplotlib.image.AxesImage at 0x7f015038ae10>
+   <matplotlib.image.AxesImage at 0x7f015038ae10>
 
 
 
 
-![png](output_20_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_20_1.png)
 
 
 
@@ -370,7 +370,7 @@ np.allclose(upsampled_img_skimage, upsampled_img_tf)
 
 
 
-    True
+   True
 
 
 
@@ -583,11 +583,11 @@ discrete_matshow(data=relabeled_image, labels_names=labels_names, title="Segment
 
 
 
-![png](output_28_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_28_1.png)
 
 
 
-![png](output_28_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_28_2.png)
 
 
 
