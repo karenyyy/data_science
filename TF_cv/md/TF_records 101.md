@@ -22,7 +22,7 @@ the data better aligned for efficient reading.
 
 ### Getting raw data bytes in numpy
 
-### Operation: get raw data bytes of an image (any ndarray) and restore the image back
+- get raw data bytes of an image (any ndarray) and restore the image back
 
 - during this operation `the information about the dimensions of the image is lost` and we have to use it to recover the original image. 
 - so we will have to store the raw image representation along with the dimensions of the original image.
@@ -42,12 +42,12 @@ io.imshow(dog_img)
 
 
 
-    <matplotlib.image.AxesImage at 0x7f1c3a633d68>
+   <matplotlib.image.AxesImage at 0x7f1c3a633d68>
 
 
 
 
-![png](output_3_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_3_1.png)
 
 
 
@@ -68,30 +68,24 @@ np.allclose(dog_img, reconstructed_dog_img)
 
 
 
-    True
+   True
 
 
 
 ### Creating a _.tfrecord_ file and reading it without defining a graph
 
-Here we show how to write a small dataset (three images/annotations from _PASCAL VOC_) to
-_.tfrrecord_ file and read it without defining a computational graph.
-
-We also make sure that images that we read back from _.tfrecord_ file are equal to
-the original images. Pay attention that we also write the sizes of the images along with
-the image in the raw format. We showed an example on why we need to also store the size
-in the previous section.
-
+Here we show how to write a small dataset `(three images/annotations from _PASCAL VOC_) to
+_.tfrrecord_ file and read it without defining a computational graph`.
 
 ```python
 # Get some image/annotation pairs for example 
 filename_pairs = [
-('/home/dpakhom1/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/JPEGImages/2007_000032.jpg',
-'/home/dpakhom1/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/SegmentationClass/2007_000032.png'),
-('/home/dpakhom1/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/JPEGImages/2007_000039.jpg',
-'/home/dpakhom1/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/SegmentationClass/2007_000039.png'),
-('/home/dpakhom1/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/JPEGImages/2007_000063.jpg',
-'/home/dpakhom1/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/SegmentationClass/2007_000063.png')
+('/home/karen/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/JPEGImages/2007_000032.jpg',
+'/home/karen/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/SegmentationClass/2007_000032.png'),
+('/home/karen/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/JPEGImages/2007_000039.jpg',
+'/home/karen/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/SegmentationClass/2007_000039.png'),
+('/home/karen/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/JPEGImages/2007_000063.jpg',
+'/home/karen/tf_projects/segmentation/VOCdevkit/VOCdevkit/VOC2012/SegmentationClass/2007_000063.png')
                  ]
 ```
 
@@ -329,62 +323,62 @@ with tf.Session()  as sess:
 
 ```
 
+  (384, 384, 3)
+  batch 1
+
+
+
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_1.png)
+
+
+
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_2.png)
+
+
+
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_3.png)
+
+
+
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_4.png)
+
+
+   (384, 384, 3)
+   batch 2
+
+
+
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_6.png)
+
+
+
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_7.png)
+
+
+
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_8.png)
+
+
+
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_9.png)
+
+
     (384, 384, 3)
-    current batch
+    batch 3
 
 
 
-![png](output_14_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_11.png)
 
 
 
-![png](output_14_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_12.png)
 
 
 
-![png](output_14_3.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_13.png)
 
 
 
-![png](output_14_4.png)
-
-
-    (384, 384, 3)
-    current batch
-
-
-
-![png](output_14_6.png)
-
-
-
-![png](output_14_7.png)
-
-
-
-![png](output_14_8.png)
-
-
-
-![png](output_14_9.png)
-
-
-    (384, 384, 3)
-    current batch
-
-
-
-![png](output_14_11.png)
-
-
-
-![png](output_14_12.png)
-
-
-
-![png](output_14_13.png)
-
-
-
-![png](output_14_14.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_14_14.png)
 
