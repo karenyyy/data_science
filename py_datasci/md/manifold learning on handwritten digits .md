@@ -1,9 +1,4 @@
 
-
-```python
-%matplotlib inline
-```
-
 ## Notes (important !!! )
 
 ### `Linear Dimension Reduction Method: PCA(Principal Components Analysis)、LDA(Linear Discriminant Analysis)`
@@ -25,7 +20,7 @@
 > Eg: 
 
 
-![](../images/man1.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/man1.png)
 
 > What should be the actual distance between A and B?
 
@@ -36,7 +31,7 @@
 
 A glimpse of visualization: 
 
-![](../images/man2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/man2.png)
 
 
 - Here:
@@ -48,7 +43,7 @@ A glimpse of visualization:
 
 - Input distance matrix:
 
-![](../images/man4.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/man4.png)
 
 
 > What kind of info would be lost if the only input given is a Distance Matrix?
@@ -93,8 +88,8 @@ __The sum of all elements in B__:
 
 \begin{align}
 	\sum_{j=1}^nb_{ij} &= \sum_{j=1}^n\sum_{k=1}^{q}x_{ik}x_{jk}\\
-				&=\sum_{k=1}^{q}x_{ik}\left(\sum_{j=1}^nx_{jk}\right)\\
-				&=0
+	&=\sum_{k=1}^{q}x_{ik}\left(\sum_{j=1}^nx_{jk}\right)\\
+	&=0
 \end{align}
 
 __Similarly__:
@@ -175,26 +170,11 @@ Since B is symmetric, after decomposition:
 
 ### this step is similar to PCA !!
 
-\begin{align}
-	B^* = V^*\Lambda ^* V^{*T}	\\
-	V^*(n \times p),	\Lambda^* (p \times p)
-\end{align}
-
-\begin{align}
-	B^* &= V^*{\Lambda ^*}^{\frac12}*{\Lambda ^*}^{\frac12} V^{*T}\\
-	  &= X^*{X^*}^T
-\end{align}
-
-__So__
-
-$$X^* = V^*{\Lambda ^*}^{\frac12}$$
-
-
 
 
 - Example
 
-![](../images/man5.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/man5.png)
 
 
 ```python
@@ -240,7 +220,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_16_0.png)
 
 
 
@@ -383,7 +363,7 @@ plt.title('A selection from the 64-dimensional digits dataset')
 
 
 
-![png](output_23_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_23_1.png)
 
 
 ### Random 2D projection
@@ -396,7 +376,7 @@ plot_embedding(X_projected, "Random Projection of the digits")
 ```
 
 
-![png](output_25_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_25_0.png)
 
 
 
@@ -411,7 +391,7 @@ plot_embedding(X_projected, "Random Projection of the digits - 3D")
 
 
 
-![png](output_26_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_26_1.png)
 
 
 ### Projection on principal components
@@ -424,7 +404,7 @@ plot_embedding(X_pca,
 ```
 
 
-![png](output_28_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_28_0.png)
 
 
 
@@ -438,7 +418,7 @@ plot_embedding(X_pca,"PCA 3D")
 
 
 
-![png](output_29_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_29_1.png)
 
 
 
@@ -488,13 +468,16 @@ X2.flat[::X.shape[1]+1].shape
 
 ## How does LDA works?
 
-![](../images/lad2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/lad2.png)
 
 
 ### Goal
-$$\left\{\begin{matrix} \min(w^T\sum_0w+w^T\sum_1w)
-\\ \max( ||w^T\mu_0-w^T\mu_1||_2^2)
-\end{matrix}\right.$$
+
+
+$$\min(w^T\sum_0w+w^T\sum_1w)$$
+
+
+$$\max( ||w^T\mu_0-w^T\mu_1||_2^2)$$
 
 
 __Combined__
@@ -566,7 +549,7 @@ plot_embedding(X_lda,
 ```
 
 
-![png](output_36_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_36_0.png)
 
 
 
@@ -581,7 +564,7 @@ plot_embedding(X_lda,
 
 
 
-![png](output_37_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_37_1.png)
 
 
 ### Isomap Projection
@@ -594,7 +577,7 @@ plot_embedding(X_iso,
 ```
 
 
-![png](output_39_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_39_0.png)
 
 
 
@@ -609,7 +592,7 @@ plot_embedding(X_iso,
 
 
 
-![png](output_40_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_40_1.png)
 
 
 
@@ -621,7 +604,7 @@ plot_embedding(X_mds,
 ```
 
 
-![png](output_41_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_41_0.png)
 
 
 
@@ -637,7 +620,7 @@ plot_embedding(X_mds,
 
 
 
-![png](output_42_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_42_1.png)
 
 
 ### LLE
@@ -657,7 +640,7 @@ plot_embedding(X_mlle,
 
 
 
-![png](output_44_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_44_1.png)
 
 
 
@@ -675,7 +658,7 @@ plot_embedding(X_mlle,
 
 
 
-![png](output_45_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_45_1.png)
 
 
 
@@ -692,7 +675,7 @@ plot_embedding(X_hlle,
 
 
 
-![png](output_46_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_46_1.png)
 
 
 
@@ -709,7 +692,7 @@ plot_embedding(X_hlle,
 
 
 
-![png](output_47_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_47_1.png)
 
 
 
@@ -726,7 +709,7 @@ plot_embedding(X_ltsa,
 
 
 
-![png](output_48_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_48_1.png)
 
 
 
@@ -743,7 +726,7 @@ plot_embedding(X_ltsa,
 
 
 
-![png](output_49_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_49_1.png)
 
 
 ## Spectral embedding
@@ -758,7 +741,7 @@ plot_embedding(X_se,
 ```
 
 
-![png](output_51_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_51_0.png)
 
 
 
@@ -775,7 +758,7 @@ plot_embedding(X_se,
 
 
 
-![png](output_52_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_52_1.png)
 
 
 ## T-SNE
@@ -794,7 +777,7 @@ $$t=\frac{\bar{x}-\mu}{s/\sqrt{N}}$$
 
 __degree of freedom__: $$n-1$$
 
-![](../images/t_dis.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/t_dis.png)
 
 __Notes__:
 
@@ -804,7 +787,7 @@ __Notes__:
 
 ### KNN graph (k-Nearest Neighbour Graph)
 
-![](../images/knn.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/knn.png)
 
 - Goal
     - estimate geodesic by constructing a KNN graph on manifold 
@@ -816,18 +799,18 @@ __Notes__:
 - locality sensitive hashing
 - neighbor exploring techniques
     - K-D tree (recursive process, until the number of points inside a node < threshold, denote as leaf, end)
-![](../images/kd.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kd.png)
 
 > How to find the kth neareast neighbors in k-d tree?
 
-![](../images/kd2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kd2.png)
 
 > What problems would it have?
 
 
-![](../images/kd3.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kd3.png)
 
-![](../images/kd4.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kd4.png)
 
 - All splits are axis aligned
 - __Curse of Dimensionality__ makes KD-Trees ineffective for higher number of dimensions
@@ -840,7 +823,7 @@ __Notes__:
 
 In random projection, the original d-dimensional data is projected to a k-dimensional (k << d) subspace, using a random$$ {\displaystyle k\times d}$$ dimensional matrix R whose rows have unit lengths
 
-![](../images/ran1.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/ran1.png)
 
 #### (attention!) The depth of the random projection tree does not depend on the dimension of dataset, instead it depends on the manifold dimension the dataset is in.
 
@@ -849,7 +832,7 @@ In random projection, the original d-dimensional data is projected to a k-dimens
 
 > how to get k-NN using random projection tree?
 
-![](../images/ran2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/ran2.png)
 
 - create several random projection trees
 - find subset of the point requested in all these trees in parallel
@@ -864,7 +847,7 @@ plot_embedding(X_tsne,
 ```
 
 
-![png](output_57_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_57_0.png)
 
 
 
@@ -880,7 +863,7 @@ plot_embedding(X_tsne,
 
 
 
-![png](output_58_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_58_1.png)
 
 
 ## Conclusion: 
