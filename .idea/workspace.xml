@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/LLE.md" afterPath="$PROJECT_DIR$/py_datasci/md/LLE.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/PCA.md" afterPath="$PROJECT_DIR$/py_datasci/md/PCA.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/Word2Vec-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/Word2Vec-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/Word2Vec.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/Word2Vec.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/pca.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/Linear Regression.md" afterPath="$PROJECT_DIR$/py_datasci/md/Linear Regression.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" afterPath="$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,12 +54,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Linear Regression.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Linear Regression.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/Linear Regression.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="381">
-                <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <first_editor relative-caret-position="244">
+                <caret line="152" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logistic Regression.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="269">
+                <caret line="25" column="89" lean-forward="false" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -84,10 +95,12 @@
       <find>to pca</find>
       <find>$</find>
       <find>recon</find>
+      <find>gradient</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -101,6 +114,8 @@
         <option value="$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md" />
         <option value="$PROJECT_DIR$/py_datasci/md/PCA.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/LLE.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/Linear Regression.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" />
       </list>
     </option>
   </component>
@@ -189,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516991106946</updated>
       <workItem from="1516991108128" duration="3781000" />
-      <workItem from="1517097589926" duration="9665000" />
+      <workItem from="1517097589926" duration="10932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13446000" />
+    <option name="totallyTimeSpent" value="14713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
@@ -350,8 +365,19 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Linear Regression.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="381">
-            <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <first_editor relative-caret-position="244">
+            <caret line="152" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="269">
+            <caret line="25" column="89" lean-forward="false" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
             <folding />
           </first_editor>
           <second_editor />
