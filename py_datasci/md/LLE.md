@@ -10,11 +10,11 @@
     - It creates the embedding solely based on neighborhood distances __without using global distances__
     - __It assumes that data lies on a smooth manifold__(i.e it does not have holes) and each point and its neighbors lie approximately on a __locally linear patch on the manifold__. The latter assumption gives us the freedom to express each point as a weighted sum of its neighbors.   
     
-![](../images/lle.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/lle.png)
 
 ### Calculation
 
-![](../images/lle2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/lle2.png)
 
 Suppose , we have $$Y_i$$ where $$i\;\in (1,...,n) \;\text{and}\; Y_i\;\in R^D$$
 
@@ -52,10 +52,13 @@ def Nearest_neighbors(X, K, dist_metric = "euclidean", algorithm = "ball_tree"):
 ```
 
 ### Calculation of reconstruction weights  
-LLE tries to reconstruct the point Y_i as the weighted average of its neighbors. The reconstruction error is given by  
-$\hspace{7em}\mathcal{E}(W) = \Sigma_{i}(Y_i - \Sigma_{j\in N(i)}^k\; W_{ij}Y_j)^2$ where,  
-$\hspace{7em}N(i)$ is neighbourhood set of $Y_i$  and  
-$\hspace{7em} \Sigma_{j}W_{ij}\; =\; 1.0\;$  
+LLE tries to reconstruct the point Y_i as the weighted average of its neighbors. The reconstruction error is given by 
+ 
+$$\hspace{7em}\mathcal{E}(W) = \Sigma_{i}(Y_i - \Sigma_{j\in N(i)}^k\; W_{ij}Y_j)^2$$ where,  
+
+$$\hspace{7em}N(i)$ is neighbourhood set of $Y_i$$  and  
+
+$$\hspace{7em} \Sigma_{j}W_{ij}\; =\; 1.0\;$$  
 
 
 The matrix W has an interesting property it is `invariant to rescalings, rotations and translations`. 
@@ -197,7 +200,7 @@ plot(10)
 ```
 
 
-![png](output_10_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_10_0.png)
 
 
 ### Drawbacks
@@ -214,17 +217,17 @@ for i in range(1,20,5):
 ```
 
 
-![png](output_12_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_12_0.png)
 
 
 
-![png](output_12_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_12_1.png)
 
 
 
-![png](output_12_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_12_2.png)
 
 
 
-![png](output_12_3.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_12_3.png)
 

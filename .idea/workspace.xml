@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/LLE.md" afterPath="$PROJECT_DIR$/py_datasci/md/LLE.md" />
       <change beforePath="$PROJECT_DIR$/py_datasci/md/PCA.md" afterPath="$PROJECT_DIR$/py_datasci/md/PCA.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/Word2Vec-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/Word2Vec-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/Word2Vec.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/Word2Vec.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/pca.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="311">
-                <caret line="172" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="878" selection-end-column="0" />
+              <first_editor relative-caret-position="185">
+                <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -40,12 +43,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PCA.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.md">
+      <file leaf-file-name="LLE.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/LLE.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="372">
-                <caret line="114" column="4" lean-forward="false" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+              <first_editor relative-caret-position="172">
+                <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Linear Regression.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/Linear Regression.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="381">
+                <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -63,8 +79,11 @@
       <find>Lambda</find>
       <find>to pca</find>
       <find>max(</find>
-      <find>to pca</find>
       <find>output</find>
+      <find>jsa</find>
+      <find>to pca</find>
+      <find>$</find>
+      <find>recon</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
@@ -81,6 +100,7 @@
         <option value="$PROJECT_DIR$/py_datasci/md/test.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md" />
         <option value="$PROJECT_DIR$/py_datasci/md/PCA.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/LLE.md" />
       </list>
     </option>
   </component>
@@ -131,12 +151,6 @@
               <item name="py_datasci" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="md" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="py_datasci" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="notebooks" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -175,17 +189,18 @@
       <option name="presentableId" value="Default" />
       <updated>1516991106946</updated>
       <workItem from="1516991108128" duration="3781000" />
-      <workItem from="1517097589926" duration="6232000" />
+      <workItem from="1517097589926" duration="9665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10013000" />
+    <option name="totallyTimeSpent" value="13446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12189741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16105902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -193,7 +208,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21551724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21551724" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -271,17 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="311">
-            <caret line="172" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="878" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/notebooks/pca-animation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -302,11 +306,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/notebooks/pca.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="176" column="21654" lean-forward="false" selection-start-line="176" selection-start-column="21654" selection-end-line="176" selection-end-column="21654" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="372">
-            <caret line="114" column="4" lean-forward="false" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+            <caret line="114" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="185">
+            <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/LLE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="172">
+            <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/Linear Regression.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="381">
+            <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

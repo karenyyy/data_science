@@ -112,7 +112,7 @@ display_animation(anim)
 ```
 
 
-![]()
+[see JS Animation here:](https://karenyyy.github.io/js_practice/PCA/pca.html)
 
 - As the yellow line rotates, distance between the red points varies according to the angle line creates with the x-axis. 
 
