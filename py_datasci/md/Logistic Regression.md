@@ -52,10 +52,7 @@ $$Cost(h_{\theta}(x), y)=- \log (h_{\theta}(x)^{y} (1-h_{\theta}(x))^{1-y})= -y 
 __thus__
 
 
-$$Cost(h_{\theta}(x), y)= \{\begin{matrix} -\log (h_{\theta}(x)) \:\: \text{ if } y=1
-\\ - \log (1- h_{\theta}(x)) \text{ if } y=0
-\end{matrix}.$$
-
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/sub2.png)
 
 $$J(\theta)= \frac{1}{m} \sum^m_{i=1} Cost(h_{\theta}(x^i), y)=\frac{1}{m} \sum^m_{i=1} - \log (h_{\theta}(x^i)^{y^i} (1-h_{\theta}(x^i))^{1-y^i})$$
 
@@ -70,9 +67,8 @@ $$\text{To make a prediction given new x:   output }h_{\theta}(x)=\frac{1}{1+e^{
 
 __Gradient Descent__
 
-$$\text{    repeat   }  \{ \theta_j := \theta - \alpha \frac{\partial}{\partial \theta_j} J(\theta)  \}$$
 
-$$\text{    repeat   }  \{ \theta_j := \theta - \alpha \sum^m_{i=1} (h_{\theta}(x^i)-y^i) x_j^i  \}$$
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/sub3.png)
 
 
 ![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/22921.png)
@@ -105,8 +101,7 @@ __After regularization__:
 
 
 
-$$J(\theta)=\frac{1}{2m}  [ \sum ^m _{i=1} (h_{\theta} (x^i) - y^i) ^ 2 + \lambda \sum^{n} _{j=1} \theta_j ^2  ]$$
-
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/sub4.png)
 
 - Notes:
 
@@ -116,43 +111,17 @@ $$\text{if } \lambda \text{   set to an extremely large value, say } \lambda = 1
 __GD__:
 
 
-$$\text{    Repeat   }  \{ \theta_j := \theta_j - \alpha  ( \frac{1}{m} \sum^m_{i=1} (h_{\theta}(x^i)-y^i) x_j^i - \frac{\lambda}{m} \theta_j  )  \}$$
-
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/sub5.png)
 
 $$\theta_j := \theta_j (1- \alpha \frac{\lambda}{m}) - \frac{\alpha}{m} \sum ^m_{i=1}  ( h_{\theta} (x^i) - y^i  ) x^i_j$$
 
 __Normal Equation__:
 
-
-$$\begin{bmatrix}
-0 &  & & & \\ 
- & 1 & & & \\
- &  & 1 & & \\ 
- &  & & ... & \\ 
- &  & &  & ... & \\ 
- &  &  & & & 1 \end{bmatrix} \subseteq \mathbb{R}^{n+1}$$
-
-$$\theta =  (x^T x + \lambda  \begin{bmatrix}
-0 &  & & & \\ 
- & 1 & & & \\
- &  & 1 & & \\ 
- &  & & ... & \\ 
- &  & &  & ... & \\ 
- &  &  & & & 1 \end{bmatrix}  ) ^{-1} x^T y$$
-
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/sub6.png)
 
 ### Attention!!
 
-$$\text{After adding a regularization term, then    }x^T x + \lambda  \begin{bmatrix}
-0 &  & & & \\ 
- & 1 & & & \\
- &  & 1 & & \\ 
- &  & & ... & \\ 
- &  & &  & ... & \\ 
- &  &  & & & 1
-\end{bmatrix} \text{  is invertible}$$
-
-
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/sub7.png)
 
 
 ## Regularization for Logistic Regression
