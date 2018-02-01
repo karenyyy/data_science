@@ -37,7 +37,7 @@ $$LossScore = Loss(y_{true}, y_{pred})$$
 
 **Sigmoid function** or logistic function only ouputs a single value (between 0 and 1), which represent the prediction probability of the positive class. It is often used as an activation function with saturation points at both extremes. It is also used for binary classification.
 
-<img src="../../images/sigmoid.jpg" width="200">
+<img src="https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/sigmoid.jpg" width="200">
 
 $$sigmoid(z)=\frac {1}{1+e^{-z_j}}$$
 
@@ -268,7 +268,7 @@ plt.show()
 ```
 
 
-![png](output_15_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_15_0.png)
 
 
 
@@ -307,7 +307,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_16_0.png)
 
 
 

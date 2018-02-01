@@ -3,22 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" afterPath="$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/Word2Vec-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/Word2Vec-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.00-Introduction-to-Pandas.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.01-Introducing-Pandas-Objects.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.02-Data-Indexing-and-Selection.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.03-Operations-in-Pandas.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.04-Missing-Values.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.05-Hierarchical-Indexing.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/03.05-Hierarchical-Indexing.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.06-Concat-And-Append.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/03.06-Concat-And-Append.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.07-Merge-and-Join.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/03.07-Merge-and-Join.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.08-Aggregation-and-Grouping.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/03.08-Aggregation-and-Grouping.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.09-Pivot-Tables.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/03.09-Pivot-Tables.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/03.10-Working-With-Strings.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/03.10-Working-With-Strings.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/Word2Vec.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/Word2Vec.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/svm.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/svm.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/tsne.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/tsne.ipynb" />
+      <change beforePath="$PROJECT_DIR$/TF_cv/md/Losses.md" afterPath="$PROJECT_DIR$/TF_cv/md/Losses.md" />
+      <change beforePath="$PROJECT_DIR$/TF_cv/md/tensorflow summary.md" afterPath="$PROJECT_DIR$/TF_cv/md/tensorflow summary.md" />
+      <change beforePath="$PROJECT_DIR$/TF_cv/notebooks/.ipynb_checkpoints/tensorflow summary-checkpoint.ipynb" afterPath="$PROJECT_DIR$/TF_cv/notebooks/.ipynb_checkpoints/tensorflow summary-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/TF_cv/notebooks/tensorflow summary.ipynb" afterPath="$PROJECT_DIR$/TF_cv/notebooks/tensorflow summary.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/PCA.html" afterPath="$PROJECT_DIR$/py_datasci/md/PCA.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,138 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LLE.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/LLE.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="918">
-                <caret line="51" column="3" lean-forward="false" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Linear Regression.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/Linear Regression.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2736">
-                <caret line="152" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logistic Regression.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="304">
-                <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Introducing-Pandas.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/Introducing-Pandas.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="303">
-                <caret line="622" column="0" lean-forward="false" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03.05-Hierarchical-Indexing.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="588">
-                <caret line="5374" column="8" lean-forward="false" selection-start-line="5352" selection-start-column="0" selection-end-line="5374" selection-end-column="8" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03.07-Merge-and-Join.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/03.07-Merge-and-Join.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="3" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3134" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03.06-Concat-And-Append.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/03.06-Concat-And-Append.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="3" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="700" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Missing-Values.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/Missing-Values.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="15" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="625" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03.03-Operations-in-Pandas.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/03.03-Operations-in-Pandas.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03.02-Data-Indexing-and-Selection.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/03.02-Data-Indexing-and-Selection.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="660" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -177,11 +35,15 @@
       <find>import numpy as np</find>
       <find>import numpy</find>
       <find>numpy</find>
+      <find>table</find>
+      <find>../../</find>
+      <find>output_</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -201,6 +63,9 @@
         <option value="$PROJECT_DIR$/py_datasci/md/03.06-Concat-And-Append.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/03.07-Merge-and-Join.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md" />
+        <option value="$PROJECT_DIR$/TF_cv/md/Losses.md" />
+        <option value="$PROJECT_DIR$/TF_cv/md/tensorflow summary.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/PCA.html" />
       </list>
     </option>
   </component>
@@ -213,9 +78,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="514" />
-    <option name="y" value="174" />
+    <option name="y" value="146" />
     <option name="width" value="1032" />
-    <option name="height" value="729" />
+    <option name="height" value="757" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -260,7 +125,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/spring2018/IST210" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -290,17 +155,18 @@
       <updated>1516991106946</updated>
       <workItem from="1516991108128" duration="3781000" />
       <workItem from="1517097589926" duration="13613000" />
-      <workItem from="1517350242486" duration="3427000" />
+      <workItem from="1517350242486" duration="4367000" />
+      <workItem from="1517420695303" duration="5843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20821000" />
+    <option name="totallyTimeSpent" value="27604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1632653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1654716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -308,7 +174,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21659483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21767241" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -331,7 +197,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/Reading from a CSV.md">
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -342,12 +208,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/Introducing-Pandas.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="11196">
+            <caret line="622" column="0" lean-forward="false" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="96732">
+            <caret line="5374" column="8" lean-forward="false" selection-start-line="5352" selection-start-column="0" selection-end-line="5374" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TF_cv/md/Losses.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="5490">
+            <caret line="305" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="340" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TF_cv/md/tensorflow summary.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="5490">
+            <caret line="305" column="0" lean-forward="true" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.07-Merge-and-Join.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3134" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.06-Concat-And-Append.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="700" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/Missing-Values.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="15" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="625" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.03-Operations-in-Pandas.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.02-Data-Indexing-and-Selection.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="660" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/Reading from a CSV.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2970">
             <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -358,7 +332,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="918">
             <caret line="51" column="3" lean-forward="false" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -369,7 +342,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2736">
             <caret line="152" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -391,7 +363,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="378">
             <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -433,20 +404,12 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="702">
             <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/notebooks/pca-animation.html" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="11616" column="23" lean-forward="true" selection-start-line="11616" selection-start-column="23" selection-end-line="11616" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/notebooks/pca.html" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -463,7 +426,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2970">
             <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -474,7 +436,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="918">
             <caret line="51" column="3" lean-forward="false" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -485,7 +446,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2736">
             <caret line="152" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -494,8 +454,8 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="304">
-            <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <first_editor relative-caret-position="2232">
+            <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -506,7 +466,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="198">
-            <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="660" selection-end-column="0" />
+            <caret line="11" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="660" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -517,18 +477,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="216">
-            <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/Missing-Values.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="15" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="625" selection-end-column="0" />
+            <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -538,7 +487,7 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Introducing-Pandas.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="303">
+          <first_editor relative-caret-position="11196">
             <caret line="622" column="0" lean-forward="false" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -550,7 +499,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="54">
-            <caret line="3" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="700" selection-end-column="0" />
+            <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="700" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -561,7 +510,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="54">
-            <caret line="3" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3134" selection-end-column="0" />
+            <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3134" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -571,11 +520,66 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="588">
+          <first_editor relative-caret-position="96732">
             <caret line="5374" column="8" lean-forward="false" selection-start-line="5352" selection-start-column="0" selection-end-line="5374" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TF_cv/md/Losses.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="5490">
+            <caret line="305" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="340" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TF_cv/md/tensorflow summary.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="179">
+            <caret line="305" column="0" lean-forward="false" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/Missing-Values.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="445">
+            <caret line="620" column="6" lean-forward="true" selection-start-line="620" selection-start-column="6" selection-end-line="620" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="309" column="23" lean-forward="true" selection-start-line="309" selection-start-column="23" selection-end-line="310" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#table#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

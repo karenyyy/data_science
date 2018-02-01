@@ -304,11 +304,11 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_9_0.png)
 
 
 
-![png](output_9_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_9_1.png)
 
 
 ## stochastic and batch
@@ -487,5 +487,5 @@ plt.show()
 
 
 
-![png](output_11_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_11_1.png)
 
