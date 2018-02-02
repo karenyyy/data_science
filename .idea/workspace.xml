@@ -14,12 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="05.03-Hyperparameters-and-Model-Validation.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="05.03-Hyperparameters-and-Model-Validation.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/05.03-Hyperparameters-and-Model-Validation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="498">
-                <caret line="1180" column="5" lean-forward="true" selection-start-line="1180" selection-start-column="5" selection-end-line="1180" selection-end-column="5" />
+              <first_editor relative-caret-position="288">
+                <caret line="947" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1197" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -37,12 +37,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05.04-Feature-Engineering.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="05.04-Feature-Engineering.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/05.04-Feature-Engineering.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="287">
-                <caret line="379" column="0" lean-forward="true" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
+              <first_editor relative-caret-position="493">
+                <caret line="363" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="467" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -220,12 +220,12 @@
       <workItem from="1517097589926" duration="13613000" />
       <workItem from="1517350242486" duration="4367000" />
       <workItem from="1517420695303" duration="8085000" />
-      <workItem from="1517591561826" duration="2431000" />
+      <workItem from="1517591561826" duration="2636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32277000" />
+    <option name="totallyTimeSpent" value="32482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
@@ -408,6 +408,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/05.04-Feature-Engineering.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="493">
+            <caret line="363" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="467" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.03-Hyperparameters-and-Model-Validation.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -417,19 +428,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="498">
-            <caret line="1180" column="5" lean-forward="true" selection-start-line="1180" selection-start-column="5" selection-end-line="1180" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/05.04-Feature-Engineering.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="287">
-            <caret line="379" column="0" lean-forward="true" selection-start-line="379" selection-start-column="0" selection-end-line="379" selection-end-column="0" />
+          <first_editor relative-caret-position="288">
+            <caret line="947" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1197" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
