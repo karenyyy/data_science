@@ -9,3 +9,9 @@ data = [
 vec=DictVectorizer(sparse=True, dtype=int)
 c=vec.fit_transform(data)
 print(c)
+
+import tensorflow as tf
+
+from tensorflow.contrib import rnn
+
+rnn.gr
