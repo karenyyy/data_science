@@ -14,4 +14,20 @@ import tensorflow as tf
 
 from tensorflow.contrib import rnn
 
-rnn.gr
+import numpy as np
+
+x=np.random.randint(1, 10, 4, dtype=int)
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import make_pipeline
+
+model=make_pipeline(TfidfVectorizer(), MultinomialNB())
+model.fit(t)
+
+from sklearn.metrics import confusion_matrix
+confusion_matrix(test.ta)
+
+import seaborn as sns
+
+sns.pairplot()
