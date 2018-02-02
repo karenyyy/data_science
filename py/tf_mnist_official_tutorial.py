@@ -4,6 +4,10 @@ from urllib.request import urlretrieve
 import gzip
 import numpy as np
 
+'''
+## cell one
+'''
+
 SOURCE_URL = 'http://yann.lecun.com/exdb/mnist/'
 WORK_DIRECTORY = 'MNIST_data'
 IMAGE_SIZE = 28
@@ -19,6 +23,10 @@ EVAL_BATCH_SIZE = 64
 EVAL_FREQUENCY = 100  # Number of steps between evaluations.
 
 
+''''
+cell 2
+'''
+
 def check_if_downloaded(filename):
     if not tf.gfile.Exists(WORK_DIRECTORY):
         tf.gfile.MakeDirs(WORK_DIRECTORY)
@@ -28,7 +36,11 @@ def check_if_downloaded(filename):
         filepath, _ = urlretrieve(SOURCE_URL + filename, filepath)
     return filepath
 
+'''
+- cell 3
+- cell 4
 
+'''
 def extract_data(filename, num_images):
     with gzip.open(filename) as bytestream:
         bytestream.read(16)
