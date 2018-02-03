@@ -20,7 +20,7 @@
 > Eg: 
 
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/man1.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/man1.png)
 
 > What should be the actual distance between A and B?
 
@@ -31,7 +31,7 @@
 
 A glimpse of visualization: 
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/man2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/man2.png)
 
 
 - Here:
@@ -43,7 +43,7 @@ A glimpse of visualization:
 
 - Input distance matrix:
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/man4.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/man4.png)
 
 
 > What kind of info would be lost if the only input given is a Distance Matrix?
@@ -174,7 +174,7 @@ Since B is symmetric, after decomposition:
 
 - Example
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/man5.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/man5.png)
 
 
 ```python
@@ -220,7 +220,7 @@ plt.show()
 ```
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_16_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_16_0.png)
 
 
 
@@ -363,7 +363,7 @@ plt.title('A selection from the 64-dimensional digits dataset')
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_23_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_23_1.png)
 
 
 ### Random 2D projection
@@ -376,7 +376,7 @@ plot_embedding(X_projected, "Random Projection of the digits")
 ```
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_25_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_25_0.png)
 
 
 
@@ -391,7 +391,7 @@ plot_embedding(X_projected, "Random Projection of the digits - 3D")
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_26_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_26_1.png)
 
 
 ### Projection on principal components
@@ -404,7 +404,7 @@ plot_embedding(X_pca,
 ```
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_28_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_28_0.png)
 
 
 
@@ -418,7 +418,7 @@ plot_embedding(X_pca,"PCA 3D")
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_29_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_29_1.png)
 
 
 
@@ -468,7 +468,7 @@ X2.flat[::X.shape[1]+1].shape
 
 ## How does LDA works?
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/lad2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/lad2.png)
 
 
 ### Goal
@@ -549,7 +549,7 @@ plot_embedding(X_lda,
 ```
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_36_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_36_0.png)
 
 
 
@@ -564,7 +564,7 @@ plot_embedding(X_lda,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_37_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_37_1.png)
 
 
 ### Isomap Projection
@@ -577,7 +577,7 @@ plot_embedding(X_iso,
 ```
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_39_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_39_0.png)
 
 
 
@@ -592,7 +592,7 @@ plot_embedding(X_iso,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_40_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_40_1.png)
 
 
 
@@ -604,7 +604,7 @@ plot_embedding(X_mds,
 ```
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_41_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_41_0.png)
 
 
 
@@ -620,7 +620,7 @@ plot_embedding(X_mds,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_42_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_42_1.png)
 
 
 ### LLE
@@ -640,7 +640,7 @@ plot_embedding(X_mlle,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_44_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_44_1.png)
 
 
 
@@ -658,7 +658,7 @@ plot_embedding(X_mlle,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_45_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_45_1.png)
 
 
 
@@ -675,7 +675,7 @@ plot_embedding(X_hlle,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_46_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_46_1.png)
 
 
 
@@ -692,7 +692,7 @@ plot_embedding(X_hlle,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_47_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_47_1.png)
 
 
 
@@ -709,7 +709,7 @@ plot_embedding(X_ltsa,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_48_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_48_1.png)
 
 
 
@@ -726,7 +726,7 @@ plot_embedding(X_ltsa,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_49_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_49_1.png)
 
 
 ## Spectral embedding
@@ -741,7 +741,7 @@ plot_embedding(X_se,
 ```
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_51_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_51_0.png)
 
 
 
@@ -758,7 +758,7 @@ plot_embedding(X_se,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_52_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_52_1.png)
 
 
 ## T-SNE
@@ -777,7 +777,7 @@ $$t=\frac{\bar{x}-\mu}{s/\sqrt{N}}$$
 
 __degree of freedom__: $$n-1$$
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/t_dis.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/t_dis.png)
 
 __Notes__:
 
@@ -787,7 +787,7 @@ __Notes__:
 
 ### KNN graph (k-Nearest Neighbour Graph)
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/knn.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/knn.png)
 
 - Goal
     - estimate geodesic by constructing a KNN graph on manifold 
@@ -799,18 +799,18 @@ __Notes__:
 - locality sensitive hashing
 - neighbor exploring techniques
     - K-D tree (recursive process, until the number of points inside a node < threshold, denote as leaf, end)
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kd.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/kd.png)
 
 > How to find the kth neareast neighbors in k-d tree?
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kd2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/kd2.png)
 
 > What problems would it have?
 
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kd3.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/kd3.png)
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kd4.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/kd4.png)
 
 - All splits are axis aligned
 - __Curse of Dimensionality__ makes KD-Trees ineffective for higher number of dimensions
@@ -823,7 +823,7 @@ __Notes__:
 
 In random projection, the original d-dimensional data is projected to a k-dimensional (k << d) subspace, using a random$$ {\displaystyle k\times d}$$ dimensional matrix R whose rows have unit lengths
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/ran1.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/ran1.png)
 
 #### (attention!) The depth of the random projection tree does not depend on the dimension of dataset, instead it depends on the manifold dimension the dataset is in.
 
@@ -832,7 +832,7 @@ In random projection, the original d-dimensional data is projected to a k-dimens
 
 > how to get k-NN using random projection tree?
 
-![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/ran2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/ran2.png)
 
 - create several random projection trees
 - find subset of the point requested in all these trees in parallel
@@ -847,7 +847,7 @@ plot_embedding(X_tsne,
 ```
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_57_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_57_0.png)
 
 
 
@@ -863,7 +863,7 @@ plot_embedding(X_tsne,
 
 
 
-![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_58_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_58_1.png)
 
 
 ## Conclusion: 

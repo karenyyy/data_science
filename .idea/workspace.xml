@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="" />
+    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.06-Linear-Regression.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.06-Linear-Regression.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/Linear Regression.md" afterPath="$PROJECT_DIR$/py_datasci/md/Linear Regression.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md" afterPath="$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/05.07-Support-Vector-Machines-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/05.07-Support-Vector-Machines-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/svm-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/svm-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/05.07-Support-Vector-Machines.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/05.07-Support-Vector-Machines.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/svm.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/svm.ipynb" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +33,8 @@
         <entry file="file://$PROJECT_DIR$/py_datasci/md/Linear Regression.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="522">
-                <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <first_editor relative-caret-position="226">
+                <caret line="2175" column="24" lean-forward="false" selection-start-line="2175" selection-start-column="24" selection-end-line="2175" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -34,12 +42,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03.05-Hierarchical-Indexing.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manifold learning on handwritten digits .md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="377">
+                <caret line="734" column="9" lean-forward="true" selection-start-line="734" selection-start-column="9" selection-end-line="734" selection-end-column="9" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03.05-Hierarchical-Indexing.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="419">
-                <caret line="3026" column="10" lean-forward="true" selection-start-line="3026" selection-start-column="10" selection-end-line="3026" selection-end-column="10" />
+              <first_editor relative-caret-position="653">
+                <caret line="3039" column="0" lean-forward="false" selection-start-line="3039" selection-start-column="0" selection-end-line="3039" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05.06-Linear-Regression.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/05.06-Linear-Regression.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="413">
+                <caret line="141" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1878" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -63,8 +97,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+            <state relative-caret-position="440">
+              <caret line="128" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -91,10 +125,11 @@
       <find>../../</find>
       <find>numpy</find>
       <find>![]</find>
-      <find>output_</find>
       <find>yfit</find>
       <find>score</find>
       <find>clear fr</find>
+      <find>discu</find>
+      <find>output_</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
@@ -112,10 +147,8 @@
       <list>
         <option value="$PROJECT_DIR$/py_datasci/md/t-SNE Explorations.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/test.md" />
-        <option value="$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md" />
         <option value="$PROJECT_DIR$/py_datasci/md/PCA.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/LLE.md" />
-        <option value="$PROJECT_DIR$/py_datasci/md/Linear Regression.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/Introducing-Pandas.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/03.06-Concat-And-Append.md" />
@@ -130,6 +163,9 @@
         <option value="$PROJECT_DIR$/py_datasci/md/custom.css" />
         <option value="$PROJECT_DIR$/py/test.py" />
         <option value="$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/05.06-Linear-Regression.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/Linear Regression.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md" />
       </list>
     </option>
   </component>
@@ -244,12 +280,12 @@
       <workItem from="1517420695303" duration="8085000" />
       <workItem from="1517591561826" duration="3151000" />
       <workItem from="1517612230221" duration="253000" />
-      <workItem from="1517617199596" duration="1281000" />
+      <workItem from="1517617199596" duration="2096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34531000" />
+    <option name="totallyTimeSpent" value="35346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
@@ -299,7 +335,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/05.04-Feature-Engineering.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.03-Hyperparameters-and-Model-Validation.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.03-Hyperparameters-and-Model-Validation.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -361,7 +396,6 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/notebooks/pca-animation.html" />
     <entry file="file://$PROJECT_DIR$/py_datasci/notebooks/pca.html" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/LLE.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.02-Data-Indexing-and-Selection.md" />
@@ -417,11 +451,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="74" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="653">
+            <caret line="3039" column="0" lean-forward="false" selection-start-line="3039" selection-start-column="0" selection-end-line="3039" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        <state relative-caret-position="440">
+          <caret line="128" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/05.06-Linear-Regression.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="413">
+            <caret line="141" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1878" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -434,27 +498,19 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="522">
-            <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <first_editor relative-caret-position="226">
+            <caret line="2175" column="24" lean-forward="false" selection-start-line="2175" selection-start-column="24" selection-end-line="2175" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="74" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md">
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="419">
-            <caret line="3026" column="10" lean-forward="true" selection-start-line="3026" selection-start-column="10" selection-end-line="3026" selection-end-column="10" />
+          <first_editor relative-caret-position="377">
+            <caret line="734" column="9" lean-forward="true" selection-start-line="734" selection-start-column="9" selection-end-line="734" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />
