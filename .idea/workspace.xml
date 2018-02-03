@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md" afterPath="$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/05.06-Linear-Regression.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/05.06-Linear-Regression.ipynb" />
-    </list>
+    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="437">
-                <caret line="3027" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5369" selection-end-column="8" />
+              <first_editor relative-caret-position="419">
+                <caret line="3026" column="10" lean-forward="true" selection-start-line="3026" selection-start-column="10" selection-end-line="3026" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -247,12 +244,12 @@
       <workItem from="1517420695303" duration="8085000" />
       <workItem from="1517591561826" duration="3151000" />
       <workItem from="1517612230221" duration="253000" />
-      <workItem from="1517617199596" duration="679000" />
+      <workItem from="1517617199596" duration="1281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33929000" />
+    <option name="totallyTimeSpent" value="34531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
@@ -456,8 +453,8 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="437">
-            <caret line="3027" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5369" selection-end-column="8" />
+          <first_editor relative-caret-position="419">
+            <caret line="3026" column="10" lean-forward="true" selection-start-line="3026" selection-start-column="10" selection-end-line="3026" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
