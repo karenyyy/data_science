@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="" />
+    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/custom.css" afterPath="$PROJECT_DIR$/py_datasci/md/custom.css" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/tsne-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/tsne-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/tsne.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/tsne.ipynb" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,22 +17,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="129" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="8" />
+            <state relative-caret-position="216">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05.09-Principal-Component-Analysis.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="How HDBSCAN Works.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/How HDBSCAN Works.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-10787">
+                <caret line="148" column="46" lean-forward="false" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="46" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03.03-Operations-in-Pandas.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/03.03-Operations-in-Pandas.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="719">
+                <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05.10-Manifold-Learning.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="516">
+                <caret line="68" column="92" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05.09-Principal-Component-Analysis.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="756">
-                <caret line="550" column="98" lean-forward="false" selection-start-line="550" selection-start-column="98" selection-end-line="550" selection-end-column="98" />
+                <caret line="550" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="550" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PCA.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -62,8 +120,8 @@
       <find>/usr.*</find>
       <find>check the</find>
       <find>discu</find>
-      <find>output_</find>
       <find>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</find>
+      <find>output_</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
@@ -72,8 +130,9 @@
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/TF_cv/images/output_</replace>
       <replace>py_datasci/images2</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_</replace>
-      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/rf/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/pca/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -97,7 +156,6 @@
         <option value="$PROJECT_DIR$/py/tf_mnist_official_tutorial.py" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.04-Feature-Engineering.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.03-Hyperparameters-and-Model-Validation.md" />
-        <option value="$PROJECT_DIR$/py_datasci/md/custom.css" />
         <option value="$PROJECT_DIR$/py/test.py" />
         <option value="$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.06-Linear-Regression.md" />
@@ -107,6 +165,8 @@
         <option value="$PROJECT_DIR$/py_datasci/md/svm.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.08-Random-Forests.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/custom.css" />
       </list>
     </option>
   </component>
@@ -222,12 +282,12 @@
       <workItem from="1517591561826" duration="3151000" />
       <workItem from="1517612230221" duration="253000" />
       <workItem from="1517617199596" duration="4490000" />
-      <workItem from="1517716998212" duration="638000" />
+      <workItem from="1517716998212" duration="3343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38378000" />
+    <option name="totallyTimeSpent" value="41083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="405" y="255" width="1867" height="1092" extended-state="6" />
@@ -288,13 +348,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.09-Pivot-Tables.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -321,15 +374,12 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/How HDBSCAN Works.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/t-SNE Explorations.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/test.md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/How HDBSCAN Works.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Reading from a CSV.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/notebooks/pca-animation.html" />
     <entry file="file://$PROJECT_DIR$/py_datasci/notebooks/pca.html" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/LLE.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.02-Data-Indexing-and-Selection.md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.03-Operations-in-Pandas.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Introducing-Pandas.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.06-Concat-And-Append.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.07-Merge-and-Join.md" />
@@ -462,22 +512,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="129" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="756">
-            <caret line="550" column="98" lean-forward="false" selection-start-line="550" selection-start-column="98" selection-end-line="550" selection-end-column="98" />
+            <caret line="550" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="550" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="516">
+            <caret line="68" column="92" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/How HDBSCAN Works.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-10787">
+            <caret line="148" column="46" lean-forward="false" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="46" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.03-Operations-in-Pandas.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="719">
+            <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
