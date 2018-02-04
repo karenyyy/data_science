@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/py_datasci/images2/05.08-Random-Forests.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.08-Random-Forests.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.08-Random-Forests.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" />
-    </list>
+    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,12 +222,12 @@
       <workItem from="1517591561826" duration="3151000" />
       <workItem from="1517612230221" duration="253000" />
       <workItem from="1517617199596" duration="4490000" />
-      <workItem from="1517716998212" duration="556000" />
+      <workItem from="1517716998212" duration="638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38296000" />
+    <option name="totallyTimeSpent" value="38378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="405" y="255" width="1867" height="1092" extended-state="6" />
