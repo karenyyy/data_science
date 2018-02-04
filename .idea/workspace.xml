@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/images2/05.08-Random-Forests.md" afterPath="" />
       <change beforePath="$PROJECT_DIR$/py_datasci/md/05.08-Random-Forests.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.08-Random-Forests.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,25 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="05.08-Random-Forests.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/05.08-Random-Forests.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="634">
-                <caret line="385" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="387" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="129" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="129" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="8" />
-              <folding />
+      <file leaf-file-name="05.09-Principal-Component-Analysis.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="756">
+                <caret line="550" column="98" lean-forward="false" selection-start-line="550" selection-start-column="98" selection-end-line="550" selection-end-column="98" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -66,6 +67,7 @@
       <find>check the</find>
       <find>discu</find>
       <find>output_</find>
+      <find>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
@@ -75,6 +77,7 @@
       <replace>py_datasci/images2</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/rf/output_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -107,6 +110,7 @@
         <option value="$PROJECT_DIR$/py_datasci/md/05.07-Support-Vector-Machines.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/svm.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.08-Random-Forests.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" />
       </list>
     </option>
   </component>
@@ -222,12 +226,12 @@
       <workItem from="1517591561826" duration="3151000" />
       <workItem from="1517612230221" duration="253000" />
       <workItem from="1517617199596" duration="4490000" />
-      <workItem from="1517716998212" duration="129000" />
+      <workItem from="1517716998212" duration="556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37869000" />
+    <option name="totallyTimeSpent" value="38296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="405" y="255" width="1867" height="1092" extended-state="6" />
@@ -288,13 +292,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.08-Aggregation-and-Grouping.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.09-Pivot-Tables.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -461,8 +458,8 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.08-Random-Forests.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="634">
-            <caret line="385" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="387" selection-end-column="0" />
+          <first_editor relative-caret-position="179">
+            <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
             <folding />
           </first_editor>
           <second_editor />
@@ -472,8 +469,19 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
-          <caret line="129" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="8" />
+          <caret line="129" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="149" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="756">
+            <caret line="550" column="98" lean-forward="false" selection-start-line="550" selection-start-column="98" selection-end-line="550" selection-end-column="98" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
