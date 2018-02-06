@@ -20,24 +20,34 @@ __A gaussian probability distribution centered on each point is defined over all
 __SNE aims to minimize the difference in probablity distribution in higher dimension and lower dimension.__
 
 
-$$\text{For each object,   }i \text{    and it's neighbor    } j  \text{    , we compute a    } P_{i|j} \text{   which reflects the probability that   }j  \text{    is neighbor of   }i$$
+$$\text{For each object,   }i \text{    and it's neighbor    } j  \text{    , we compute a    }$$
+ 
+$$P_{i|j} \text{   which reflects the probability that   }j  \text{    is neighbor of   }i$$
 
 
-$$\hspace{7em} P_{i|j} = \frac{\exp(-d_{ij}^2)}{\Sigma_{k\ne i}\exp(-d_{ij}^2)})$$
+$$\hspace{7em} P_{i|j} = \frac{\exp(-d_{ij}^2)}{\Sigma_{k\ne i}\exp(-d_{ij}^2)}$$
 
-$$\text{where   }  d_{ij}^2  \text{     is the dissimilarity between element   } i \text{  and } j \text{   given as input or calculated from the dataset provided.  }$$
+$$\text{where   }  d_{ij}^2  \text{     is the dissimilarity between element   } i \text{  and } j$$
+ 
+$$\text{   given as input or calculated from the dataset provided.  }$$
 
 $$\text{  The dissimilarity between   } x_i \text{   and   } x_j \text{     can be calculated using the following formula  }$$
 
 $$\hspace{7em} d_{ij}^2 = \frac{||x_i-x_j||^2}{2\sigma_i^2}$$
 
-$$\text{where    } \sigma_i \text{     generally calculated through a binary search by equating the entropy of the distribution centered at    } x_i$$
+$$\text{where    } \sigma_i \text{     generally calculated through a binary}$$
+ 
+$$\text{ search by equating the entropy of the distribution centered at    } x_i$$
 
 
-$$\text{ to perplexity which is chosen by hand. This method generates a probability matrix which is asymmetric.}$$
+$$\text{ to perplexity which is chosen by hand. }$$
+
+$$\text{This method generates a probability matrix which is asymmetric.}$$
 
 
-$$\text{Next, SNE does the same calculation for every  }Y_i \text{   and  } Y_j \text{    in the lower dimension with gaussian probability distribution with   }\sigma = 0.5$$
+$$\text{Next, SNE does the same calculation for every  }Y_i \text{   and  } Y_j $$
+
+$$\text{    in the lower dimension with gaussian probability distribution with   }\sigma = 0.5$$
 
 $$\hspace{7em} q_{ij} = \frac{\exp(-||y_i-y_j||^2)}{\Sigma_k \exp(-||y_k-y_i||^2)}$$
 
@@ -51,7 +61,9 @@ For two discrete distirbution P and Q KL divergence is given by
 $$\hspace{7em} D_{KL}(P||Q) = \Sigma_i P_{i}\frac{P_{i}}{Q_{i}}$$
 
 
-$$\text{  SNE defines a cost function based of the difference between   } p_{ij} \text{  and   } q_{ij} \text{  which is given by  }$$
+$$\text{  SNE defines a cost function based of the difference between   } p_{ij} \text{  and   } q_{ij} $$
+
+$$\text{  which is given by  }$$
 
 
 $$\hspace{7em} C = \Sigma_i\Sigma_j P_{ij}log(\frac{P_{ij}}{q_{ij}})$$
@@ -67,7 +79,8 @@ While embedding the dataset in lower dimension, two kinds of error can occur:
 
 $$ \text{Look closely at the cost function, the cost of the first kind of error}$$
 
-$$\text{ i.e. mapping large  } P_{ij}  \text{  with small   } q_{ij} \text{  is smaller than the cost while mapping small   }  p_{ij} \text{ as  large  } q_{ij}$$
+$$\text{ i.e. mapping large  } P_{ij}  \text{  with small   } q_{ij} \text{  is smaller than the cost while 
+mapping small   }  p_{ij} \text{ as  large  } q_{ij}$$
 
 The gradient to optimize the cost function is given by  
 
@@ -179,7 +192,7 @@ Now the gradient changes to
 
 $$\hspace{7em}\frac{\delta C}{\delta Y_i} = 4 \Sigma_{ij}(P_{ij}-q_{ij})(Y_i-Y_j)(1+||y_i-y_j||^2)^{-1}$$
 
-![](../images/tsne.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/tsne.png)
 
 #### Compute pariwise similarities
 
@@ -448,7 +461,7 @@ for axi, x in zip(ax.flat, range(1, 100, 25)):
 
 
 
-![png](output_20_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/tsne/output_20_1.png)
 
 
 If change value of perplexity we will see that, its clusters changes dramatically. For t_sne to be meaningful we have to choose right value of perplexity. Perplexity balances the local and global aspects of the dataset. Very high value will lead to the merging of clusters into a single big clusters and low will produce many close small clusters which will be meaningless.

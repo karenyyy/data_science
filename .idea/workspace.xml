@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/custom.css" afterPath="$PROJECT_DIR$/py_datasci/md/custom.css" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/tsne-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/tsne-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/tsne.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/tsne.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/tsne.md" afterPath="$PROJECT_DIR$/py_datasci/md/tsne.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/tsne.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/05.11-K-Means.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/05.11-K-Means.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/06.00-Figure-Code.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/06.00-Figure-Code.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +16,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tsne.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/tsne.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="383">
+                <caret line="44" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -122,6 +134,7 @@
       <find>discu</find>
       <find>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</find>
       <find>output_</find>
+      <find>th</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
@@ -167,6 +180,7 @@
         <option value="$PROJECT_DIR$/py_datasci/md/05.09-Principal-Component-Analysis.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/custom.css" />
+        <option value="$PROJECT_DIR$/py_datasci/md/tsne.md" />
       </list>
     </option>
   </component>
@@ -178,10 +192,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="405" />
-    <option name="y" value="255" />
-    <option name="width" value="1217" />
-    <option name="height" value="693" />
+    <option name="x" value="283" />
+    <option name="y" value="337" />
+    <option name="width" value="1215" />
+    <option name="height" value="657" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -282,12 +296,12 @@
       <workItem from="1517591561826" duration="3151000" />
       <workItem from="1517612230221" duration="253000" />
       <workItem from="1517617199596" duration="4490000" />
-      <workItem from="1517716998212" duration="3343000" />
+      <workItem from="1517716998212" duration="5902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41083000" />
+    <option name="totallyTimeSpent" value="43642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="405" y="255" width="1867" height="1092" extended-state="6" />
@@ -348,13 +362,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="146" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Introducing-Pandas.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md" />
@@ -570,8 +577,19 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/tsne.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="383">
+            <caret line="44" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
