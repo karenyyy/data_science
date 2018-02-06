@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/tsne.md" afterPath="$PROJECT_DIR$/py_datasci/md/tsne.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/tsne.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/05.11-K-Means.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/05.11-K-Means.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/06.00-Figure-Code.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/06.00-Figure-Code.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/web scraping concept 101-checkpoint.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/web scraping concept 101.ipynb" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,12 +24,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tsne.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tsne.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/tsne.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="383">
-                <caret line="44" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
+              <first_editor relative-caret-position="311">
+                <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web scraping imdb.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/web scraping imdb.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="211">
+                <caret line="238" column="42" lean-forward="true" selection-start-line="238" selection-start-column="42" selection-end-line="238" selection-end-column="42" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -135,6 +146,7 @@
       <find>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</find>
       <find>output_</find>
       <find>th</find>
+      <find>centered at</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
@@ -146,6 +158,7 @@
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/rf/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/pca/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/tsne/output_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -181,6 +194,7 @@
         <option value="$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/custom.css" />
         <option value="$PROJECT_DIR$/py_datasci/md/tsne.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/web scraping imdb.md" />
       </list>
     </option>
   </component>
@@ -191,7 +205,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="283" />
     <option name="y" value="337" />
     <option name="width" value="1215" />
@@ -296,15 +310,15 @@
       <workItem from="1517591561826" duration="3151000" />
       <workItem from="1517612230221" duration="253000" />
       <workItem from="1517617199596" duration="4490000" />
-      <workItem from="1517716998212" duration="5902000" />
+      <workItem from="1517716998212" duration="6956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43642000" />
+    <option name="totallyTimeSpent" value="44696000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="255" width="1867" height="1092" extended-state="6" />
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16657473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -362,7 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Introducing-Pandas.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md" />
     <entry file="file://$PROJECT_DIR$/TF_cv/md/Losses.md" />
@@ -585,8 +598,19 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/tsne.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="383">
-            <caret line="44" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
+          <first_editor relative-caret-position="311">
+            <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/web scraping imdb.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="211">
+            <caret line="238" column="42" lean-forward="true" selection-start-line="238" selection-start-column="42" selection-end-line="238" selection-end-column="42" />
             <folding />
           </first_editor>
           <second_editor />
