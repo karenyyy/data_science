@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.11-K-Means.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.11-K-Means.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/05.12-Gaussian-Mixtures-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/05.12-Gaussian-Mixtures-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/05.12-Gaussian-Mixtures.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/05.12-Gaussian-Mixtures.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,12 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05.11-K-Means.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="05.11-K-Means.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/05.11-K-Means.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="228">
-                <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <first_editor relative-caret-position="174">
+                <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05.12-Gaussian-Mixtures.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="7788">
+                <caret line="461" column="99" lean-forward="false" selection-start-line="461" selection-start-column="99" selection-end-line="461" selection-end-column="99" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -158,9 +169,9 @@
       <find>check the</find>
       <find>discu</find>
       <find>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</find>
-      <find>output_</find>
       <find>th</find>
       <find>centered at</find>
+      <find>output_</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
@@ -173,6 +184,7 @@
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/pca/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/tsne/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kmeans/output_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -210,6 +222,7 @@
         <option value="$PROJECT_DIR$/py_datasci/md/tsne.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/web scraping imdb.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.11-K-Means.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md" />
       </list>
     </option>
   </component>
@@ -325,12 +338,12 @@
       <workItem from="1517591561826" duration="3151000" />
       <workItem from="1517612230221" duration="253000" />
       <workItem from="1517617199596" duration="4490000" />
-      <workItem from="1517716998212" duration="8186000" />
+      <workItem from="1517716998212" duration="8266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45926000" />
+    <option name="totallyTimeSpent" value="46006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
@@ -391,7 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.05-Hierarchical-Indexing.md" />
     <entry file="file://$PROJECT_DIR$/TF_cv/md/Losses.md" />
     <entry file="file://$PROJECT_DIR$/TF_cv/md/tensorflow summary.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.07-Merge-and-Join.md" />
@@ -634,8 +646,19 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.11-K-Means.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="228">
-            <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <first_editor relative-caret-position="174">
+            <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="7788">
+            <caret line="461" column="99" lean-forward="false" selection-start-line="461" selection-start-column="99" selection-end-line="461" selection-end-column="99" />
             <folding />
           </first_editor>
           <second_editor />
