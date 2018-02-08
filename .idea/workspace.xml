@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md" afterPath="$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md" />
-    </list>
+    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="7788">
-                <caret line="461" column="99" lean-forward="false" selection-start-line="461" selection-start-column="99" selection-end-line="461" selection-end-column="99" />
+              <first_editor relative-caret-position="261">
+                <caret line="205" column="27" lean-forward="false" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="27" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -233,11 +231,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="283" />
-    <option name="y" value="337" />
-    <option name="width" value="1215" />
-    <option name="height" value="657" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="235" />
+    <option name="y" value="338" />
+    <option name="width" value="1235" />
+    <option name="height" value="483" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -338,15 +336,15 @@
       <workItem from="1517591561826" duration="3151000" />
       <workItem from="1517612230221" duration="253000" />
       <workItem from="1517617199596" duration="4490000" />
-      <workItem from="1517716998212" duration="8266000" />
+      <workItem from="1517716998212" duration="10166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46006000" />
+    <option name="totallyTimeSpent" value="47906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16657473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -657,8 +655,8 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="7788">
-            <caret line="461" column="99" lean-forward="false" selection-start-line="461" selection-start-column="99" selection-end-line="461" selection-end-column="99" />
+          <first_editor relative-caret-position="261">
+            <caret line="205" column="27" lean-forward="false" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />
