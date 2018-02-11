@@ -32,12 +32,12 @@ plt.imshow(gray_img)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb86cb70860>
+    
 
 
 
 
-![png](output_1_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_1_1.png)
 
 
 
@@ -48,12 +48,12 @@ plt.imshow(y)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb890323240>
+    
 
 
 
 
-![png](output_2_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_2_1.png)
 
 
 
@@ -64,12 +64,12 @@ plt.imshow(u)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb89029c470>
+    
 
 
 
 
-![png](output_3_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_3_1.png)
 
 
 
@@ -80,12 +80,12 @@ plt.imshow(v)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb890257d68>
+    
 
 
 
 
-![png](output_4_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_4_1.png)
 
 
 
@@ -103,12 +103,12 @@ plt.imshow(gbr_img)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb8902177f0>
+    
 
 
 
 
-![png](output_6_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_6_1.png)
 
 
 
@@ -119,12 +119,12 @@ plt.imshow(rbr_img)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb8901da470>
+    
 
 
 
 
-![png](output_7_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_7_1.png)
 
 
 ### Transformation
@@ -135,7 +135,7 @@ Translation basically means that we are __shifting the image by adding/subtracti
 
 In order to do this, we need to create a __transformation matrix__:
 
-![](../images/matrix.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/matrix.png)
 
 Here, the tx and ty values are the x and y translation values
 
@@ -169,12 +169,12 @@ plt.imshow(img_translation)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb88958df28>
+    
 
 
 
 
-![png](output_11_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_11_1.png)
 
 
 
@@ -187,12 +187,12 @@ plt.imshow(img_translation)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb889549dd8>
+    
 
 
 
 
-![png](output_12_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_12_1.png)
 
 
 Moreover, there are two more arguments, borderMode and borderValue, that allow us to __fill up the empty borders of the translation with a pixel extrapolation method__:
@@ -206,19 +206,19 @@ plt.imshow(img_translation)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb889502f28>
+    
 
 
 
 
-![png](output_14_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_14_1.png)
 
 
 ### Rotation
 
 Using getRotationMatrix2D, we can specify the center point around which the image would be rotated as the first argument, then the angle of rotation in degrees, and a scaling factor for the image at the end. __We use 0.7 to shrink the image by 30% so it fits in the frame.__
 
-![](../images/matrix2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/matrix2.png)
 
 
 ```python
@@ -230,12 +230,12 @@ plt.imshow(img_rotation)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb889442be0>
+    
 
 
 
 
-![png](output_16_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_16_1.png)
 
 
 
@@ -254,12 +254,12 @@ plt.imshow(img_rotation)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb8894081d0>
+    
 
 
 
 
-![png](output_17_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_17_1.png)
 
 
 ### Image scaling
@@ -274,12 +274,12 @@ plt.imshow(img_scaled)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb88937db70>
+    
 
 
 
 
-![png](output_19_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_19_1.png)
 
 
 
@@ -291,12 +291,12 @@ plt.imshow(img_scaled)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb8893baac8>
+    
 
 
 
 
-![png](output_20_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_20_1.png)
 
 
 
@@ -308,12 +308,12 @@ plt.imshow(img_scaled)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb8892ab940>
+    
 
 
 
 
-![png](output_21_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_21_1.png)
 
 
 ### Shear
@@ -332,12 +332,12 @@ plt.imshow(img_output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb88936f198>
+    
 
 
 
 
-![png](output_23_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_23_1.png)
 
 
 ### mirror
@@ -359,12 +359,12 @@ plt.imshow(img_output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb8891a3c50>
+    
 
 
 
 
-![png](output_25_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_25_1.png)
 
 
 ### Projective transformations
@@ -383,12 +383,12 @@ plt.imshow(img_output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb88918bda0>
+    
 
 
 
 
-![png](output_27_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_27_1.png)
 
 
 
@@ -404,12 +404,12 @@ plt.imshow(img_output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb889220b00>
+    
 
 
 
 
-![png](output_28_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_28_1.png)
 
 
 
@@ -436,12 +436,12 @@ plt.imshow(img_output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb888fa4e80>
+    
 
 
 
 
-![png](output_30_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_30_1.png)
 
 
 
@@ -465,12 +465,12 @@ plt.imshow(img_output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb888f42470>
+    
 
 
 
 
-![png](output_31_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_31_1.png)
 
 
 
@@ -493,12 +493,12 @@ plt.imshow(img_output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb888f001d0>
+    
 
 
 
 
-![png](output_32_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_32_1.png)
 
 
 
@@ -519,12 +519,12 @@ plt.imshow(img_output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb888da95c0>
+    
 
 
 
 
-![png](output_33_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_33_1.png)
 
 
 ### Detecting Edges and Applying Image Filters
@@ -548,14 +548,14 @@ Here, __the kernel is called the image filter__ and the process of __applying th
 _Depending on the values in the kernel, it performs different functions such as blurring, detecting edges, and so on._
 
 
-![](../images/filter.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/filter.png)
 
 
 - identity kernel. 
 
 This kernel doesn't really change the input image
 
-![](../images/ik.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/ik.png)
 
 ### Blurring (also called a low pass filter: allow low frequencies, and blocks higher frequencies)
 
@@ -578,7 +578,7 @@ If we've chosen a bigger size, then you will be averaging over a larger area. Th
 
 - low pass kernel example:
 
-![](../images/blurring.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/blurring.png)
 
 - normalization:
     - We are dividing the matrix by 9 because we want the values to sum up to one, because we don't want to artificially increase the intensity value at that pixel's location
@@ -612,12 +612,12 @@ plt.imshow(output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb888b91e80>
+    
 
 
 
 
-![png](output_37_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_37_1.png)
 
 
 #### Size of the kernel versus blurriness
@@ -637,19 +637,19 @@ plt.imshow(output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb88832ccf8>
+    
 
 
 
 
-![png](output_39_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_39_1.png)
 
 
 ### Motion blur (motion blur kernel averages the pixel values in a particular direction, like a directional low pass filter)
 
 - for example:
 
-![](../images/motion.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/motion.png)
 
 This kernel blurs the image in a horizontal direction. 
 
@@ -674,12 +674,12 @@ plt.imshow(output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb8882eecc0>
+    
 
 
 
 
-![png](output_41_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_41_1.png)
 
 
 ### Embossing (饰以浮雕花纹的)
@@ -714,42 +714,42 @@ plt.imshow(gray_img)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb86cc70898>
+    
 
 
 
 
-![png](output_44_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_44_1.png)
 
 
 
 ```python
 # applying the kernels to the grayscale image and adding the offset to produce the shadow
-output_1 = cv2.filter2D(gray_img, -1, kernel_emboss_1) + 128
-output_2 = cv2.filter2D(gray_img, -1, kernel_emboss_2) + 128 
-output_3 = cv2.filter2D(gray_img, -1, kernel_emboss_3) + 128 
+https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_1 = cv2.filter2D(gray_img, -1, kernel_emboss_1) + 128
+https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_2 = cv2.filter2D(gray_img, -1, kernel_emboss_2) + 128 
+https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_3 = cv2.filter2D(gray_img, -1, kernel_emboss_3) + 128 
 ```
 
 
 ```python
 fig=plt.figure(figsize=(15,5))
 fig.add_subplot(1,3,1)
-plt.imshow(output_1) 
+plt.imshow(https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_1) 
 fig.add_subplot(1,3,2)
-plt.imshow(output_2) 
+plt.imshow(https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_2) 
 fig.add_subplot(1,3,3)
-plt.imshow( output_3) 
+plt.imshow( https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_3) 
 ```
 
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb86cb871d0>
+    
 
 
 
 
-![png](output_46_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_46_1.png)
 
 
 ### Edge detection
@@ -762,12 +762,12 @@ Since edges are high-frequency content. In edge detection, we want to retain the
 
 - Sobel filter
 
-![](../images/sobel1.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/sobel1.png)
 
 
 ```python
 # Attention!! first need to convert normal image to GRAYSCALE!
-gray_img = cv2.imread('../images/shapes.png', cv2.IMREAD_GRAYSCALE) 
+gray_img = cv2.imread('https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/shapes.png', cv2.IMREAD_GRAYSCALE) 
 rows, cols = gray_img.shape 
  
 # use depth of cv2.CV_64F.
@@ -787,12 +787,12 @@ plt.imshow(sobel_vertical)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb86c632208>
+    
 
 
 
 
-![png](output_48_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_48_1.png)
 
 
 As we can see here, the Sobel filter detects edges in either a horizontal or vertical direction and it doesn't give us a holistic view of all the edges. 
@@ -811,17 +811,17 @@ plt.imshow(laplacian)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb86c8fa7f0>
+    
 
 
 
 
-![png](output_50_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_50_1.png)
 
 
 
 ```python
-gray_img = cv2.imread('../images/train.png', cv2.IMREAD_GRAYSCALE) 
+gray_img = cv2.imread('https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/train.png', cv2.IMREAD_GRAYSCALE) 
 laplacian = cv2.Laplacian(gray_img, cv2.CV_64F)
 plt.imshow(laplacian)
 ```
@@ -829,15 +829,15 @@ plt.imshow(laplacian)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb86c70f860>
+    
 
 
 
 
-![png](output_51_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_51_1.png)
 
 
-As we can see in the preceding images, the Laplacian kernel gives rise to a __noisy output__
+As we can see in the preceding images, the Laplacian kernel gives rise to a __noisy https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output__
 
 > Solution?
 
@@ -852,12 +852,12 @@ plt.imshow(canny)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb86c6cfa90>
+    
 
 
 
 
-![png](output_53_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_53_1.png)
 
 
 Canny in opencv takes two numbers as arguments to indicate the thresholds. __The second argument is called the low threshold value, and the third argument is called the high threshold value.__
@@ -883,12 +883,12 @@ plt.imshow(img_dilation)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb888ed9668>
+    
 
 
 
 
-![png](output_56_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_56_1.png)
 
 
 ### Creating a vignette filter (basically focuses the brightness on a particular part of the image and the other parts look faded)
@@ -913,12 +913,12 @@ plt.imshow(output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb86c266e80>
+    
 
 
 
 
-![png](output_58_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_58_1.png)
 
 
 ### shift focus
@@ -942,12 +942,12 @@ plt.imshow(output)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb86c2259b0>
+    
 
 
 
 
-![png](output_60_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_60_1.png)
 
 
 ### Enhancing the contrast in an image
@@ -961,7 +961,7 @@ The reason this happens is because the pixel values tend to concentrate near zer
 
 ```python
 # equalize the histogram of the input image 
-img=cv2.imread("../images/dark.png", 0)
+img=cv2.imread("https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/dark.png", 0)
 histeq = cv2.equalizeHist(img) 
 
 fig=plt.figure(figsize=(10,5))
@@ -974,12 +974,12 @@ plt.imshow(histeq)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb863f62048>
+    
 
 
 
 
-![png](output_62_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_62_1.png)
 
 
 > For colored image?
@@ -1019,10 +1019,10 @@ plt.imshow(img_output3)
 
 
 
-    <matplotlib.image.AxesImage at 0x7fb863d23c88>
+    
 
 
 
 
-![png](output_64_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic/output_64_1.png)
 
