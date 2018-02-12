@@ -1,11 +1,4 @@
 
-
-```python
-import sys
-import cv2
-import numpy as np
-```
-
 ### Applying hough transform, to detect the horizon
 
 
@@ -44,7 +37,7 @@ plt.show()
 ```
 
 
-![png](output_2_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_2_0.png)
 
 
 ### Applying hough transform, to circles in an image
@@ -71,7 +64,7 @@ plt.show()
 ```
 
 
-![png](output_4_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_4_0.png)
 
 
 ### Stretch and Shrink an Image
@@ -105,7 +98,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_6_0.png)
 
 
 ### Affine and Perspective Transform
@@ -158,7 +151,7 @@ plt.show()
 ```
 
 
-![png](output_8_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_8_0.png)
 
 
 ### Rotation
@@ -187,7 +180,7 @@ plt.show()
 ```
 
 
-![png](output_10_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_10_0.png)
 
 
 ### This line suppresses runtime error warnings like divide-by-zero
@@ -242,7 +235,7 @@ plt.show()
 ```
 
 
-![png](output_12_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_12_0.png)
 
 
 ### Laplacian Derivative Example
@@ -269,7 +262,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_14_0.png)
 
 
 ### Histogram Equalization
@@ -321,5 +314,5 @@ show()
 ```
 
 
-![png](output_16_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_16_0.png)
 

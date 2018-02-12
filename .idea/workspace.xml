@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/octave-workspace" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/opencv/notebook/vehicle-detection.ipynb" afterPath="$PROJECT_DIR$/opencv/notebook/vehicle-detection.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/KernelPCA.md" afterPath="$PROJECT_DIR$/py_datasci/md/KernelPCA.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/md/kernelpca.md" afterPath="$PROJECT_DIR$/py_datasci/md/kernelpca.md" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/MDS-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/MDS-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/05.13-Kernel-Density-Estimation.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/05.13-Kernel-Density-Estimation.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/ICA.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/ICA.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/MDS.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/MDS.ipynb" />
+      <change beforePath="$PROJECT_DIR$/opencv/md/Section1_Notebook.md" afterPath="$PROJECT_DIR$/opencv/md/Section1_Notebook.md" />
+      <change beforePath="$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md" afterPath="$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,8 +80,21 @@
         <entry file="file://$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="53" />
+              <first_editor relative-caret-position="18">
+                <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Section1_Notebook.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv/md/Section1_Notebook.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -137,7 +142,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>max</find>
       <find>$$</find>
       <find>Lambda</find>
       <find>to pca</find>
@@ -164,9 +168,10 @@
       <find>th</find>
       <find>centered at</find>
       <find>edge de</find>
-      <find>output_</find>
       <find>lambda</find>
       <find>expand</find>
+      <find>gray</find>
+      <find>output_</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
@@ -181,6 +186,7 @@
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/tsne/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kmeans/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/pca/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -219,9 +225,10 @@
         <option value="$PROJECT_DIR$/py_datasci/md/web scraping imdb.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.11-K-Means.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md" />
-        <option value="$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/kernelpca.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/KernelPCA.md" />
+        <option value="$PROJECT_DIR$/opencv/md/Section1_Notebook.md" />
+        <option value="$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md" />
       </list>
     </option>
   </component>
@@ -232,11 +239,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="176" />
-    <option name="y" value="27" />
-    <option name="width" value="1278" />
-    <option name="height" value="490" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="599" />
+    <option name="y" value="736" />
+    <option name="width" value="1148" />
+    <option name="height" value="493" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -351,18 +358,18 @@
       <workItem from="1517716998212" duration="10166000" />
       <workItem from="1518068565592" duration="1623000" />
       <workItem from="1518253786202" duration="1848000" />
-      <workItem from="1518398792694" duration="1726000" />
+      <workItem from="1518398792694" duration="4136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53103000" />
+    <option name="totallyTimeSpent" value="55513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="738" y="270" width="1867" height="1092" extended-state="6" />
+    <frame x="599" y="736" width="1148" height="493" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1731936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28649634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -417,7 +424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.03-Operations-in-Pandas.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.02-Data-Indexing-and-Selection.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Reading from a CSV.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md" />
@@ -707,11 +713,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/md/Section1_Notebook.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="53" />
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
