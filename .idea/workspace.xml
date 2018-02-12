@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md" afterPath="$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/octave-workspace" afterPath="" />
       <change beforePath="$PROJECT_DIR$/opencv/notebook/vehicle-detection.ipynb" afterPath="$PROJECT_DIR$/opencv/notebook/vehicle-detection.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/KernelPCA.md" afterPath="$PROJECT_DIR$/py_datasci/md/KernelPCA.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/md/kernelpca.md" afterPath="$PROJECT_DIR$/py_datasci/md/kernelpca.md" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/MDS-checkpoint.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/.ipynb_checkpoints/MDS-checkpoint.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/05.13-Kernel-Density-Estimation.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/05.13-Kernel-Density-Estimation.ipynb" />
       <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/ICA.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/ICA.ipynb" />
-      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/KernelPCA.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/KernelPCA.ipynb" />
+      <change beforePath="$PROJECT_DIR$/py_datasci/notebooks/MDS.ipynb" afterPath="$PROJECT_DIR$/py_datasci/notebooks/MDS.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +25,7 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="0">
               <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
@@ -44,8 +49,8 @@
         <entry file="file://$PROJECT_DIR$/py_datasci/md/web scraping imdb.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4518">
-                <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+              <first_editor relative-caret-position="85">
+                <caret line="210" column="0" lean-forward="false" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -57,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/py_datasci/md/05.11-K-Means.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="504">
-                <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <first_editor relative-caret-position="611">
+                <caret line="569" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="576" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -70,8 +75,8 @@
         <entry file="file://$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3564">
-                <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+              <first_editor relative-caret-position="233">
+                <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -83,8 +88,8 @@
         <entry file="file://$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="257">
-                <caret line="759" column="0" lean-forward="true" selection-start-line="759" selection-start-column="0" selection-end-line="759" selection-end-column="0" />
+              <first_editor relative-caret-position="414">
+                <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="53" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -92,12 +97,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="How HDBSCAN Works.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/How HDBSCAN Works.md">
+      <file leaf-file-name="KernelPCA.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/KernelPCA.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2664">
-                <caret line="148" column="46" lean-forward="false" selection-start-line="148" selection-start-column="45" selection-end-line="148" selection-end-column="46" />
+              <first_editor relative-caret-position="401">
+                <caret line="83" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -105,38 +110,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03.03-Operations-in-Pandas.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/03.03-Operations-in-Pandas.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="8730">
-                <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="beautifulsoup basic.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_scraping/notebooks/beautifulsoup basic.ipynb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05.10-Manifold-Learning.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md">
+      <file leaf-file-name="kernelpca.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/kernelpca.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1224">
-                <caret line="68" column="92" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PCA.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/PCA.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="216">
+                <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -148,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>(out</find>
       <find>max</find>
       <find>$$</find>
       <find>Lambda</find>
@@ -175,8 +163,10 @@
       <find>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</find>
       <find>th</find>
       <find>centered at</find>
-      <find>output_</find>
       <find>edge de</find>
+      <find>output_</find>
+      <find>lambda</find>
+      <find>expand</find>
     </findStrings>
     <replaceStrings>
       <replace>(https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/out</replace>
@@ -190,6 +180,7 @@
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images2/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/tsne/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kmeans/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/pca/output_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -229,6 +220,8 @@
         <option value="$PROJECT_DIR$/py_datasci/md/05.11-K-Means.md" />
         <option value="$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md" />
         <option value="$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/kernelpca.md" />
+        <option value="$PROJECT_DIR$/py_datasci/md/KernelPCA.md" />
       </list>
     </option>
   </component>
@@ -239,11 +232,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="738" />
-    <option name="y" value="270" />
-    <option name="width" value="1150" />
-    <option name="height" value="529" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="176" />
+    <option name="y" value="27" />
+    <option name="width" value="1278" />
+    <option name="height" value="490" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -260,7 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,10 +271,22 @@
               <item name="opencv" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="md" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web_scraping" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web_scraping" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="notebooks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -346,17 +350,19 @@
       <workItem from="1517617199596" duration="4490000" />
       <workItem from="1517716998212" duration="10166000" />
       <workItem from="1518068565592" duration="1623000" />
-      <workItem from="1518253786202" duration="3000" />
+      <workItem from="1518253786202" duration="1848000" />
+      <workItem from="1518398792694" duration="1726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49532000" />
+    <option name="totallyTimeSpent" value="53103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="738" y="270" width="1867" height="1092" extended-state="7" />
+    <frame x="738" y="270" width="1867" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17098731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1731936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -411,10 +417,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TF_cv/md/tensorflow summary.md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.07-Merge-and-Join.md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.06-Concat-And-Append.md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/Missing-Values.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.03-Operations-in-Pandas.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/03.02-Data-Indexing-and-Selection.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Reading from a CSV.md" />
@@ -467,17 +469,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Missing-Values.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -509,17 +511,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Linear Regression.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="226">
             <caret line="2175" column="24" lean-forward="false" selection-start-line="2175" selection-start-column="24" selection-end-line="2175" selection-end-column="24" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -578,7 +580,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -589,7 +590,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1224">
             <caret line="68" column="92" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -628,11 +628,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/kernelpca.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/KernelPCA.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="401">
+            <caret line="83" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scraping/notebooks/beautifulsoup basic.ipynb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/airbnb-project-2-get-list-of-room-available-on-NY-allpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/web scraping imdb.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="210" column="0" lean-forward="false" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.11-K-Means.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <first_editor relative-caret-position="611">
+            <caret line="569" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="576" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -642,27 +699,8 @@
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.12-Gaussian-Mixtures.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3564">
-            <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/web scraping imdb.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4518">
-            <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+          <first_editor relative-caret-position="233">
+            <caret line="435" column="0" lean-forward="false" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -672,8 +710,8 @@
     <entry file="file://$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="257">
-            <caret line="759" column="0" lean-forward="true" selection-start-line="759" selection-start-column="0" selection-end-line="759" selection-end-column="0" />
+          <first_editor relative-caret-position="414">
+            <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="53" />
             <folding />
           </first_editor>
           <second_editor />

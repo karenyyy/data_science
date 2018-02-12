@@ -115,7 +115,7 @@ plot_transformed('moons', 'rbf', 15, 1)
 ```
 
 
-![png](output_10_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/pca/output_10_0.png)
 
 
 ## KPCA of circles
@@ -126,7 +126,7 @@ plot_transformed('circles', 'rbf', 2, 1)
 ```
 
 
-![png](output_12_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/pca/output_12_0.png)
 
 
 ### Interaction: manipulating  $\gamma$ and $C$ parameters
@@ -141,7 +141,7 @@ interact(plot_transformed,
 ```
 
 
-![png](output_14_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/pca/output_14_0.png)
 
 
 
