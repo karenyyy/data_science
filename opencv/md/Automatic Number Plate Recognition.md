@@ -63,7 +63,7 @@ plt.show()
 ```
 
 
-![png](output_0_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_0_0.png)
 
 
 
@@ -104,7 +104,7 @@ plt.show()
 ```
 
 
-![png](output_1_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_1_0.png)
 
 
 ### Code to automatically segment numbers from numberplates by finding contours
@@ -132,7 +132,7 @@ plt.show()
 ```
 
 
-![png](output_3_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_3_0.png)
 
 
 
@@ -405,11 +405,11 @@ display_plate_numbers(img,num)
 
 
 
-![png](output_17_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_17_1.png)
 
 
 
-![png](output_17_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_17_2.png)
 
 
 
@@ -445,35 +445,35 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_20_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_20_1.png)
 
 
     B
 
 
 
-![png](output_20_3.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_20_3.png)
 
 
     Q
 
 
 
-![png](output_20_5.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_20_5.png)
 
 
     E
 
 
 
-![png](output_20_7.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_20_7.png)
 
 
     X
 
 
 
-![png](output_20_9.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_20_9.png)
 
 
 
@@ -600,7 +600,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_1.png)
 
 
     B
@@ -608,7 +608,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_3.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_3.png)
 
 
     O
@@ -616,7 +616,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_5.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_5.png)
 
 
     E
@@ -624,7 +624,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_7.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_7.png)
 
 
     X
@@ -632,7 +632,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_9.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_9.png)
 
 
     G
@@ -640,7 +640,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_11.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_11.png)
 
 
     S
@@ -648,7 +648,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_13.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_13.png)
 
 
     4
@@ -656,7 +656,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_15.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_15.png)
 
 
     G
@@ -664,7 +664,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_17.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_17.png)
 
 
     E
@@ -672,7 +672,7 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_24_19.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_24_19.png)
 
 
 
@@ -768,70 +768,70 @@ for image, label in zip(X_data,Y_label):
 
 
 
-![png](output_26_2.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_2.png)
 
 
     2
 
 
 
-![png](output_26_4.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_4.png)
 
 
     1
 
 
 
-![png](output_26_6.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_6.png)
 
 
     0
 
 
 
-![png](output_26_8.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_8.png)
 
 
     4
 
 
 
-![png](output_26_10.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_10.png)
 
 
     1
 
 
 
-![png](output_26_12.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_12.png)
 
 
     4
 
 
 
-![png](output_26_14.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_14.png)
 
 
     9
 
 
 
-![png](output_26_16.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_16.png)
 
 
     6
 
 
 
-![png](output_26_18.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_18.png)
 
 
     9
 
 
 
-![png](output_26_20.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_26_20.png)
 
 
 
@@ -1015,7 +1015,7 @@ plt.show()
 
 
 
-![png](output_29_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_29_1.png)
 
 
 
@@ -1027,5 +1027,5 @@ plt.show()
 ```
 
 
-![png](output_30_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_30_0.png)
 

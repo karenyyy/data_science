@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/opencv/md/opencv_car_plate.md" afterPath="$PROJECT_DIR$/opencv/md/opencv_car_plate.md" />
+      <change beforePath="$PROJECT_DIR$/opencv/md/Automatic Number Plate Recognition.md" afterPath="$PROJECT_DIR$/opencv/md/Automatic Number Plate Recognition.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beautifulsoup basic.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web_scraping/md/beautifulsoup basic.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="564">
+                <caret line="2807" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2828" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="web scraping imdb.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_datasci/md/web scraping imdb.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -65,12 +88,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="opencv_car_plate.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="opencv_car_plate.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencv/md/opencv_car_plate.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-5360">
-                <caret line="3707" column="7" lean-forward="true" selection-start-line="3707" selection-start-column="7" selection-end-line="3707" selection-end-column="7" />
+              <first_editor relative-caret-position="414">
+                <caret line="3806" column="20" lean-forward="false" selection-start-line="3806" selection-start-column="20" selection-end-line="3806" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Automatic Number Plate Recognition.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencv/md/Automatic Number Plate Recognition.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="426">
+                <caret line="74" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1031" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyspark-basics-1.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py_datasci/md/pyspark-basics-1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-11683">
+                <caret line="504" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1376" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -91,34 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KernelPCA.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py_datasci/md/KernelPCA.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1494">
-                <caret line="83" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beautifulsoup basic.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web_scraping/notebooks/beautifulsoup basic.ipynb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$$</find>
       <find>Lambda</find>
       <find>to pca</find>
       <find>max(</find>
@@ -147,6 +172,7 @@
       <find>lambda</find>
       <find>expand</find>
       <find>gray</find>
+      <find>https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/car_plate/</find>
       <find>output_</find>
     </findStrings>
     <replaceStrings>
@@ -163,6 +189,7 @@
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/kmeans/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/pca/output_</replace>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/basic2/output_</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/opencv/images/auto/output_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -205,6 +232,8 @@
         <option value="$PROJECT_DIR$/py_datasci/md/KernelPCA.md" />
         <option value="$PROJECT_DIR$/opencv/md/Section1_Notebook.md" />
         <option value="$PROJECT_DIR$/opencv/md/opencv - Applying Geometric Transformations.md" />
+        <option value="$PROJECT_DIR$/opencv/md/Automatic Number Plate Recognition.md" />
+        <option value="$PROJECT_DIR$/web_scraping/md/beautifulsoup basic.md" />
       </list>
     </option>
   </component>
@@ -247,24 +276,13 @@
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="opencv" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web_scraping" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="opencv" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web_scraping" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="md" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web_scraping" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web_scraping" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="notebooks" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -340,7 +358,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56800000" />
+    <option name="totallyTimeSpent" value="58582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
@@ -412,9 +430,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/Reading from a CSV.md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/manifold learning on handwritten digits .md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/LLE.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Linear Regression.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Logistic Regression.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/Reading from a CSV.md" />
@@ -505,13 +520,6 @@
             <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -652,8 +660,49 @@
     <entry file="file://$PROJECT_DIR$/opencv/md/opencv_car_plate.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-5360">
-            <caret line="3707" column="7" lean-forward="true" selection-start-line="3707" selection-start-column="7" selection-end-line="3707" selection-end-column="7" />
+          <first_editor relative-caret-position="414">
+            <caret line="3806" column="20" lean-forward="false" selection-start-line="3806" selection-start-column="20" selection-end-line="3806" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/md/Automatic Number Plate Recognition.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="426">
+            <caret line="74" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1031" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/pyspark-basics-1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-11683">
+            <caret line="504" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1376" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_datasci/md/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scraping/md/beautifulsoup basic.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="564">
+            <caret line="2807" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2828" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
