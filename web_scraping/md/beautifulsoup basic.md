@@ -2824,5 +2824,5 @@ while j<=25:
 ```
 
 
-![png](output_23_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/web_scraping/images/output_23_0.png)
 
