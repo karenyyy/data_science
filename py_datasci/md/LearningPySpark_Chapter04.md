@@ -562,7 +562,7 @@ plt.savefig('balance.png', dpi=300)
 ```
 
 
-![png](output_57_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/pys/output_57_0.png)
 
 
 
@@ -582,7 +582,7 @@ plt.savefig('balance2.png', dpi=300)
 ```
 
 
-![png](output_59_0.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/py_datasci/images/pys/output_59_0.png)
 
 
 ### Interactions between features
