@@ -140,6 +140,7 @@ def load_movie_data(data_folder_name):
         tmp = io.BytesIO()
         while True:
             s = stream_data.read(16384)
+            print(s)
             if not s:  
                 break
             tmp.write(s)
