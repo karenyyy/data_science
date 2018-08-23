@@ -227,7 +227,7 @@ __算法沿搜索路径反向查找是否有距离查询点更近的数据点__
 如查找点为(2,4.5)。先进行二叉查找，先从(7,2)查找到(5,4)节点，在进行查找时是由y=4为分割超平面的，由于查找点为y值为4.5，因此进入右子空间查找到(4,7)，形成搜索路径<(7,2),(5,4),(4,7)>
 
 取(4,7)为当前最近邻点，计算其与目标查找点的距离为3.202。然后回溯到(5,4)，计算其与查找点之间的距离为3.041。以(2,4.5)为圆心，以3.041为半径作圆，如图所示。可见该圆和y=4超平面交割，所以需要进入(5,4)左子空间进行查找。
-![](https://img-blog.csdn.net/2018030719262316)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/p1.png)
 此时需将(2,3)节点加入搜索路径中得<(7,2),(2,3)>。
 
 回溯至(2,3)叶子节点,(2,3)距离(2,4.5)比5,4)要近，所以最近邻点更新为(2,3)，最近距离更新为1.5。
@@ -322,7 +322,7 @@ main()
 
 
 
-![png](output_30_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/output_30_1.png)
 
 
 #### PCA
@@ -406,7 +406,7 @@ if __name__ == "__main__":
 
 
 
-![png](output_32_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/output_32_1.png)
 
 
 ## Simple Linear Regression
@@ -432,7 +432,7 @@ $$\sum (d_i - y_i)^2 = \sum(e_i)^2$$
 - Thus, find the line with __least squares__
 
 - __Bias-Variance Trade-off__
-![](images/bias-variance-tradeoff.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/bias-variance-tradeoff.png)
 
 #### build KNN
 
@@ -532,7 +532,7 @@ if __name__ == "__main__":
 
 
 
-![png](output_36_1.png)
+![png](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/output_36_1.png)
 
 
 #### pick up Word2Vec & Glove
