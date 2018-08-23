@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/.ipynb_checkpoints/Lecture 1-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/.ipynb_checkpoints/Lecture 1-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lecture 1.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lecture 1.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/doc2vec.py" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/doc2vec.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/text_helpers.py" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/text_helpers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/git.sh" afterPath="$PROJECT_DIR$/git.sh" />
-    </list>
+    <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,9 +96,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="721" />
-    <option name="y" value="395" />
-    <option name="width" value="1079" />
-    <option name="height" value="855" />
+    <option name="y" value="149" />
+    <option name="width" value="1038" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -251,7 +244,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JWT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -261,7 +253,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.436214" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
