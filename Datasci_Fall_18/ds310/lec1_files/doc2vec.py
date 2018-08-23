@@ -1,14 +1,5 @@
 # Doc2Vec Model
-#---------------------------------------
-#
-# In this example, we will download and preprocess the movie
-#  review data.
-#
-# From this data set we will compute/fit a Doc2Vec model to get
-# Document vectors.  From these document vectors, we will split the
-# documents into train/test and use these doc vectors to do sentiment
-# analysis on the movie review dataset.
-#
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
@@ -29,7 +20,7 @@ ops.reset_default_graph()
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 # Make a saving directory if it doesn't exist
-data_folder_name = 'temp'
+data_folder_name = '/home/karen/Downloads/data'
 if not os.path.exists(data_folder_name):
     os.makedirs(data_folder_name)
 
@@ -91,8 +82,9 @@ doc_embeddings = tf.Variable(tf.random_uniform([len(texts), doc_embedding_size],
 
 # NCE loss parameters
 nce_weights = tf.Variable(tf.truncated_normal([vocabulary_size, concatenated_size],
-                                               stddev=1.0 / np.sqrt(concatenated_size)))
-nce_biases = tf.Variable(tf.zeros([vocabulary_size]))
+                                               stddev=1.0 / np.sqrt(concatenated_size)),
+                          dtype=tf.float32)
+nce_biases = tf.Variable(tf.zeros([vocabulary_size]), dtype=tf.float32)
 
 # Create data/target placeholders
 x_inputs = tf.placeholder(tf.int32, shape=[None, window_size + 1]) # plus 1 for doc index
@@ -109,7 +101,7 @@ doc_indices = tf.slice(x_inputs, [0,window_size],[batch_size,1])
 doc_embed = tf.nn.embedding_lookup(doc_embeddings,doc_indices)
 
 # concatenate embeddings
-final_embed = tf.concat(1, [embed, tf.squeeze(doc_embed)])
+final_embed = tf.concat([embed, tf.squeeze(doc_embed)], 1)
 
 # Get loss from prediction
 loss = tf.reduce_mean(tf.nn.nce_loss(nce_weights, nce_biases, final_embed, y_target,
@@ -210,7 +202,7 @@ log_doc_indices = tf.slice(log_x_inputs, [0,max_words],[logistic_batch_size,1])
 log_doc_embed = tf.nn.embedding_lookup(doc_embeddings,log_doc_indices)
 
 # concatenate embeddings
-log_final_embed = tf.concat(1, [log_embed, tf.squeeze(log_doc_embed)])
+log_final_embed = tf.concat([log_embed, tf.squeeze(log_doc_embed)], 1)
 
 # Define model:
 # Create variables for logistic regression

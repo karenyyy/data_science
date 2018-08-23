@@ -127,12 +127,14 @@ def load_movie_data(data_folder_name):
     # Check if files are already downloaded
     if os.path.isfile(pos_file):
         pos_data = []
-        with open(pos_file, 'r') as temp_pos_file:
+        with open(pos_file, 'r', encoding='latin-1') as temp_pos_file:
             for row in temp_pos_file:
+                print(row)
                 pos_data.append(row)
         neg_data = []
-        with open(neg_file, 'r') as temp_neg_file:
+        with open(neg_file, 'r', encoding='latin-1') as temp_neg_file:
             for row in temp_neg_file:
+                print(row)
                 neg_data.append(row)
     else: # If not downloaded, download and save
         movie_data_url = 'http://www.cs.cornell.edu/people/pabo/movie-review-data/rt-polaritydata.tar.gz'
