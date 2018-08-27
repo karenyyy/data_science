@@ -1,26 +1,10 @@
-# Doc2Vec Model
-#---------------------------------------
-#
-# In this example, we will download and preprocess the movie
-#  review data.
-#
-# From this data set we will compute/fit a Doc2Vec model to get
-# Document vectors.  From these document vectors, we will split the
-# documents into train/test and use these doc vectors to do sentiment
-# analysis on the movie review dataset.
 
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
-import random
+
 import os
 import pickle
-import string
-import requests
-import collections
-import io
-import tarfile
-import urllib.request
 import text_helpers
 from nltk.corpus import stopwords
 from tensorflow.python.framework import ops
