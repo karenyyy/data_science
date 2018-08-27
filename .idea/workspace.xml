@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/md/reading_list.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lecture 1.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/doc2vec.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/text_helpers.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/data_science.iml" afterPath="$PROJECT_DIR$/.idea/data_science.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree_sklearn.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs497/fraud_detection/data/creditcard.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/md/Lecture 1.md" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/md/Lecture 1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/git.sh" afterPath="$PROJECT_DIR$/git.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +21,7 @@
       <file leaf-file-name="Section3_Notebook_Solved.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencv/Section3_Notebook_Solved.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16524">
+            <state relative-caret-position="0">
               <caret line="935" column="0" lean-forward="false" selection-start-line="935" selection-start-column="0" selection-end-line="935" selection-end-column="0" />
               <folding />
             </state>
@@ -32,53 +31,40 @@
       <file leaf-file-name="cnn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencv/cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07_sentiment_with_doc2vec.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/07_sentiment_with_doc2vec.py">
+      <file leaf-file-name="decision_tree_sklearn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="190" column="36" lean-forward="false" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
+            <state relative-caret-position="684">
+              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
               <folding>
-                <element signature="e#381#404#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reading_list.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/md/reading_list.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="54">
-                <caret line="3" column="84" lean-forward="true" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bag_of_words.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/bag_of_words.py">
+      <file leaf-file-name="decision_tree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="288">
+              <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="using_word2vec.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/using_word2vec.py">
+      <file leaf-file-name="git.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/git.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1872">
-              <caret line="118" column="14" lean-forward="false" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
+            <state relative-caret-position="90">
+              <caret line="5" column="89" lean-forward="false" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -103,6 +89,7 @@
       <find>ini</find>
       <find>word</find>
       <find>word2</find>
+      <find># .*</find>
     </findStrings>
     <replaceStrings>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/output_</replace>
@@ -115,7 +102,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TF_cv/notebooks/cs231/cs231+cs229 basic NN.ipynb" />
-        <option value="$PROJECT_DIR$/git.sh" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/text_helpers.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/doc2vec.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lecture 1.ipynb" />
@@ -123,6 +109,9 @@
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/md/Lecture 1.md" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/07_sentiment_with_doc2vec.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/md/reading_list.md" />
+        <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/desicion_tree_sklearn.py" />
+        <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree.py" />
+        <option value="$PROJECT_DIR$/git.sh" />
       </list>
     </option>
   </component>
@@ -174,6 +163,25 @@
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="cs497" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="cs497" type="462c0819:PsiDirectoryNode" />
+              <item name="fraud_detection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds200" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
               <item name="ds310" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,14 +197,6 @@
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
               <item name="ds310" type="462c0819:PsiDirectoryNode" />
               <item name="lec1_files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds310" type="462c0819:PsiDirectoryNode" />
-              <item name="lec1_files" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
@@ -228,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.07_sentiment_with_doc2vec">
+  <component name="RunManager" selected="Python.desicion_tree_sklearn">
     <configuration name="07_sentiment_with_doc2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,6 +261,24 @@
       <module name="data_science" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="desicion_tree_sklearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Datasci_Fall_18/ds200" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="data_science" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree_sklearn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,16 +319,18 @@
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.doc2vec" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
       <item index="2" class="java.lang.String" itemvalue="Python.07_sentiment_with_doc2vec" />
+      <item index="3" class="java.lang.String" itemvalue="Python.desicion_tree_sklearn" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.07_sentiment_with_doc2vec" />
-        <item index="1" class="java.lang.String" itemvalue="Python.doc2vec" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.desicion_tree_sklearn" />
+        <item index="1" class="java.lang.String" itemvalue="Python.07_sentiment_with_doc2vec" />
+        <item index="2" class="java.lang.String" itemvalue="Python.doc2vec" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +375,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41904762" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -408,14 +428,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py/tf_mnist_official_tutorial.py" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.09-Pivot-Tables.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.04-Feature-Engineering.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/05.03-Hyperparameters-and-Model-Validation.md">
       <provider editor-type-id="text-editor">
@@ -555,7 +567,7 @@
     <entry file="file://$USER_HOME$/Desktop/465 HW4.ipynb" />
     <entry file="file://$PROJECT_DIR$/opencv/Section3_Notebook_Solved.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16524">
+        <state relative-caret-position="0">
           <caret line="935" column="0" lean-forward="false" selection-start-line="935" selection-start-column="0" selection-end-line="935" selection-end-column="0" />
           <folding />
         </state>
@@ -563,21 +575,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TF_cv/notebooks/cs231/cs231+cs229 basic NN.ipynb" />
     <entry file="file://$PROJECT_DIR$/deeplearningai_coursera/assignment/Convolutional Neural Networks/Convolution model - Application - v1.ipynb" />
-    <entry file="file://$PROJECT_DIR$/opencv/cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/git.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/text_helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
@@ -625,9 +622,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="190" column="36" lean-forward="false" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
-          <folding>
-            <element signature="e#381#404#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -635,10 +630,44 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="54">
-            <caret line="3" column="84" lean-forward="true" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
+            <caret line="3" column="84" lean-forward="false" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencv/cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree_sklearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="79" lean-forward="true" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="89" lean-forward="false" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+          <folding />
         </state>
       </provider>
     </entry>
