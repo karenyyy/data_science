@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/karen/workspace/data_science/Datasci_Fall_18/ds310/lec1_files/temp/doc2vec_movie_embeddings.ckpt"
+all_model_checkpoint_paths: "/home/karen/workspace/data_science/Datasci_Fall_18/ds310/lec1_files/temp/doc2vec_movie_embeddings.ckpt"
