@@ -2,35 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/TwitterPipeline.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/07_sentiment_with_doc2vec.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/Lecture 1.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/bag_of_words.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/temp/checkpoint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/temp/doc2vec_movie_embeddings.ckpt.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/temp/doc2vec_movie_embeddings.ckpt.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/temp/doc2vec_movie_embeddings.ckpt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/temp/movie_vocab.pkl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/temp/rt-polaritydata.README.1.0.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/temp/rt-polaritydata/rt-polarity.neg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/temp/rt-polaritydata/rt-polarity.pos" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/temp_movie_review_temp.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/text_helpers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/tf_idf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/using_word2vec.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/word2vec_cbow.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/others_about_nlp/word2vec_skipgram.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.pdf" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.synctex.gz" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.synctex.gz" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/DS200Lab5DecisionTreeRelevantTweets-v2-1.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/DS200_Lab3_Download_Tweets-1.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/DS200_Lab4_InterTaggerAnalysis-v2.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/HW2.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Mini DS Project Types and PD1_.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/get_tweets.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/lab2_word_frequency.ipynb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/json_to_csv.py" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/json_to_csv.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/lab2_word_frequency.py" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/lab2_word_frequency.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/load_tweets.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/load_tweets.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.aux" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.aux" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.log" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.tex" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1/hw1.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/sklearn_notebooks/01_machine_learning_intro.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/sklearn_notebooks/01_machine_learning_intro.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/sklearn_notebooks/04_model_training.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/sklearn_notebooks/04_model_training.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/sklearn_notebooks/05_model_evaluation.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/sklearn_notebooks/05_model_evaluation.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,14 +64,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decision_tree_sklearn.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="decision_tree_sklearn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="864">
+              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lab2_word_frequency.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/lab2_word_frequency.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load_tweets.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/load_tweets.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json_to_csv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/json_to_csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -221,6 +232,27 @@
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds200" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds200" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds200" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
               <item name="ds310" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -257,6 +289,9 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Datasci_Fall_18/cs497/fraud_detection/autoencoder" />
     </key>
@@ -430,7 +465,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JWT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -440,7 +474,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1968254" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.290625" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -493,9 +527,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/05.10-Manifold-Learning.md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/How HDBSCAN Works.md" />
-    <entry file="file://$PROJECT_DIR$/py_datasci/md/03.03-Operations-in-Pandas.md" />
     <entry file="file://$PROJECT_DIR$/py_datasci/md/tsne.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -687,13 +718,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/others_about_nlp/07_sentiment_with_doc2vec.py" />
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/get_tweets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/gather_tweets_pipeline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2106">
@@ -748,13 +772,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/get_tweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/json_to_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree_sklearn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="864">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/lab2_word_frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/load_tweets.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
