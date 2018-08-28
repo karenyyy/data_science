@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.28)  26 AUG 2018 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.11.28)  27 AUG 2018 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,17 +762,17 @@ File: output_4_0.png Graphic file (type png)
  <use output_4_0.png>
 Package pdftex.def Info: output_4_0.png used on input line 321.
 (pdftex.def)             Requested size: 487.8213pt x 470.7576pt.
- [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
-[2 <./output_4_0.png>] <output_8_0.png, id=29, 487.8225pt x 470.75874pt>
-File: output_8_0.png Graphic file (type png)
+[1
 
-<use output_8_0.png>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./output_4_0.png>]
+<output_8_0.png, id=19, 487.8225pt x 470.75874pt>
+File: output_8_0.png Graphic file (type png)
+ <use output_8_0.png>
 Package pdftex.def Info: output_8_0.png used on input line 382.
 (pdftex.def)             Requested size: 487.8213pt x 470.7576pt.
 
@@ -780,60 +780,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
-[3 <./output_8_0.png>] [4]
-<../../images/convex.png, id=47, 451.6875pt x 234.8775pt>
+[2 <./output_8_0.png>] [3]
+<../../images/convex.png, id=43, 451.6875pt x 234.8775pt>
 File: ../../images/convex.png Graphic file (type png)
 
 <use ../../images/convex.png>
 Package pdftex.def Info: ../../images/convex.png used on input line 504.
 (pdftex.def)             Requested size: 361.35048pt x 187.913pt.
- [5]
+ [4]
 LaTeX Font Info:    Try loading font information for TS1+ppl on input line 521.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [6 <../../images/convex.png>] <output_24_0.png, id=73, 484.81125pt x 457.71pt
+) [5 <../../images/convex.png>] <output_24_0.png, id=69, 484.81125pt x 457.71pt
 >
 File: output_24_0.png Graphic file (type png)
 
 <use output_24_0.png>
-Package pdftex.def Info: output_24_0.png used on input line 598.
+Package pdftex.def Info: output_24_0.png used on input line 600.
 (pdftex.def)             Requested size: 484.81006pt x 457.7089pt.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 600--601
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--603
 
  []
 
-<output_24_1.png, id=79, 484.81125pt x 457.71pt>
+[6 <./output_24_0.png>] <output_24_1.png, id=75, 484.81125pt x 457.71pt>
 File: output_24_1.png Graphic file (type png)
- <use output_24_1.png>
-Package pdftex.def Info: output_24_1.png used on input line 603.
+
+<use output_24_1.png>
+Package pdftex.def Info: output_24_1.png used on input line 605.
 (pdftex.def)             Requested size: 484.81006pt x 457.7089pt.
- [8 <./output_24_0.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 
  []
 
-[9 <./output_24_1.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 672.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 672.
+[7 <./output_24_1.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
  (./hw1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 672.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 672.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 674.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 674.
 Package rerunfilecheck Info: File `hw1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 672.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 674.
  ) 
 Here is how much of TeX's memory you used:
- 11548 strings out of 493029
- 170178 string characters out of 6136233
- 271839 words of memory out of 5000000
+ 11546 strings out of 493029
+ 170165 string characters out of 6136233
+ 271838 words of memory out of 5000000
  14810 multiletter control sequences out of 15000+600000
  39615 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,14n,77p,580b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,14n,77p,580b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-s
 uper/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
@@ -847,10 +848,10 @@ lic/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
 no/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on hw1.pdf (10 pages, 262711 bytes).
+Output written on hw1.pdf (8 pages, 256169 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
