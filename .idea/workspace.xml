@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-85.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-85.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-95.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-65.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-85.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-95.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/01d435c0-0852-43b9-98b0-53bcccd7c613.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/01d435c0-0852-43b9-98b0-53bcccd7c613.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py" />
     </list>
@@ -75,12 +44,33 @@
       <file leaf-file-name="Lab2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+            <state relative-caret-position="463">
+              <caret line="125" column="57" lean-forward="true" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mse.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mse_abs.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mse_log.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -269,7 +259,7 @@
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
               <item name="ds310" type="462c0819:PsiDirectoryNode" />
               <item name="Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="out_pred_plots" type="462c0819:PsiDirectoryNode" />
+              <item name="plots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
@@ -482,9 +472,9 @@
       <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36927083" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.056603774" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34708995" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2952381" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2952381" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -538,29 +528,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/826f60b4/01d435c0-0852-43b9-98b0-53bcccd7c613/karenyyy.COLLECTION_SONG">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/get_tweets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/json_to_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree_sklearn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -746,11 +713,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/feature7.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature5.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -843,15 +805,35 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/feature7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+        <state relative-caret-position="463">
+          <caret line="125" column="57" lean-forward="true" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>

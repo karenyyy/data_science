@@ -101,33 +101,33 @@ def test_all_features():
         fig.savefig(fname='plots/{}.png'.format(m))
 
 
-def test_single_feature(plt):
+def test_single_feature():
     n_features = 10
     metric = ['mse', 'mse_log', 'mse_abs']
     for d in range(2, n_features):
         X, y = load_dataset(all_features=False, dim=d)
         X_train, X_test, y_train, y_test = split_dataset(X, y)
         fig = plt.figure(figsize=(8, 8))
-        plt = plot_scatter(X_train, y_train, X_test, y_test)
+        plt_ = plot_scatter(X_train, y_train, X_test, y_test)
 
         lr = regressor()
         lr = fit(regressor_model=lr, X=X_train, y=y_train)
         lr_y_pred = predict(regressor_model=lr, X=X_test)
 
-        kr = regressor(model='knn', neighbors=10)
+        kr = regressor(model='knn', neighbors=20)
         kr = fit(regressor_model=kr, X=X_train, y=y_train)
         kr_y_pred = predict(regressor_model=kr, X=X_test)
 
         for me in metric:
             lr_err = loss(y_real=y_test, y_pred=lr_y_pred, metric=me)
             kr_err = loss(y_real=y_test, y_pred=kr_y_pred, metric=me)
-            plot_line(X=X_test, y_pred=lr_y_pred, plt=plt, model='linear',
+            plot_line(X=X_test, y_pred=lr_y_pred, plt=plt_, model='linear',
                       metric=me, error=lr_err, color='black')
-            plot_line(X=X_test, y_pred=kr_y_pred, plt=plt, model='knn',
+            plot_line(X=X_test, y_pred=kr_y_pred, plt=plt_, model='knn',
                       metric=me, error=kr_err, color='red', linewidth=0.1)
             fig.savefig(fname='out_pred_plots/' + me + '-feature{}.png'.format(d))
 
 
 if __name__ == '__main__':
-    test_all_features()
-    #test_single_feature(plt)
+    #test_all_features()
+    test_single_feature()
