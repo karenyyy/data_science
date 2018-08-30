@@ -82,21 +82,17 @@ def test_all_features():
     X, y = load_dataset()
     X_train, X_test, y_train, y_test = split_dataset(X, y)
 
-    # linear
     lr = regressor()
-    # fit
+
     lr = fit(regressor_model=lr, X=X_train, y=y_train)
-    # predict
+
     lr_y_pred = predict(regressor_model=lr, X=X_test)
-    # loss
 
     lr_mse = loss(y_real=y_test, y_pred=lr_y_pred)
     lr_mse_log = loss(y_real=y_test, y_pred=lr_y_pred, metric='mse_log')
     lr_mse_abs = loss(y_real=y_test, y_pred=lr_y_pred, metric='mse_abs')
     lr_err = [lr_mse, lr_mse_log, lr_mse_abs]
 
-    # knn
-    ## grid search
     metric = ['mse', 'mse_log', 'mse_abs']
     for idx, m in enumerate(metric):
         for n in range(5, 100, 10):
@@ -113,7 +109,7 @@ def test_single_feature(plt):
         X_train, X_test, y_train, y_test = split_dataset(X, y)
         fig = plt.figure(figsize=(8, 8))
         plt = plot_scatter(X_train, y_train, X_test, y_test)
-        # linear
+
         lr = regressor()
         lr = fit(regressor_model=lr, X=X_train, y=y_train)
         lr_y_pred = predict(regressor_model=lr, X=X_test)
@@ -122,7 +118,6 @@ def test_single_feature(plt):
         kr = fit(regressor_model=kr, X=X_train, y=y_train)
         kr_y_pred = predict(regressor_model=kr, X=X_test)
 
-        # linear
         for me in metric:
             lr_err = loss(y_real=y_test, y_pred=lr_y_pred, metric=me)
             kr_err = loss(y_real=y_test, y_pred=kr_y_pred, metric=me)
