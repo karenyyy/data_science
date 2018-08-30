@@ -1,5 +1,4 @@
 import numpy as np
-import math
 from sklearn import datasets, linear_model
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import train_test_split
@@ -30,19 +29,19 @@ def plot_scatter(X_train, y_train, X_test, y_test):
     return plt
 
 
-X, y = load_dataset()
-X_train, X_test, y_train, y_test = split_dataset(X, y)
-
-
 class Regression(object):
-    def __init__(self):
+    def __init__(self, X_train, X_test, y_train, y_test):
+        self.X_train = X_train
+        self.X_test = X_test
+        self.y_train = y_train
+        self.y_test = y_test
         self.regression_model = None
 
     def fit(self):
-        self.regression_model.fit(X_train, y_train)
+        self.regression_model.fit(self.X_train, self.y_train)
 
     def predict(self):
-        return self.regression_model.predict(X_test)
+        return self.regression_model.predict(self.X_test)
 
     def loss(self, y_real, y_pred, metric):
         if metric == 'mse':
@@ -53,13 +52,13 @@ class Regression(object):
             error = mean_absolute_error(y_true=y_real, y_pred=y_pred)
         return error
 
-    def plot_line(self, y_pred, plt, error, metric):
-        return NotImplementedError
+    def plot_line(self, X, y_pred, plt, error, metric):
+        return NotImplemented
 
 
 class LinearRegression(Regression):
-    def __init__(self):
-        super(LinearRegression, self).__init__()
+    def __init__(self, X_train, X_test, y_train, y_test):
+        super(LinearRegression, self).__init__(X_train, X_test, y_train, y_test)
         self.regression_model = linear_model.LinearRegression()
 
     def fit(self):
@@ -68,23 +67,22 @@ class LinearRegression(Regression):
     def predict(self):
         return super(LinearRegression, self).predict()
 
-    def plot_line(self, y_pred, plt, error, metric):
-        plt.plot(X_test,
-                 y_pred=y_pred,
-                 plt=plt,
+    def plot_line(self, X, y_pred, plt, error, metric):
+        plt.plot(X,
+                 y_pred,
                  color='black',
                  linewidth=2,
                  label="Prediction")
         plt.title("linear-" + metric + ": {0:.7g}\n".format(error), fontsize=10)
 
 
-
 class KNNRegression(Regression):
-    def __init__(self, dist='euclidean',
+    def __init__(self, X_train, X_test, y_train, y_test,
+                 dist='euclidean',
                  neighbors=20,
                  weights='uniform',
                  algorithm='auto'):
-        super(KNNRegression, self).__init__()
+        super(KNNRegression, self).__init__(X_train, X_test, y_train, y_test)
         self.dist = dist
         self.neighbors = neighbors
         self.weights = weights
@@ -100,17 +98,16 @@ class KNNRegression(Regression):
     def predict(self):
         return super(KNNRegression, self).predict()
 
-    def plot_line(self, y_pred, plt, error, metric):
-        plt.plot(X_test,
-                 y_pred=y_pred,
-                 plt=plt,
+    def plot_line(self, X, y_pred, plt, error, metric):
+        plt.plot(X,
+                 y_pred,
                  color='red',
                  linewidth=0.1,
                  label="Prediction")
         plt.title("knn-" + metric + ": {0:.7g}\n".format(error), fontsize=10)
 
 
-def grid_search_comparison(lr_err, metric='mse', neighbors=200):
+def grid_search_comparison(lr_err, y_test, metric='mse', neighbors=200):
     kr_errs = []
     for neighbor in range(3, neighbors):
         kr = KNNRegression(neighbors=neighbor)
@@ -128,6 +125,9 @@ def grid_search_comparison(lr_err, metric='mse', neighbors=200):
 
 def test_all_features():
     metric = ['mse', 'mse_log', 'mse_abs']
+    X, y = load_dataset()
+    X_train, X_test, y_train, y_test = split_dataset(X, y)
+
     lr = LinearRegression()
     lr.fit()
     lr_y_pred = lr.predict()
@@ -138,7 +138,7 @@ def test_all_features():
     lr_err = [lr_mse, lr_mse_log, lr_mse_abs]
 
     for idx, m in enumerate(metric):
-        fig = grid_search_comparison(lr_err=lr_err[idx], metric=m)
+        fig = grid_search_comparison(lr_err=lr_err[idx], y_test=y_test, metric=m)
         fig.savefig(fname='plots/{}.png'.format(m))
 
 
@@ -156,19 +156,19 @@ def test_single_feature():
                             y_train=y_train,
                             y_test=y_test)
 
-        lr = LinearRegression()
+        lr = LinearRegression(X_train, X_test, y_train, y_test)
         lr.fit()
         lr_y_pred = lr.predict()
 
-        kr = KNNRegression(neighbors=20)
+        kr = KNNRegression(X_train, X_test, y_train, y_test, neighbors=20)
         kr.fit()
         kr_y_pred = kr.predict()
 
         for me in metric:
             lr_err = lr.loss(y_real=y_test, y_pred=lr_y_pred, metric=me)
             kr_err = kr.loss(y_real=y_test, y_pred=kr_y_pred, metric=me)
-            kr.plot_line(y_pred=kr_y_pred, plt=plt_, error=kr_err, metric=me)
-            lr.plot_line(y_pred=lr_y_pred, plt=plt_, error=lr_err, metric=me)
+            lr.plot_line(X=X_test, y_pred=lr_y_pred, plt=plt_, metric=me, error=lr_err)
+            kr.plot_line(X=X_test, y_pred=kr_y_pred, plt=plt_, metric=me, error=kr_err)
             fig.savefig(fname='out_pred_plots/' + me + '-feature{}.png'.format(d))
 
 

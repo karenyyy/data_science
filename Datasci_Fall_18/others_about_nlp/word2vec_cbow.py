@@ -23,6 +23,7 @@ from nltk.corpus import stopwords
 from tensorflow.python.framework import ops
 ops.reset_default_graph()
 
+
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 # Make a saving directory if it doesn't exist
@@ -57,7 +58,7 @@ valid_words = ['love', 'hate', 'happy', 'sad', 'man', 'woman']
 
 # Load the movie review data
 print('Loading Data')
-texts, target = text_helpers.load_movie_data(data_folder_name)
+texts, target = text_helpers.load_movie_data()
 
 # Normalize text
 print('Normalizing Text Data')
