@@ -1,13 +1,8 @@
 # Implementing TF-IDF
-#---------------------------------------
 #
 # Here we implement TF-IDF,
 #  (Text Frequency - Inverse Document Frequency)
 #  for the spam-ham text data.
-#
-# We will use a hybrid approach of encoding the texts
-#  with sci-kit learn's TFIDF vectorizer.  Then we will
-#  use the regular Tensorflow logistic algorithm outline.
 
 import tensorflow as tf
 import matplotlib.pyplot as plt
