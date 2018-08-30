@@ -2,6 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-95.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-95.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-95.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/01d435c0-0852-43b9-98b0-53bcccd7c613.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/01d435c0-0852-43b9-98b0-53bcccd7c613.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +61,12 @@
         <item name="karenyyy@localhost [2]" type="e3449647:DbNodeDescriptor" />
         <item name="karenyyy" type="e3449647:DbNodeDescriptor" />
       </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="karenyyy@localhost [2]" type="e3449647:DbNodeDescriptor" />
+        <item name="karenyyy" type="e3449647:DbNodeDescriptor" />
+        <item name="airline data" type="e3449647:DbNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
@@ -37,11 +75,30 @@
       <file leaf-file-name="Lab2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+            <state relative-caret-position="314">
+              <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="airline data" pinned="false" current-in-tab="false">
+        <entry file="das://table:/826f60b4/01d435c0-0852-43b9-98b0-53bcccd7c613/karenyyy.airline data">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/01d435c0-0852-43b9-98b0-53bcccd7c613/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,7 +123,6 @@
       <find>word</find>
       <find>word2</find>
       <find># .*</find>
-      <find>#.*</find>
       <find>MyL</find>
       <find>auth</find>
       <find>check_m</find>
@@ -76,6 +132,8 @@
       <find>key</find>
       <find>new</find>
       <find>trials</find>
+      <find>#.*</find>
+      <find>integ</find>
     </findStrings>
     <replaceStrings>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/output_</replace>
@@ -107,9 +165,9 @@
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/text_2018-08-28_15-49-56.csv" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/raw_2018-08-28_15-56-07.json" />
         <option value="src:table:/826f60b4/01d435c0-0852-43b9-98b0-53bcccd7c613/karenyyy.ALBUM" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/01d435c0-0852-43b9-98b0-53bcccd7c613/console.sql" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/gather_tweets_pipeline.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.ipynb" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/01d435c0-0852-43b9-98b0-53bcccd7c613/console.sql" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py" />
       </list>
     </option>
@@ -124,8 +182,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="535" />
-    <option name="y" value="125" />
+    <option name="x" value="853" />
+    <option name="y" value="150" />
     <option name="width" value="1067" />
     <option name="height" value="955" />
   </component>
@@ -218,14 +276,6 @@
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
               <item name="ds310" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab" type="462c0819:PsiDirectoryNode" />
-              <item name="plots" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds310" type="462c0819:PsiDirectoryNode" />
               <item name="lec_files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,7 +293,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/usr/local/lib/python3.5/dist-packages/tweepy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Datasci_Fall_18/ds220/airq402dat.csv" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
@@ -424,18 +474,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JWT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36927083" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36927083" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2920635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.056603774" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2952381" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1984375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -486,28 +538,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/64f8dd1c-45ad-4e37-ab16-e1e8e70310b7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/826f60b4/01d435c0-0852-43b9-98b0-53bcccd7c613/karenyyy.ARTIST">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/826f60b4/01d435c0-0852-43b9-98b0-53bcccd7c613/karenyyy.COLLECTION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/826f60b4/01d435c0-0852-43b9-98b0-53bcccd7c613/karenyyy.COLLECTION_SONG">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -623,24 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/01d435c0-0852-43b9-98b0-53bcccd7c613/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/gather_tweets_pipeline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-          <folding>
-            <element signature="e#90#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.5/dist-packages/sklearn/neighbors/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -699,22 +711,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-95.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-65.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-75.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-95.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -732,13 +734,6 @@
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/feature4.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/feature8.png">
@@ -801,10 +796,62 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/gather_tweets_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <folding>
+            <element signature="e#90#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/01d435c0-0852-43b9-98b0-53bcccd7c613/karenyyy.airline data">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/01d435c0-0852-43b9-98b0-53bcccd7c613/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs-95.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse-95.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log-95.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+        <state relative-caret-position="314">
+          <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>

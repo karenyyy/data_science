@@ -64,7 +64,7 @@ def plot_line(X, y_pred, plt, error, linewidth=2, model='linear', metric='mse', 
 def grid_search_comparison(X_train, X_test, y_train, y_test,
                            lr_err, metric='mse', neighbors=200):
     kr_errs = []
-    for neighbor in range(1, neighbors):
+    for neighbor in range(3, neighbors):
         kr = regressor(model='knn', neighbors=neighbor)
         kr = fit(regressor_model=kr, X=X_train, y=y_train)
         kr_y_pred = predict(regressor_model=kr, X=X_test)
@@ -72,7 +72,7 @@ def grid_search_comparison(X_train, X_test, y_train, y_test,
         kr_errs.append(kr_err)
 
     fig = plt.figure(figsize=(8, 8))
-    plt.plot(range(1, neighbors), kr_errs)
+    plt.plot(range(3, neighbors), kr_errs)
     plt.hlines(lr_err, xmin=1, xmax=neighbors, colors='red')
     plt.title('Loss: {} Neighbors: {}'.format(metric, neighbors))
     return fig
@@ -95,10 +95,10 @@ def test_all_features():
 
     metric = ['mse', 'mse_log', 'mse_abs']
     for idx, m in enumerate(metric):
-        for n in range(5, 100, 10):
-            fig = grid_search_comparison(X_train=X_train, X_test=X_test, y_train=y_train, y_test=y_test,
-                                         lr_err=lr_err[idx], neighbors=n, metric=m)
-            fig.savefig(fname='plots/{}-{}.png'.format(m, n))
+
+        fig = grid_search_comparison(X_train=X_train, X_test=X_test, y_train=y_train, y_test=y_test,
+                                         lr_err=lr_err[idx], metric=m)
+        fig.savefig(fname='plots/{}.png'.format(m))
 
 
 def test_single_feature(plt):
@@ -130,4 +130,4 @@ def test_single_feature(plt):
 
 if __name__ == '__main__':
     test_all_features()
-    test_single_feature(plt)
+    #test_single_feature(plt)
