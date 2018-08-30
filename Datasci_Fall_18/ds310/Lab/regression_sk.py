@@ -53,9 +53,8 @@ class Regression(object):
             error = mean_absolute_error(y_true=y_real, y_pred=y_pred)
         return error
 
-    def plot_line(self, y_pred, plt, error, metric, linewidth, model, color):
-        plt.plot(X_test, y_pred, color=color, linewidth=linewidth, label="Prediction")
-        plt.title(model + "-" + metric + ": {0:.7g}\n".format(error), fontsize=10)
+    def plot_line(self, y_pred, plt, error, metric):
+        return NotImplementedError
 
 
 class LinearRegression(Regression):
@@ -69,8 +68,15 @@ class LinearRegression(Regression):
     def predict(self):
         return super(LinearRegression, self).predict()
 
-    def plot_line(self, y_pred, plt, error, metric, linewidth=2, model='linear', color='black'):
-        super(LinearRegression, self).plot_line(y_pred, plt, error, metric, linewidth, model, color)
+    def plot_line(self, y_pred, plt, error, metric):
+        plt.plot(X_test,
+                 y_pred=y_pred,
+                 plt=plt,
+                 color='black',
+                 linewidth=2,
+                 label="Prediction")
+        plt.title("linear-" + metric + ": {0:.7g}\n".format(error), fontsize=10)
+
 
 
 class KNNRegression(Regression):
@@ -94,8 +100,14 @@ class KNNRegression(Regression):
     def predict(self):
         return super(KNNRegression, self).predict()
 
-    def plot_line(self, y_pred, plt, error, metric, linewidth=0.1, model='knn', color='red'):
-        super(KNNRegression, self).plot_line(y_pred, plt, error, metric, linewidth, model, color)
+    def plot_line(self, y_pred, plt, error, metric):
+        plt.plot(X_test,
+                 y_pred=y_pred,
+                 plt=plt,
+                 color='red',
+                 linewidth=0.1,
+                 label="Prediction")
+        plt.title("knn-" + metric + ": {0:.7g}\n".format(error), fontsize=10)
 
 
 def grid_search_comparison(lr_err, metric='mse', neighbors=200):

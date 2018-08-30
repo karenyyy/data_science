@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/regression_sk.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature2.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature3.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature4.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature5.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature6.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature7.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature8.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature9.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature2.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature3.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature4.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature5.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature6.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature7.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature8.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature9.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_abs-feature9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature2.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature3.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature4.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature5.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature6.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature7.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature8.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature9.png" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse_log-feature9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/01d435c0-0852-43b9-98b0-53bcccd7c613.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/01d435c0-0852-43b9-98b0-53bcccd7c613.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/Lab2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py_datasci/md/pyspark-basics-1.md" afterPath="$PROJECT_DIR$/py_datasci/md/pyspark-basics-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/regression_sk.py" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/regression_sk.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,8 +56,8 @@
       <file leaf-file-name="regression_sk.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/regression_sk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="148" column="32" lean-forward="true" selection-start-line="148" selection-start-column="32" selection-end-line="148" selection-end-column="32" />
+            <state relative-caret-position="-806">
+              <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -510,7 +483,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JWT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43489584" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43489584" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2010582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -869,8 +842,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/regression_sk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="148" column="32" lean-forward="true" selection-start-line="148" selection-start-column="32" selection-end-line="148" selection-end-column="32" />
+        <state relative-caret-position="-806">
+          <caret line="102" column="50" lean-forward="false" selection-start-line="102" selection-start-column="50" selection-end-line="102" selection-end-column="50" />
           <folding />
         </state>
       </provider>
