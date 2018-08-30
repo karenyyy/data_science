@@ -101,16 +101,17 @@ class MyListener(StreamListener):
 
 # Get the str representation of the current date and time
 def current_datetime_str():
-    return '{datetime.datetime.now():%Y-%m-%d_%H-%M-%S}'
+    # return f'{datetime.datetime.now():%Y-%m-%d_%H-%M-%S}'
+    return datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
 
 # Main
 def main():
     # Key and token info needed
-    consumer_key = ''
-    consumer_secret = ''
-    access_token = ''
-    access_secret = ''
+    consumer_key = 'T9519DblC28THZMuLTu1isFt6'
+    consumer_secret = 'qhikhDgfOtYZbT9tOcNriki5MBqNS4OuqjsP4rAHyPpbw2Nk5R'
+    access_token = '1210390927-55IrDjPoL1YOIyjLv4atS4goCvq1m3hSZICjNxW'
+    access_secret = 'Mb7t7y7xMbg5M8pRwhMfCaN74Jbg68mVPCD2QMKuAddSl'
 
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)
