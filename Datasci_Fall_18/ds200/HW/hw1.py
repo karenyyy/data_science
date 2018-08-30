@@ -129,4 +129,4 @@ class ChapterParser:
 if __name__ == '__main__':
     cp = ChapterParser(url=little_women_url,
                        save_dir=save_dir)
-    cp.main(remove_stopwords=True)
+    cp.main()
