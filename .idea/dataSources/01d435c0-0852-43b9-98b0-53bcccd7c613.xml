@@ -342,10 +342,10 @@ ArtistPicture</ColNames>
     </index>
     <key id="93" parent="23" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>id
-UserID
-UserID
-id</ColNames>
+      <ColNames>UserID
+id
+id
+UserID</ColNames>
       <Primary>1</Primary>
     </key>
     <key id="94" parent="23" name="UserName">
@@ -372,12 +372,12 @@ id</ColNames>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="99" parent="24" name="Average weekly passengers">
+    <column id="99" parent="24" name="Average weekly passengers (AvgWklyPsgr)">
       <Position>5</Position>
       <DataType>double|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="100" parent="24" name="market leading airline">
+    <column id="100" parent="24" name="market leading airline (LdShare)">
       <Position>6</Position>
       <DataType>char(2)|0</DataType>
       <NotNull>1</NotNull>
@@ -392,7 +392,7 @@ id</ColNames>
       <DataType>double|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="103" parent="24" name="Low price airline">
+    <column id="103" parent="24" name="Low price airline (LowAirline)">
       <Position>9</Position>
       <DataType>char(2)|0</DataType>
       <NotNull>1</NotNull>
@@ -402,7 +402,7 @@ id</ColNames>
       <DataType>double|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="105" parent="24" name="price">
+    <column id="105" parent="24" name="price (LowFare)">
       <Position>11</Position>
       <DataType>double|0</DataType>
       <NotNull>1</NotNull>

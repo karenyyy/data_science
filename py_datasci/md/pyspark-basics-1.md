@@ -535,7 +535,7 @@ df_new.show()
 
 
 ```python
-df_diamonds.describe(['carat', 'depth', 'table', 'price']).show()
+df_diamonds.describe(['carat', 'depth', 'table', price]).show()
 ```
 
     +-------+------------------+------------------+------------------+-----------------+
