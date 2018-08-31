@@ -16,12 +16,18 @@ class ChapterParser:
     def __init__(self, url, save_dir):
         self.url = url
         self.save_dir = save_dir
-        self.punctuation = ['.', ';', '!', '?', '\"']
+        self.punctuation = ['.', ',', ';', '!', '?', '\"']
         self.stop_words = set(stopwords.words('english'))
         self.word_freq = {}
 
     def read_url(self):
         return re.sub('\\s+', ' ', urlopen(self.url).read().decode())
+
+    def tokenize(self, words):
+        for p in self.punctuation:
+            words = words.replace(p, ' ')
+        words = words.strip().split()
+        return words
 
     def chapter_word_count(self, words):
         return len(words)
@@ -45,11 +51,6 @@ class ChapterParser:
     def filter_stopwords(self, words):
         return [w for w in words if not w in self.stop_words]
 
-    def tokenize(self, words):
-        for p in self.punctuation:
-            words = words.replace(p, ' ')
-        words = words.strip().split()
-        return words
 
     def cal_freq(self, words):
         for word in words:
