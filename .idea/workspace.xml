@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec_files/lda_iris_test.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TF_nlp/Natural Language Processing with NLTK.pdf" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TF_nlp/Lecture 1.ipynb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/md/Lecture 2.md" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/md/Lecture 2.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regression_sk.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="regression_sk.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/regression_sk.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -76,6 +73,26 @@
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lecture 2.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/md/Lecture 2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="195">
+                <caret line="560" column="32" lean-forward="true" selection-start-line="560" selection-start-column="32" selection-end-line="560" selection-end-column="32" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mse.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -159,6 +176,7 @@
       <find>xtick</find>
       <find>bar</find>
       <find>05</find>
+      <find>Lab</find>
     </findStrings>
     <replaceStrings>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/output_</replace>
@@ -166,6 +184,7 @@
       <replace>error</replace>
       <replace>plt</replace>
       <replace>word_freq</replace>
+      <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -208,6 +227,7 @@
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/HW/hw1.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/tensorflow_cookbook/07_Natural_Language_Processing/06_Using_Word2Vec_Embeddings/06_using_word2vec.py" />
         <option value="$PROJECT_DIR$/others_about_nlp/tensorflow_cookbook/07_Natural_Language_Processing/06_Using_Word2Vec_Embeddings/06_using_word2vec.py" />
+        <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/md/Lecture 2.md" />
       </list>
     </option>
   </component>
@@ -263,7 +283,29 @@
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
               <item name="ds310" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds310" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="plots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds310" type="462c0819:PsiDirectoryNode" />
               <item name="lec_files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds310" type="462c0819:PsiDirectoryNode" />
+              <item name="md" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
@@ -499,14 +541,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JWT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16825397" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16825397" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -566,11 +609,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/original_words/chapter1_word_frequency.png" />
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/original_words/chapter0_word_frequency.png" />
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/original_words/chapter2_word_frequency.png" />
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/original_words/chapter4-wordcloud.png" />
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/original_words/chapter5-wordcloud.png" />
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/original_words/chapter5_word_frequency.png" />
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/original_words/chapter20_word_frequency.png" />
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/original_words/chapter25_word_frequency.png" />
@@ -800,6 +838,37 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_abs.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse_log.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/plots/mse.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/out_pred_plots/mse-feature2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/md/Lecture 2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="560" column="32" lean-forward="true" selection-start-line="560" selection-start-column="32" selection-end-line="560" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

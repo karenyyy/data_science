@@ -9,39 +9,39 @@ minimum	/	maximum	when
 the	function	has	a	single	
 minimum	/	maximum	
 
-![](../images/lec2/3.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/3.png)
 
 
 Deduce the GD algorithm:
 
-![](../images/lec2/4.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/4.png)
 
 
-![](../images/lec2/5.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/5.png)
 
 
 $$E = \frac{1}{2} \sum_p e_p^2$$
 
 
-![](../images/lec2/6.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/6.png)
 
 
-![](../images/lec2/7.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/7.png)
 
 
-![](../images/lec2/8.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/8.png)
 
 
 
 ### Momentum
 
-![](../images/lec2/9.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/9.png)
 
 
 
 #### from cs229 notes:
 
-![](../images/lec2/10.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/10.png)
 
 Notice how there are now two stages instead of a single stage. The relative importance is controlled by $\beta$.
 
@@ -104,10 +104,10 @@ $\tau$ controls how quickly the weight of a training example falls off with dist
 of its $x^{(i)}$ from the query point $x$;
 
 
-![](../images/lec2/12.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/12.png)
 
 
-![](../images/lec2/11.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/11.png)
 
 ## Additional Notes
 
@@ -117,7 +117,7 @@ of its $x^{(i)}$ from the query point $x$;
 
 __The idea is to find the line that best separates the 2 classes__
 
-![](../images/lec2/1.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/1.png)
 
 We have 2 classes that 
 
@@ -210,7 +210,7 @@ for a classification problem with Gaussian classes of equal cov $\Sigma_i = \Sig
 $$w = \Sigma^{-1} (\mu_i - \mu_j)$$
 
 
-![](../images/lec2/2.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec2/2.png)
 
 ----
 
@@ -294,7 +294,7 @@ if __name__ == "__main__":
     main()
 ```
 
-![](lda_iris_test.png)
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/lec_files/lda_iris_test.png)
 
 ## Lab
 
@@ -573,3 +573,8 @@ if __name__ == '__main__':
     test_all_features()
 
 ```
+
+#### MSE as loss (KNNRegressor \& LinearRegressor)
+
+
+![](https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/Lab/plots/mse.png)
