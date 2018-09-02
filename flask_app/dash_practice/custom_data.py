@@ -9,6 +9,7 @@ import plotly.figure_factory as ff
 
 desc_file = 'airq402descrip.txt'
 input_file = 'airq402dat.csv'
+out_file = 'new.csv'
 
 class CustomAirlineVis(object):
     def __init__(self):
@@ -20,9 +21,11 @@ class CustomAirlineVis(object):
 
         self.data = pd.read_csv(filepath_or_buffer=self.input_file,
                                 sep=',',
+                                index_col=False,
                                 header=None,
                                 names=self.col_names)
 
+        self.data.to_csv(out_file, sep=',', encoding='utf-8', index=False)
         self.app = dash.Dash()
         self.dash_vis()
 
