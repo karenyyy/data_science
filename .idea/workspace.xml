@@ -2,105 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/01d435c0-0852-43b9-98b0-53bcccd7c613.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1267d619-c63a-450f-bf8a-5866c7de7e2a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a9ab625-fdfc-4bb6-9a8d-fb1fd971883c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2bf061df-1e77-4747-9315-397c9c6ae936.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5f097653-21cc-4b92-b8ad-dfab2ed6e3cb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c8a467a0-e298-46a8-bedf-c43851ddfe2a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_science.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_science.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/HW/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/HW/hw1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/airq402descrip.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/airq402descrip.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/ds310-hw1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/homework/hw1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/.ipynb_checkpoints/features-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/.ipynb_checkpoints/softmax-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/k_nearest_neighbor.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/k_nearest_neighbor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/linear_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/linear_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/linear_svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/linear_svm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/neural_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/neural_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/softmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/classifiers/softmax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/data_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/gradient_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/gradient_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/vis_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/cs231n/vis_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/features.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/features.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/knn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/knn.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/knn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/softmax.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/softmax.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/svm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/svm.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment1/two_layer_net.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment1/two_layer_net.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/.ipynb_checkpoints/BatchNormalization-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/BatchNormalization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/BatchNormalization.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/ConvolutionalNetworks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/ConvolutionalNetworks.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/Dropout.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/Dropout.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/FullyConnectedNets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/FullyConnectedNets.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/PyTorch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/PyTorch.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/TensorFlow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/TensorFlow.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/classifiers/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/classifiers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/classifiers/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/classifiers/cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/classifiers/fc_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/classifiers/fc_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/data_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/fast_layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/fast_layers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/gradient_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/gradient_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/im2col.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/im2col.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/im2col_cython.c" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/im2col_cython.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/im2col_cython.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/layer_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/layer_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/layers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/optim.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/optim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment2/cs231n/solver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/GANs-PyTorch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/GANs-PyTorch.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/GANs-TensorFlow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/GANs-TensorFlow.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/LSTM_Captioning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/LSTM_Captioning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/NetworkVisualization-PyTorch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/NetworkVisualization-PyTorch.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/NetworkVisualization-TensorFlow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/NetworkVisualization-TensorFlow.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/RNN_Captioning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/RNN_Captioning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/StyleTransfer-PyTorch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/StyleTransfer-PyTorch.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/StyleTransfer-TensorFlow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/StyleTransfer-TensorFlow.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/captioning_solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/captioning_solver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/classifiers/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/classifiers/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/classifiers/rnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/rnn_layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/rnn_layers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/Bbox.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/ImageDownloader.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/Misc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/PyTorch.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/Synsets.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/TrainNets.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/data_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/fast_layers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/gradient_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/im2col.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/im2col_cython.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/im2col_cython.pyx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/layer_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/layers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/optim.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/solver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/cs231n/vis_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_cv/cs231/project/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/3. Collecting Text Data/Textract.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/3. Collecting Text Data/Textract.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/.ipynb_checkpoints/proposal-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/.ipynb_checkpoints/proposal-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/proposal.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/proposal.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs497/hw/.ipynb_checkpoints/hw1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs497/hw/.ipynb_checkpoints/hw1-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs497/hw/hw1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs497/hw/hw1.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,12 +58,13 @@
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.54" value="2" />
           <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -354,6 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -386,29 +293,12 @@
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="TF_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="cs231" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="TF_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="cs231" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="TF_cv" type="462c0819:PsiDirectoryNode" />
-              <item name="cs231" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment3" type="462c0819:PsiDirectoryNode" />
-              <item name="cs231n" type="462c0819:PsiDirectoryNode" />
+              <item name="TF_nlp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -647,9 +537,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
+    <frame x="46" y="-11" width="1321" height="780" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21534847" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21848081" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -884,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://e3c0412f-ac8b-4829-a416-e875ef4036f8/schema/DS220/table/airline data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TF_cv/cs231/assignment3/cs231n/classifiers/squeezenet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -902,9 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,9 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,9 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,6 +820,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e3c0412f-ac8b-4829-a416-e875ef4036f8/schema/DS220/table/airline data">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
