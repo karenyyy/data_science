@@ -18,3 +18,19 @@ Average fare (LdAvgFare)    48-54
 Low price airline (LowAirline)   57-58
 market share (LowShare)    61-66
 price (LowFare)    69-75
+
+
+CREATE TABLE `airline data`
+(
+    City1 char,
+    City2 char,
+    `Average Fare (AvgFare)` double,
+    Distance double,
+    `Average weekly passengers (AvgWklyPsgr)` double,
+    `market leading airline (LdAirline)` char,
+    `market share (LdShare)` double,
+    `Average fare (LdAvgFare) ` double,
+    `Low price airline (LowAirline)` char,
+    `market share (LowShare)` double,
+    `price (LowFare)` double
+);

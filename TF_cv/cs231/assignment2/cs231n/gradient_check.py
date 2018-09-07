@@ -1,6 +1,11 @@
 from __future__ import print_function
 from builtins import range
-from past.builtins import xrange
+# from past.builtins import xrange
+import sys
+
+if sys.version_info >= (3, 0):
+    def xrange(*args, **kwargs):
+        return iter(range(*args, **kwargs))
 
 import numpy as np
 from random import randrange

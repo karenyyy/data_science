@@ -1,6 +1,11 @@
 import numpy as np
 from random import shuffle
-from past.builtins import xrange
+# from past.builtins import xrange
+import sys
+
+if sys.version_info >= (3, 0):
+    def xrange(*args, **kwargs):
+        return iter(range(*args, **kwargs))
 
 def softmax_loss_naive(W, X, y, reg):
   """
@@ -30,38 +35,35 @@ def softmax_loss_naive(W, X, y, reg):
   # here, it is easy to run into numeric instability. Don't forget the        #
   # regularization!                                                           #
   #############################################################################
-  
-  
-  def _softmax(v):
-    """Given a vector v, returns its softmax"""
-    s = v - np.max(v) # shift
-    s = np.exp(s) # exponentiate
-    return np.divide(s, np.sum(s)) # softmax
-  
+
   num_classes = W.shape[1]
   num_train = X.shape[0]
-  
-  for i in xrange(num_train): # For every point
-        
-    score_i = X[i].dot(W)
-    S = _softmax(score_i) # [C x 1] vector of e^s_j / sum(e^s_j) forall j
-    loss += -np.log(S[y[i]]) # y[i] is the label
-    
-    for j in xrange(num_classes):
-      dW[:, j] += (S[j] - (y[i]==j).astype(int)) * X[i]
-        
+
+  for i in xrange(num_train):
+
+      # loss
+      scores = X[i].dot(W)
+      # shift values for 'scores' for numeric reasons (over-flow cautious)
+      scores -= scores.max()
+      scores_expsum = np.sum(np.exp(scores))
+      cor_ex = np.exp(scores[y[i]])
+      loss += - np.log( cor_ex / scores_expsum)
+
+      # grad
+      # for correct class
+      dW[:, y[i]] += (-1) * (scores_expsum - cor_ex) / scores_expsum * X[i]
+      for j in xrange(num_classes):
+          # pass correct class gradient
+          if j == y[i]:
+              continue
+          # for incorrect classes
+          dW[:, j] += np.exp(scores[j]) / scores_expsum * X[i]
 
   loss /= num_train
-  dW /= num_train
-  
-  # Add regularization to the loss.
   loss += reg * np.sum(W * W)
+  dW /= num_train
   dW += 2 * reg * W
-  
-  # with reference to:
-  #   http://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/
-  #   http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture3.pdf
-    
+
   #############################################################################
   #                          END OF YOUR CODE                                 #
   #############################################################################
@@ -78,6 +80,8 @@ def softmax_loss_vectorized(W, X, y, reg):
   # Initialize the loss and gradient to zero.
   loss = 0.0
   dW = np.zeros_like(W)
+  num_classes = W.shape[1]
+  num_train = X.shape[0]
 
   #############################################################################
   # TODO: Compute the softmax loss and its gradient using no explicit loops.  #
@@ -85,43 +89,26 @@ def softmax_loss_vectorized(W, X, y, reg):
   # here, it is easy to run into numeric instability. Don't forget the        #
   # regularization!                                                           #
   #############################################################################
-    
-  num_classes = W.shape[1]
-  num_train = X.shape[0]
 
+  # loss
+  # score: N by C matrix containing class scores
   scores = X.dot(W)
-  
-  # Compute softmax matrix
-  S = (scores.T - np.max(scores, axis=1).T).T # Transpose for broadcast
-  S = np.exp(S)
-  S = (S.T / np.sum(S, axis=1).T).T # Transpose for broadcast
+  scores -= scores.max()
+  scores = np.exp(scores)
+  scores_sums = np.sum(scores, axis=1)
+  cors = scores[range(num_train), y]
+  loss = cors / scores_sums
+  loss = -np.sum(np.log(loss))/num_train + reg * np.sum(W * W)
 
-  # For the loss, we take the entries in the softmax matrix corresponding 
-  #   to the correct labels and sum their -logs
-  softmax_losses = -np.log(S[np.arange(num_train), y])
-  loss = np.sum(softmax_losses)
-  
-  # For dW, we need to first construct a matrix M that comprises of vectorized
-  #   operations between S and the Kronecker delta
-  kd_matrix = np.zeros(S.shape)
-  kd_matrix[np.arange(num_train), y] = 1
-  M = S - kd_matrix
-  
-  dW = X.T.dot(M)
-
-  loss /= num_train
+  # grad
+  s = np.divide(scores, scores_sums.reshape(num_train, 1))
+  s[range(num_train), y] = - (scores_sums - cors) / scores_sums
+  dW = X.T.dot(s)
   dW /= num_train
-  
-  # Add regularization to the loss.
-  loss += reg * np.sum(W * W)
   dW += 2 * reg * W
-    
-  # with reference to:
-  #   http://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/
-    
+
   #############################################################################
   #                          END OF YOUR CODE                                 #
   #############################################################################
 
   return loss, dW
-

@@ -137,52 +137,31 @@ class CaptioningRNN(object):
         # defined above to store loss and gradients; grads[k] should give the      #
         # gradients for self.params[k].                                            #
         ############################################################################
-        
-        # Forward pass following the instructions given and API of each component function
-        
-        h0, h0_cache = affine_forward(features, W_proj, b_proj)
-        embed_h, embed_h_cache = word_embedding_forward(captions_in, W_embed)
-        
-        if self.cell_type == "rnn": 
-            rnn_h, rnn_h_cache = rnn_forward(embed_h, h0, Wx, Wh, b)
-        elif self.cell_type == "lstm":
-            rnn_h, rnn_h_cache = lstm_forward(embed_h, h0, Wx, Wh, b)
-        else:
-            raise Exception("Unrecognized cell type: " + str(self.cell_type))
-            
-        rnn_z, rnn_z_cache = temporal_affine_forward(rnn_h, W_vocab, b_vocab)
-        
-        loss, dout = temporal_softmax_loss(rnn_z, captions_out, mask) # no reg loss
-        
-        # Backward pass: reverse the order of steps
-        
-        drnn_z, dW_vocab, db_vocab = temporal_affine_backward(dout, rnn_z_cache)
-        
-        if self.cell_type == "rnn":
-            dembed_h, dh0, dWx, dWh, db = rnn_backward(drnn_z, rnn_h_cache)
-        elif self.cell_type == "lstm":
-            dembed_h, dh0, dWx, dWh, db = lstm_backward(drnn_z, rnn_h_cache)
-        else:
-            raise Exception("Unrecognized cell type: " + str(self.cell_type))
-            
-        dW_embed = word_embedding_backward(dembed_h, embed_h_cache)
-        _, dW_proj, db_proj = affine_backward(dh0, h0_cache)
-        
-        
-        grads['W_vocab'] = dW_vocab
-        grads['b_vocab'] = db_vocab
 
-        # grads['h0'] = dh0
-        grads['Wx'] = dWx
-        grads['Wh'] = dWh
-        grads['b'] = db
-        
-        grads['W_embed'] = dW_embed
-        
-        grads['W_proj'] = dW_proj
-        grads['b_proj'] = db_proj
-        
-        
+        # Forward Pass
+        # (1)
+        h0, cache_affine = affine_forward(features, W_proj, b_proj)
+        # (2)
+        embedded_captions_in, cache_embed_in = word_embedding_forward(captions_in, W_embed)
+        # (3)
+        forward_net = {'lstm': lstm_forward, 'rnn': rnn_forward}[self.cell_type]
+        h, cache_rnn = forward_net(embedded_captions_in, h0, Wx, Wh, b)
+        # (4)
+        y, cache_temporal = temporal_affine_forward(h, W_vocab, b_vocab)
+        # (5)
+        loss, dout = temporal_softmax_loss(y, captions_out, mask)
+
+        # Gradients
+        # (4)
+        dout, grads['W_vocab'], grads['b_vocab'] = temporal_affine_backward(dout, cache_temporal)
+        # (3)
+        backward_net = {'lstm': lstm_backward, 'rnn': rnn_backward}[self.cell_type]
+        dout, dh0, grads['Wx'], grads['Wh'], grads['b'] = backward_net(dout, cache_rnn)
+        # (2)
+        grads['W_embed'] = word_embedding_backward(dout, cache_embed_in)
+        # (1)
+        _, grads['W_proj'], grads['b_proj'] = affine_backward(dh0, cache_affine)
+
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
@@ -244,29 +223,22 @@ class CaptioningRNN(object):
         # functions; you'll need to call rnn_step_forward or lstm_step_forward in #
         # a loop.                                                                 #
         ###########################################################################
-        
-        h0, h0_cache = affine_forward(features, W_proj, b_proj)
-        if self.cell_type == "lstm": c0 = np.zeros(features.shape)
-        
-        # self._start is a scalar. Turn it into an N-dimensional vector
-        word = np.ones((N, 1), dtype=np.int32) * self._start
+
+        h0 = features.dot(W_proj) + b_proj
+        start = (self._start * np.ones(N)).astype(np.int32)
+        x = W_embed[start, :]
+
+        forward_step = {'lstm': lstm_step_forward, 'rnn': rnn_step_forward}[self.cell_type]
+
+        h = h0
+        c = 0
         for t in range(max_length):
-            embed_h, embed_h_cache = word_embedding_forward(word, W_embed)
-            if self.cell_type == "rnn":
-                rnn_h, rnn_h_cache = rnn_step_forward(np.squeeze(embed_h), h0, Wx, Wh, b)
-            elif self.cell_type == "lstm":
-                rnn_h, rnn_c, rnn_h_cache = lstm_step_forward(np.squeeze(embed_h), h0, c0, Wx, Wh, b)
-            else:
-                raise Exception("Unrecognized cell type: " + str(self.cell_type))
-         
-        rnn_z, rnn_z_cache = temporal_affine_forward(rnn_h.reshape(N, 1, -1), W_vocab, b_vocab)
-        
-        h0 = rnn_h
-        if self.cell_type == "lstm": c0 = rnn_c
-        predicted_word = np.argmax(np.squeeze(rnn_z), axis=1)
-        word = predicted_word
-        captions[:, t] = word
-        
+            h, c, _ = forward_step(x, h, c, Wx, Wh, b)
+            y = h.dot(W_vocab) + b_vocab
+            captions[:, t] = np.argmax(y, axis=1)
+            x = W_embed[captions[:, t], :]
+
+
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################

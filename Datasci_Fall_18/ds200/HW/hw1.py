@@ -65,6 +65,8 @@ class ChapterParser:
         words, freq = zip(*self.word_freq)
         indexes = np.arange(len(words))
         bar_width = 0.35
+        bar_width = 0.35
+
         plt.bar(indexes, freq)
         plt.xticks(indexes + bar_width, words, rotation='vertical')
         plt.show()

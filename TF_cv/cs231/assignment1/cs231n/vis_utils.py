@@ -1,4 +1,9 @@
-from past.builtins import xrange
+# from past.builtins import xrange
+import sys
+
+if sys.version_info >= (3, 0):
+    def xrange(*args, **kwargs):
+        return iter(range(*args, **kwargs))
 
 from math import sqrt, ceil
 import numpy as np

@@ -1,12 +1,12 @@
 from __future__ import print_function
 import numpy as np
-try:
-    from cs231n.im2col_cython import col2im_cython, im2col_cython
-    from cs231n.im2col_cython import col2im_6d_cython
-except ImportError:
-    print('run the following from the cs231n directory and try again:')
-    print('python setup.py build_ext --inplace')
-    print('You may also need to restart your iPython kernel')
+# try:
+#     from cs231n.im2col_cython import col2im_cython, im2col_cython
+#     from cs231n.im2col_cython import col2im_6d_cython
+# except ImportError:
+#     print('run the following from the cs231n directory and try again:')
+#     print('python setup.py build_ext --inplace')
+#     print('You may also need to restart your iPython kernel')
 
 from cs231n.im2col import *
 
@@ -29,8 +29,8 @@ def conv_forward_im2col(x, w, b, conv_param):
     out_width = (W + 2 * pad - filter_width) // stride + 1
     out = np.zeros((N, num_filters, out_height, out_width), dtype=x.dtype)
 
-    # x_cols = im2col_indices(x, w.shape[2], w.shape[3], pad, stride)
-    x_cols = im2col_cython(x, w.shape[2], w.shape[3], pad, stride)
+    x_cols = im2col_indices(x, w.shape[2], w.shape[3], pad, stride)
+    # x_cols = im2col_cython(x, w.shape[2], w.shape[3], pad, stride)
     res = w.reshape((w.shape[0], -1)).dot(x_cols) + b.reshape(-1, 1)
 
     out = res.reshape(w.shape[0], out.shape[2], out.shape[3], x.shape[0])
@@ -119,15 +119,15 @@ def conv_backward_im2col(dout, cache):
     dw = dout_reshaped.dot(x_cols.T).reshape(w.shape)
 
     dx_cols = w.reshape(num_filters, -1).T.dot(dout_reshaped)
-    # dx = col2im_indices(dx_cols, x.shape, filter_height, filter_width, pad, stride)
-    dx = col2im_cython(dx_cols, x.shape[0], x.shape[1], x.shape[2], x.shape[3],
-                       filter_height, filter_width, pad, stride)
+    dx = col2im_indices(dx_cols, x.shape, filter_height, filter_width, pad, stride)
+    # dx = col2im_cython(dx_cols, x.shape[0], x.shape[1], x.shape[2], x.shape[3],
+    #                    filter_height, filter_width, pad, stride)
 
     return dx, dw, db
 
 
-conv_forward_fast = conv_forward_strides
-conv_backward_fast = conv_backward_strides
+conv_forward_fast = conv_forward_im2col
+conv_backward_fast = conv_backward_im2col
 
 
 def max_pool_forward_fast(x, pool_param):
