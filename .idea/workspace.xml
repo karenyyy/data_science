@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce1c789b-74ed-4270-a48a-92f5198aabef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/.ipynb_checkpoints/proposal-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/.ipynb_checkpoints/proposal-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/proposal.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/proposal.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs497/hw/.ipynb_checkpoints/hw1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs497/hw/.ipynb_checkpoints/hw1-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs497/hw/hw1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs497/hw/hw1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_app/live_twitter_sentiment/stream_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab3/.ipynb_checkpoints/lab3-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab3/.ipynb_checkpoints/lab3-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab3/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab3/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab3/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab3/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab3/lab3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab3/lab3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/live_twitter_sentiment/errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/live_twitter_sentiment/errors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter.db" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter_stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter_stream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/upload2.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/dash_practice/upload2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +54,17 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="tweet.db" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tweet.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tweet.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -55,6 +73,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.114" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.54" value="2" />
           <entry key="project.open.time.62" value="1" />
@@ -64,57 +83,120 @@
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="airline data" value="3" />
           <entry key="airline name" value="1" />
-          <entry key="csv" value="2" />
+          <entry key="csv" value="9" />
           <entry key="ipynb" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="5" />
-          <entry key="sql" value="2" />
+          <entry key="py" value="9" />
+          <entry key="raw_tweets" value="1" />
+          <entry key="sql" value="3" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="4" />
+          <entry key="Database Element" value="5" />
           <entry key="IPNB" value="2" />
           <entry key="Image" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="5" />
-          <entry key="Scratch" value="2" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="9" />
+          <entry key="Scratch" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="18" />
+          <entry key="Python Console" value="104" />
           <entry key="cell" value="71" />
-          <entry key="py" value="105" />
-          <entry key="sql" value="120" />
+          <entry key="py" value="1043" />
+          <entry key="sql" value="206" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="123" />
+          <entry key="Python" value="1147" />
           <entry key="SQL" value="53" />
-          <entry key="Scratch" value="138" />
+          <entry key="Scratch" value="224" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3c0412f-ac8b-4829-a416-e875ef4036f8/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter_stream.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding>
+                <element signature="e#2#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_app/live_twitter_sentiment/nlp_key_words_result.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-912">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask_app/live_twitter_sentiment/stream_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1536377563509" expanded="true" signature="568:954" ph="..." />
+                <marker date="1536377563509" expanded="true" signature="987:992" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3bf8099c-cf10-44a9-b4d5-ca74752154e7/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/gather_tweets_pipeline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_app/live_twitter_sentiment/dev_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -140,10 +222,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>unique key words being use</find>
-      <find>curre</find>
-      <find>curr</find>
-      <find>key</find>
       <find>new</find>
       <find>trials</find>
       <find>#.*</find>
@@ -170,6 +248,10 @@
       <find>test</find>
       <find>sque</find>
       <find>squ</find>
+      <find>twitter.db</find>
+      <find>sys</find>
+      <find>syssys</find>
+      <find>split_regex</find>
     </findStrings>
     <replaceStrings>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/output_</replace>
@@ -188,8 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/git.sh" />
-        <option value="$PROJECT_DIR$/Datasci_Fall_18/cs497/fraud_detection/autoencoder/links.md" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/cs497/fraud_detection/randomforest/links.md" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/decision_tree.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec1_files/others_about_nlp/07_sentiment_with_doc2vec.py" />
@@ -227,7 +307,6 @@
         <option value="$PROJECT_DIR$/flask_app/dash_practice/new.csv" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/data_2018-08-28_15-56-07.csv" />
         <option value="src:table:/826f60b4/3bf8099c-cf10-44a9-b4d5-ca74752154e7/main.raw_tweets" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3bf8099c-cf10-44a9-b4d5-ca74752154e7/console.sql" />
         <option value="$PROJECT_DIR$/flask_app/dash_practice/satellitedata.py" />
         <option value="$PROJECT_DIR$/flask_app/dash_practice/sentiment.py" />
         <option value="$PROJECT_DIR$/flask_app/dash_practice/Satellite Live Feed.py" />
@@ -239,6 +318,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/01d435c0-0852-43b9-98b0-53bcccd7c613/console.sql" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/HW/hw1.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e3c0412f-ac8b-4829-a416-e875ef4036f8/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3bf8099c-cf10-44a9-b4d5-ca74752154e7/console.sql" />
+        <option value="$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter_stream.py" />
+        <option value="$PROJECT_DIR$/flask_app/live_twitter_sentiment/stream_test.py" />
       </list>
     </option>
   </component>
@@ -248,9 +330,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="814" />
-    <option name="y" value="279" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="575" />
+    <option name="y" value="59" />
     <option name="width" value="981" />
     <option name="height" value="666" />
   </component>
@@ -277,13 +359,18 @@
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="cs431" type="462c0819:PsiDirectoryNode" />
+              <item name="ds200" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds220" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_app" type="462c0819:PsiDirectoryNode" />
+              <item name="live_twitter_sentiment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
@@ -295,6 +382,10 @@
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="TF_nlp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -305,24 +396,24 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../karenyyyBlog" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/flask_app/dash_practice" />
-      <recent name="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec_files" />
-      <recent name="$PROJECT_DIR$/TF_nlp" />
-      <recent name="$PROJECT_DIR$/Datasci_Fall_18" />
-      <recent name="$PROJECT_DIR$/Datasci_Fall_18/tensorflow_cookbook/06_Neural_Networks/06_Using_Multiple_Layers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/flask_app/dash_practice" />
       <recent name="$PROJECT_DIR$/flask_app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Datasci_Fall_18/others_about_nlp" />
       <recent name="$PROJECT_DIR$/Datasci_Fall_18/tensorflow_cookbook/07_Natural_Language_Processing/06_Using_Word2Vec_Embeddings" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flask_app/dash_practice" />
+      <recent name="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec_files" />
+      <recent name="$PROJECT_DIR$/TF_nlp" />
+      <recent name="$PROJECT_DIR$/Datasci_Fall_18" />
+      <recent name="$PROJECT_DIR$/Datasci_Fall_18/tensorflow_cookbook/06_Neural_Networks/06_Using_Multiple_Layers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,7 +428,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hw1">
+  <component name="RunManager" selected="Python.stream_test">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,6 +443,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_science" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_app/live_twitter_sentiment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/live_twitter_sentiment/dev_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,28 +495,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="satellitedata" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_science" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_app/dash_practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/dash_practice/Satellite Live Feed.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -418,6 +509,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/dash_practice/sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stream_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_science" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_app/live_twitter_sentiment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/live_twitter_sentiment/stream_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -448,7 +561,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tweet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="twitter_stream" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -456,34 +569,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_app/dash_practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_app/live_twitter_sentiment" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/dash_practice/tweet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="upload_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_science" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_app/dash_practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/dash_practice/upload_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter_stream.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -494,19 +585,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.hw1" />
-      <item itemvalue="Python.upload_file" />
       <item itemvalue="Python.sentiment" />
-      <item itemvalue="Python.tweet" />
-      <item itemvalue="Python.satellitedata" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.twitter_stream" />
+      <item itemvalue="Python.dev_server" />
+      <item itemvalue="Python.stream_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stream_test" />
+        <item itemvalue="Python.twitter_stream" />
+        <item itemvalue="Python.dev_server" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.sentiment" />
-        <item itemvalue="Python.satellitedata" />
-        <item itemvalue="Python.tweet" />
-        <item itemvalue="Python.upload_file" />
       </list>
     </recent_temporary>
   </component>
@@ -537,9 +628,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="-11" width="1321" height="780" extended-state="7" />
+    <frame x="575" y="59" width="981" height="666" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21848081" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17571884" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -551,8 +643,8 @@
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50416666" side_tool="true" weight="0.40952381" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="9" visible="true" weight="0.27384615" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49583334" weight="0.23386243" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.2720588" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49583334" visible="true" weight="0.2757353" />
       <window_info anchor="bottom" id="Run" order="11" weight="0.26560846" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -561,38 +653,42 @@
       <window_info anchor="right" id="JWT" order="3" />
       <window_info anchor="right" id="JSON Viewer" order="4" weight="0.3296875" />
       <window_info anchor="right" id="JSON Utils" order="5" />
-      <window_info anchor="right" id="Database" order="6" side_tool="true" visible="true" weight="0.16131559" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.73309606" side_tool="true" weight="0.18530351" />
       <window_info anchor="right" id="Data View" order="7" weight="0.23697917" />
       <window_info anchor="right" id="R Graphics" order="8" />
       <window_info anchor="right" id="R Packages" order="9" />
       <window_info anchor="right" id="SciView" order="10" />
-      <window_info anchor="right" id="Python Console" order="11" weight="0.3962412" />
+      <window_info anchor="right" id="Python Console" order="11" sideWeight="0.2669039" visible="true" weight="0.35356763" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17571884" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.2835979" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32893288" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2084656" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49791667" weight="0.32804233" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50416666" side_tool="true" weight="0.40952381" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="9" visible="true" weight="0.2720588" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49583334" weight="0.4834559" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.26560846" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JWT" order="3" />
       <window_info anchor="right" id="JSON Viewer" order="4" weight="0.3296875" />
       <window_info anchor="right" id="JSON Utils" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.20546654" />
-      <window_info anchor="right" id="Data View" order="7" weight="0.32987747" />
-      <window_info anchor="right" id="Run" order="8" visible="true" weight="0.37916666" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.73309606" side_tool="true" visible="true" weight="0.18530351" />
+      <window_info anchor="right" id="Data View" order="7" weight="0.23697917" />
+      <window_info anchor="right" id="R Graphics" order="8" />
+      <window_info anchor="right" id="R Packages" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="Python Console" order="11" sideWeight="0.2669039" weight="0.34398296" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,14 +701,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/text_2018-08-28_15-56-07.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2bf061df-1e77-4747-9315-397c9c6ae936/console.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5f097653-21cc-4b92-b8ad-dfab2ed6e3cb/console.sql" />
-    <entry file="das://table:/826f60b4/01d435c0-0852-43b9-98b0-53bcccd7c613/karenyyy.tweet" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c8a467a0-e298-46a8-bedf-c43851ddfe2a/console.sql" />
-    <entry file="das://table:/826f60b4/c8a467a0-e298-46a8-bedf-c43851ddfe2a/main.raw_tweets" />
     <entry file="das://table:/826f60b4/5f097653-21cc-4b92-b8ad-dfab2ed6e3cb/main.sentiment" />
     <entry file="das://table:/826f60b4/5f097653-21cc-4b92-b8ad-dfab2ed6e3cb/main.raw_tweets" />
     <entry file="file://$PROJECT_DIR$/flask_app/dash_practice/live_update.py">
@@ -642,7 +730,6 @@
     <entry file="file://$PROJECT_DIR$/flask_app/dash_practice/tweets.csv" />
     <entry file="das://table:/826f60b4/3bf8099c-cf10-44a9-b4d5-ca74752154e7/main.sentiment" />
     <entry file="das://src:table:/826f60b4/3bf8099c-cf10-44a9-b4d5-ca74752154e7/main.raw_tweets" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3bf8099c-cf10-44a9-b4d5-ca74752154e7/console.sql" />
     <entry file="das://table:/826f60b4/3bf8099c-cf10-44a9-b4d5-ca74752154e7/main.raw_tweets" />
     <entry file="file://$PROJECT_DIR$/flask_app/dash_practice/sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -827,6 +914,63 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_app/live_twitter_sentiment/dev_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3bf8099c-cf10-44a9-b4d5-ca74752154e7/schema/main/table/raw_tweets">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3bf8099c-cf10-44a9-b4d5-ca74752154e7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/gather_tweets_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_app/live_twitter_sentiment/nlp_key_words_result.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter_stream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="e#2#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_app/live_twitter_sentiment/stream_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1536377563509" expanded="true" signature="568:954" ph="..." />
+            <marker date="1536377563509" expanded="true" signature="987:992" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
