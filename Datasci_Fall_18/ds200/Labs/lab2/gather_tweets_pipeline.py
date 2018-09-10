@@ -108,10 +108,10 @@ def current_datetime_str():
 # Main
 def main():
     # Key and token info needed
-    consumer_key = 'T9519DblC28THZMuLTu1isFt6'
-    consumer_secret = 'qhikhDgfOtYZbT9tOcNriki5MBqNS4OuqjsP4rAHyPpbw2Nk5R'
-    access_token = '1210390927-55IrDjPoL1YOIyjLv4atS4goCvq1m3hSZICjNxW'
-    access_secret = 'Mb7t7y7xMbg5M8pRwhMfCaN74Jbg68mVPCD2QMKuAddSl'
+    consumer_key = "kW6FPW7k8IO3EnPXpWAjnuXKo"
+    consumer_secret = "ZamoT9QGgCm0PyEJPeZ81F60tYDzBnDOUMbuxv5ExOQP720Rfp"
+    access_token = "1006940361640603648-j6AIjLx2gRiV1S6GKlK6M58J2U4lsi"
+    access_secret = "WdJUoc5VLXCsjR4x4nA8lKKjPTbOQXU2KHP6q1FO8m2Wm"
 
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_secret)

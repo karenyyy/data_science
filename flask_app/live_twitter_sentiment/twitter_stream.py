@@ -49,7 +49,6 @@ def create_table():
 create_table()
 lock = Lock()
 
-
 class listener(StreamListener):
     data = []
     lock = None
