@@ -609,7 +609,7 @@ added regularization term is \textbf{L1 regularization}.
 
 \noindent \textbf{Explain}:
 
- L1 regularization is better for sparse fucntion, because it is
+ L1 regularization is better for sparse function, because it is
 more likely to create 0-weights:
 
 
@@ -635,7 +635,7 @@ for a model consisting of the weights \((w_1,w_2,...,w_m)\)
 
 \[\frac{\partial L_1}{\partial w} = f(w)' + \lambda \cdot \frac{w}{|w|}, \: where \: \frac{w}{|w|} = \pm 1\]
 
-Optimization theory says that the optimum of a function is either the point with 0-derivative or one of the irregularities (corners, kinks, etc.). So, it's possible that the optimal point of L is 0 even if 0 isn't the 0-derivative of \(f(w)\). In fact, it would be 0 if \(\lambda\) is large enough (stronger regularization effect). 
+Optimization theory says that the optimum of a function is either the point with 0-derivative or one of the irregularities (corners, etc.). So, it's possible that the optimal point of L is 0 even if 0 isn't the 0-derivative of \(f(w)\). In fact, it would be 0 if \(\lambda\) is large enough (stronger regularization effect). 
 
 \[\frac{\partial L_2}{\partial w} = f(w)' + 2 \lambda w\]
 
