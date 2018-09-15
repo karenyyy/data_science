@@ -514,31 +514,21 @@ Explain by steps:
     thus for all m training data points, the runtime complexity is
     \(O(dm)\)
   \item[*]
-    step 2: then for all \(m\) distance factor calculated, sorting
-    should be applied before filtering out the top K shortest distance.
-    Say if QuickSort is used here, then the runtime complexity is
-    \(O(m \log m)\)
-  \item[*]
-    step 3: next step, top K shortest distance are extracted, so \(m\)
-    comparisons are involved, with runtime complexity being \(O(1)\)
-  \item[*]
-    step 4: majority vote among the K nearest neighbors are taken, with
-    complexity of \(O(1)\)
+    step 2: then for the top K required nearest neighbors 1 to k, each loop through all \(m\) distance factor calculated, selecting the index with the smallest distance, the runtime complexity is \(O(km)\)
   \end{itemize}
 \end{itemize}
 
 \noindent \textbf{Summary: }
 
 for each of the p data samples, a classification task takes runtime
-complexity of \(O(dm) + O(m \log m)\);
+complexity of \(O(dm) + O(km)\);
 
-for total p samples, the runtime complexity is \(O(dm) + O(m \log m)\)\\\
+for total p samples, the runtime complexity is \(O((d+k)mp)\)\\\
 
 \noindent (b)
     As we can see, the part where we probably could optimize the runtime
-    complexity would be \textbf{step 1} where in part (a), we traverse
-    the to-be-predicted sample across the whole \(m\) training data
-    point to calculate each distance, costing \(O(dm)\) complexity\\
+    complexity would be \textbf{step 2} where in part (a), we traverse
+    the entire  \(m\) calculated distance factor to search the shortest distance, costing \(O(km)\) complexity\\
 
 \noindent we could use a more carefully designed data structure, like the
 \textbf{KD-Tree} for this part in the KNN search algorithm by organize
@@ -556,28 +546,21 @@ the m training data points into different segmentations.\\
   Recursively construct k-d trees for the two sets of points.
 \end{itemize}
 
-\noindent Runtime complexity of constructing a KD-Tree:
 
-\begin{itemize}
-\tightlist
-\item
-  first sort the points in each dimension, for each cost \(O(m \log m)\)
-\item
-  so for d dimensions, the complexity is \(O(d m \log m)\)
-\end{itemize}
 
  \noindent Runtime complexity of searching for top K nearest neighbors:\\
 
-Since \(depth \: of \: KDTree = \log m\)
+Since \(depth \: of \: KDTree = \log m\) \\
 
+\noindent for each of the p data samples:
 \begin{itemize}
 \tightlist
+\item 
+	each distance calculation with m training data points takes \(O(d)\),
+	thus for all m training data points, the runtime complexity is
+	\(O(dm)\)
 \item
-  for each of the p data samples, it takes \(O( \log m)\) to get the K
-  nearest neighbors
-\item
-  also at the last step, majority vote among the K nearest neighbors are
-  taken, with complexity of \(O(1)\)
+   for the top K required nearest neighbors 1 to k, each takes \(O( \log m)\) to traverse the tree and extract the shortest distance, then the runtime complexity is \(O(k \log m)\)
 \end{itemize}
 
 \noindent \textbf{Summary: }
@@ -591,14 +574,11 @@ Since \(depth \: of \: KDTree = \log m\)
   \begin{itemize}
   \tightlist
   \item[*]
-    the runtime complexity of KD-Tree is \(O(d m \log m)\)
-  \item[*]
-    the runtime complexity for knn searching is \(O(\log m)\)
+    the runtime complexity for knn searching is \(O(k \log m)\)
+    \item[*]
+    the whole runtime complexity of the adjusted KNN algorithm for p samples is 
+    \(O((dm+k \log m)p)\)
   \end{itemize}
-\item
-  \textbf{Note:} thus especially if \(d \ll m\), for massive amount
-  low-dimension dataset(probably not optimal for spare though, because the
-  construction of kd-tree for all the dimension might be too expensive), KD-Tree could be a more optimal option for KNN searching.
 \end{itemize}
 
     \subsubsection*{Q4}\label{q4}
