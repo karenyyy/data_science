@@ -637,14 +637,14 @@ for a model consisting of the weights \((w_1,w_2,...,w_m)\)
 
 Optimization theory says that the optimum of a function is either the point with 0-derivative or one of the irregularities (corners, kinks, etc.). So, it's possible that the optimal point of L is 0 even if 0 isn't the 0-derivative of \(f(w)\). In fact, it would be 0 if \(\lambda\) is large enough (stronger regularization effect). 
 
-\[\frac{\partial L_2}{\partial w} = f(w)' + \frac{2}{n} w\]
+\[\frac{\partial L_2}{\partial w} = f(w)' + 2 \lambda w\]
 
 \[w = w - \eta \cdot \frac{\partial L}{\partial w}, \: where \: \frac{\partial L}{\partial w}  is \: dependent \: to \: w\]
 
 So in L2 regularization, gradient \(\frac{L_2}{w}\) is linearly
 decreasing towards 0 as the weight goes towards 0. Therefore, it will
 take smaller and smaller steps as a weight approaches 0.
- The 0-derivative point of \(L_2\) can get very small when you increase \(\lambda\), but still won't be 0 unless  f'(0)=0
+ The 0-derivative point of \(L_2\) can get very small when  \(\lambda\) increases, but still won't be 0 unless  f'(0)=0
 
 \begin{itemize}
 \tightlist
