@@ -2,22 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c6e0677-9997-4944-a61f-695f842b82f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW1.pdf" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW1.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW1.synctex.gz" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW1.synctex.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/BenPassTree3.pdf" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/BenPassTree3.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/data_science.iml" afterPath="$PROJECT_DIR$/.idea/data_science.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW1.log" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW1.tex" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW1.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/BenPassTree3" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/BenPassTree3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py" afterPath="$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_nlp/notebooks/Document classification with word embeddings tutorial.ipynb" afterPath="$PROJECT_DIR$/TF_nlp/notebooks/Document classification with word embeddings tutorial.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TF_nlp/notebooks/gensim_notebooks/doc2vec-IMDB.ipynb" afterPath="$PROJECT_DIR$/TF_nlp/notebooks/gensim_notebooks/doc2vec-IMDB.ipynb" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasci_Fall_18/ndl/training1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa5137eb-488e-4cb0-8029-8f1564f8f88b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d526a16a-3666-45bd-a074-094b3579b7ec.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dd1a1d0c-d173-4a15-bb06-fddaae42f820.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_science.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_science.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW3.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/HW3.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/HW/HW2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/HW/HW2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/2/.ipynb_checkpoints/hw2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/2/.ipynb_checkpoints/hw2-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/2/hw2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/2/hw2.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,65 +29,46 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/data_science$gather_tweets_pipeline.coverage" NAME="gather_tweets_pipeline Coverage Results" MODIFIED="1536716276685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2" />
-    <SUITE FILE_PATH="coverage/data_science$twitter_stream.coverage" NAME="twitter_stream Coverage Results" MODIFIED="1536717825219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_app/live_twitter_sentiment" />
-    <SUITE FILE_PATH="coverage/data_science$tag.coverage" NAME="tag Coverage Results" MODIFIED="1536720477151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4" />
-    <SUITE FILE_PATH="coverage/data_science$07_sentiment_with_doc2vec.coverage" NAME="07_sentiment_with_doc2vec Coverage Results" MODIFIED="1536785332202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TF_nlp" />
-    <SUITE FILE_PATH="coverage/data_science$db_test.coverage" NAME="db_test Coverage Results" MODIFIED="1536682821580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds220" />
     <SUITE FILE_PATH="coverage/data_science$test.coverage" NAME="test Coverage Results" MODIFIED="1536712960771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2" />
+    <SUITE FILE_PATH="coverage/data_science$tag.coverage" NAME="tag Coverage Results" MODIFIED="1536720477151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4" />
+    <SUITE FILE_PATH="coverage/data_science$training1.coverage" NAME="training1 Coverage Results" MODIFIED="1537147472632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ndl" />
+    <SUITE FILE_PATH="coverage/data_science$twitter_stream.coverage" NAME="twitter_stream Coverage Results" MODIFIED="1536717825219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_app/live_twitter_sentiment" />
+    <SUITE FILE_PATH="coverage/data_science$07_sentiment_with_doc2vec.coverage" NAME="07_sentiment_with_doc2vec Coverage Results" MODIFIED="1537135525204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TF_nlp" />
+    <SUITE FILE_PATH="coverage/data_science$db_test.coverage" NAME="db_test Coverage Results" MODIFIED="1536682821580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds220" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
     <expand>
       <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="airline.db" type="e3449647:DbNodeDescriptor" />
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cs431@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="airline.db" type="e3449647:DbNodeDescriptor" />
-        <item name="main" type="e3449647:DbNodeDescriptor" />
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cs431@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="cs431@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cs431@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cs431: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
       <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="cs431@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="cs431" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="cs431@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="cs431" type="e3449647:DbNodeDescriptor" />
-        <item name="EMPLOYEE" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="cs431@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="cs431" type="e3449647:DbNodeDescriptor" />
-        <item name="PATIENT" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="cs431@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="cs431" type="e3449647:DbNodeDescriptor" />
-        <item name="ROOM" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="twitter.db" type="e3449647:DbNodeDescriptor" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="twitter.db" type="e3449647:DbNodeDescriptor" />
-        <item name="main" type="e3449647:DbNodeDescriptor" />
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cs431@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cs431: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="APPOINTMENT: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -92,11 +77,17 @@
     <session id="1975649013">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.114" value="1" />
           <entry key="project.open.time.181" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.54" value="2" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
@@ -107,65 +98,81 @@
           <entry key="project.open.time.69" value="2" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="APPOINTMENT" value="1" />
+          <entry key="ROOM" value="1" />
           <entry key="airline data" value="3" />
           <entry key="airline name" value="1" />
           <entry key="csv" value="12" />
           <entry key="ipynb" value="4" />
           <entry key="json" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="14" />
+          <entry key="py" value="15" />
           <entry key="raw_tweets" value="1" />
           <entry key="sentiment" value="4" />
-          <entry key="sql" value="5" />
+          <entry key="sql" value="6" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="3" />
-          <entry key="Database Element" value="9" />
+          <entry key="Database Element" value="11" />
           <entry key="IPNB" value="4" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="14" />
+          <entry key="Python" value="15" />
+          <entry key="SQL" value="1" />
           <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="130" />
-          <entry key="cell" value="71" />
+          <entry key="Python Console" value="155" />
+          <entry key="cell" value="72" />
           <entry key="dummy" value="9" />
-          <entry key="py" value="2115" />
-          <entry key="sql" value="206" />
+          <entry key="py" value="3462" />
+          <entry key="sql" value="266" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="2242" />
-          <entry key="SQL" value="56" />
-          <entry key="Scratch" value="224" />
+          <entry key="Python" value="3614" />
+          <entry key="SQL" value="116" />
+          <entry key="Scratch" value="225" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="07_sentiment_with_doc2vec.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ndl/training1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1537147363694" expanded="true" signature="157:162" ph="..." />
               </folding>
             </state>
           </provider>
@@ -243,7 +250,6 @@
         <option value="$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter_stream.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/data_2018-08-28_15-56-07.csv" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/tag.py" />
-        <option value="$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6eb7c29a-70fd-4bbb-80c6-a5b6c714c1ce/console.sql" />
         <option value="src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.EMPLOYEE" />
         <option value="src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.PATIENT" />
@@ -252,6 +258,10 @@
         <option value="src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.APPOINTMENT" />
         <option value="src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.DEPARTMENT" />
         <option value="src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/console.sql" />
+        <option value="$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py" />
+        <option value="d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/APPOINTMENT.sql" />
+        <option value="$PROJECT_DIR$/Datasci_Fall_18/ndl/training1.py" />
       </list>
     </option>
   </component>
@@ -262,28 +272,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="423" />
-    <option name="y" value="-410" />
-    <option name="width" value="1089" />
-    <option name="height" value="1042" />
+    <option name="x" value="170" />
+    <option name="y" value="76" />
+    <option name="width" value="981" />
+    <option name="height" value="666" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,6 +294,32 @@
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds200" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds200" type="462c0819:PsiDirectoryNode" />
+              <item name="HW" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ndl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ndl" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
@@ -311,13 +336,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Sqlite (Xerial)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/data_2018-08-28_15-56-07.csv" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../karenyyyBlog" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -347,8 +375,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.07_sentiment_with_doc2vec">
+  <component name="RunManager" selected="Python.training1">
     <configuration name="07_sentiment_with_doc2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -359,14 +388,18 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_science" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="gather_tweets_pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -377,14 +410,18 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_science" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/gather_tweets_pipeline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="tag" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -395,32 +432,40 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_science" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/tag.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="training1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Datasci_Fall_18/ndl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_science" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/test.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ndl/training1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="twitter_stream" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -431,32 +476,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="data_science" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter_stream.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.gather_tweets_pipeline" />
-      <item index="2" class="java.lang.String" itemvalue="Python.twitter_stream" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tag" />
-      <item index="4" class="java.lang.String" itemvalue="Python.07_sentiment_with_doc2vec" />
+    <list>
+      <item itemvalue="Python.gather_tweets_pipeline" />
+      <item itemvalue="Python.twitter_stream" />
+      <item itemvalue="Python.tag" />
+      <item itemvalue="Python.07_sentiment_with_doc2vec" />
+      <item itemvalue="Python.training1" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.07_sentiment_with_doc2vec" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tag" />
-        <item index="2" class="java.lang.String" itemvalue="Python.twitter_stream" />
-        <item index="3" class="java.lang.String" itemvalue="Python.gather_tweets_pipeline" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <list>
+        <item itemvalue="Python.training1" />
+        <item itemvalue="Python.07_sentiment_with_doc2vec" />
+        <item itemvalue="Python.tag" />
+        <item itemvalue="Python.twitter_stream" />
+        <item itemvalue="Python.gather_tweets_pipeline" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -472,32 +517,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="JWT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35104167" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25079367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.205291" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.097354494" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15984848" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.19453377" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.205291" />
+      <window_info anchor="bottom" id="Database Console" order="4" weight="0.23151125" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32910052" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39871383" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="JWT" order="0" />
+      <window_info anchor="right" id="JSON Viewer" order="1" />
+      <window_info anchor="right" id="JSON Utils" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.18712121" />
+      <window_info anchor="right" id="Data View" order="4" weight="0.3296875" />
+      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Run" order="8" weight="0.40378788" />
+      <window_info anchor="right" id="R Graphics" order="9" weight="0.32954547" />
+      <window_info anchor="right" id="R Packages" order="10" weight="0.32954547" />
+      <window_info anchor="right" id="SciView" order="11" visible="true" weight="0.3810606" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,414 +558,56 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TF_nlp/word2vec_cbow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="63" column="10" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
-          <folding />
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/console.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/console.sql" />
+    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.DEPARTMENT" />
+    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.DEPARTMENT" />
+    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.EMPLOYEE" />
+    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION" />
+    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.ROOM" />
+    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.ROOM" />
+    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.SHIFT" />
+    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.PATIENT" />
+    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.PATIENT" />
+    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.APPOINTMENT" />
+    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.APPOINTMENT" />
+    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.EMPLOYEE" />
+    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION" />
+    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.SHIFT" />
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/ROOM" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state>
+          <caret selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/APPOINTMENT" />
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/APPOINTMENT.sql" />
+    <entry file="file://$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
-            <marker date="0" expanded="true" signature="30:52" ph="DROP TABLE A... " />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ndl/training1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="61" lean-forward="false" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="65" lean-forward="false" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="59" lean-forward="false" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.DEPARTMENT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="72" lean-forward="true" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="24" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.DEPARTMENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.EMPLOYEE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="78" lean-forward="false" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="24" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.ROOM">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="17" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.ROOM">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.SHIFT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.SHIFT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.PATIENT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="135" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="25" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.PATIENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.APPOINTMENT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="66" column="168" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="66" selection-end-column="168" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.APPOINTMENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.EMPLOYEE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="333">
+          <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1537147363694" expanded="true" signature="157:162" ph="..." />
           </folding>
         </state>
       </provider>
