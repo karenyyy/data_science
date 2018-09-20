@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "twittersentiment-216814",
+  "private_key_id": "00a1aaf90aba87d31d95c7c5098ceb4178255300",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCfwPRLYj4HWFFM\nptbeTYSZAw3NwKfbEE/Ug0QnHPnkYNNUUSf3CjM2gZxZ4o05CxKCwnfHX6gE+dFO\nOYNWva/PZKXNLp0rXb77szY2Hhk/kcAAya8Fth1pHP5p3yqWhSUrIW4x/GVh2KeT\ntvjEVz8L4O+/qc7UBS0FzZQGJGTKnwT3wDI2Y+InIEEjnPb5gccditZt3A4TsQT9\nSJh3HWcB81Ww4fOfbTNbEY8OUVOwiKS9au/JCrMZNu8nN6y+mnHkn2hiOD74QwVE\nLQVNLrAFFZ5qUk6uuL6sODpdk1HsccPsTez6Rr0cqcFV9rZPrYgvpoDg5aY8cwVB\nz5xfaRatAgMBAAECggEAEaaXF1Eme1dFvEteyDcWZHWS693SbgDSYS+TsyKfdZ1B\nHDrPSJtG50nQxZmjct8HT40/ALdP8CTN/G+cVFQm/aooK5Bv6x+zf0ngvn/62Cw5\nY5zlCqOBgmCit33hzbmuTqKl8z3o0bPHaCm6OK9PFvfmZW3UnVZpEBATv837mOtm\nReU1NPsE9ATC/RFsFoe2brw03RmA7MOf9vtJd5EmqXiW296GLA87dpRu6b7wGhYA\nNGP4lbAE4oWXoGuF/X6rBfAQX2L4uC/aw/hKSAEouu867N6dRkAZM0uKrC+/hkML\nZfE0PC9yQpG12RvGgEL90eMJlbFdWfCNW+Vu3jKYAQKBgQDODe6yGJ//MDMRoSNP\nvQYaGHhoYbxpWjKXYzXerR0a95tMPTvsj7Mrb+ETPeTVxV2m6foxZNQLkQ7jZC/4\n1+gJRk5mcXjDOLDxRpfDUGgvQmGnTqMqfAPSF8zrtVc597BcQVBeAho4gkips626\n2TH08YMQJMNiiJfjck5xQeAcrQKBgQDGefnWBTip+OGNxSOGW8dV0giCb5jxZgDJ\n7PhM3iqkr9QDNpQH46k4HPjIhslESlaAlmCfgQF/LG5BE1l/eF5RZ5XCtgw70oAM\nkodIsbz3eg0rQIoe1DofedeHF5XwW+YmZ4x0OlU69ao5uMif9vpaQYmY8TPMcSVd\nixn6TeIiAQKBgAL+QNFlei2Czbsb1B98Z3JJmLYrdUkyfjmkv0uUyC90GVVqLkyp\nabjfzy0wYPqZ+1pJW9EL3eitGsJC2k+LE1vPIaRrUY3EbQ2UMPAtYtYM6M49XjFn\ny8ZpghiKcdHtvyoX6Mr0zNy1R8jvSz7DmO4t8/FwF0Z/JXWwW2NZyZ+hAoGBAK9P\nzn5c3lBEpfazy01ChDAp9ZpBOLcBgnDZ//jlxITzSjIMY3UUgsQt0xJM/Dp17zJl\nobNCIDBU7o5MqSEPEUCWXpI+e0/b/38bbqOnW2K9TCSIPXg9vZlP5jBNhQNqKUCC\n9m0zmVUa6eFSduPVJA3VFdUiOL68smSOGcQeR0ABAoGBAI9+rlyXgljEi8BHCaAh\nmT2iSblF3D/77TIJKeARp/2BLCymjQtl0yMIdU86PuGrzRKk3c9NX1yl2J7MwmS6\nWkebChsfrO5BdutZsrdEISgaEULJihGlvsGzx/qa2qub03ebVIq5zlFV42AyWTMl\njW8/gkHndoNJeltTylXBnMzd\n-----END PRIVATE KEY-----\n",
+  "client_email": "karenyyy@twittersentiment-216814.iam.gserviceaccount.com",
+  "client_id": "107915157357011908853",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/karenyyy%40twittersentiment-216814.iam.gserviceaccount.com"
+}

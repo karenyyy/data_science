@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 
 
+
 class LinearRegression(object):
     def __init__(self, filepath):
         self.data = pd.read_csv(filepath)
@@ -48,3 +49,4 @@ if __name__ == '__main__':
     filepath = 'data/linear_regression_data.csv'
     lr = LinearRegression(filepath)
     lr.main()
+
