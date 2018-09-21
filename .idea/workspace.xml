@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c6e0677-9997-4944-a61f-695f842b82f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/.ipynb_checkpoints/imbalanced-data-why-you-should-not-use-roc-curve-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/.ipynb_checkpoints/lab5-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/.ipynb_checkpoints/lab5-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/RelevantClassifier" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/RelevantClassifier" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/imbalanced-data-why-you-should-not-use-roc-curve.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/in-depth-skewed-data-classif-93-recall-acc-now.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/in-depth-skewed-data-classif-93-recall-acc-now.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/lab5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/lab5.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/predicting-fraud-with-tensorflow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/predicting-fraud-with-tensorflow.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/3/hw3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/3/hw3.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
