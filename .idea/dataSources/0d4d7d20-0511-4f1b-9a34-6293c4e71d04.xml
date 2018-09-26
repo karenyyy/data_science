@@ -981,6 +981,7 @@
     <column id="248" parent="243" name="department_name">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="249" parent="243" name="PRIMARY">
@@ -1051,26 +1052,31 @@
     <column id="261" parent="245" name="date">
       <Position>2</Position>
       <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="262" parent="245" name="empid">
       <Position>3</Position>
       <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="263" parent="245" name="dept">
       <Position>4</Position>
       <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="264" parent="245" name="start_time">
       <Position>5</Position>
       <DataType>time|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="265" parent="245" name="shift_length">
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="266" parent="245" name="PRIMARY">

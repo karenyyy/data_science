@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c6e0677-9997-4944-a61f-695f842b82f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/3/.ipynb_checkpoints/hw3-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/3/.ipynb_checkpoints/hw3-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/3/hw3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/3/hw3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/.ipynb_checkpoints/how-to-handle-imbalance-data-study-in-detail-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/.ipynb_checkpoints/in-depth-skewed-data-classif-93-recall-acc-now-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/how-to-handle-imbalance-data-study-in-detail.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/imbalanced_data_experiment_relevant_tweets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/imbalanced_data_experiment_relevant_tweets.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/in-depth-skewed-data-classif-93-recall-acc-now.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/lab5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/lab5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/notes-on-semi-supervised-learning.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/predicting-fraud-with-tensorflow.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/semi-supervised-anomaly-detection-survey.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/.ipynb_checkpoints/extra-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/.ipynb_checkpoints/extra-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/extra.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/extra.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec_files/.ipynb_checkpoints/lec9-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec_files/lec9.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/2. Machine Learning Models/Support Vector Machines for Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/2. Machine Learning Models/Support Vector Machines for Classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/6. Model Building/Topic Modeling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/6. Model Building/Topic Modeling.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,13 +103,13 @@
           <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.54" value="4" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.59" value="2" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.64" value="1" />
@@ -106,7 +119,7 @@
           <entry key="project.open.time.69" value="2" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -127,12 +140,12 @@
           <entry key="ipynb" value="4" />
           <entry key="json" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="17" />
+          <entry key="py" value="20" />
           <entry key="raw_tweets" value="1" />
           <entry key="schedule" value="3" />
           <entry key="sentiment" value="4" />
           <entry key="shift" value="2" />
-          <entry key="sql" value="19" />
+          <entry key="sql" value="20" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -144,8 +157,8 @@
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="17" />
-          <entry key="SQL" value="10" />
+          <entry key="Python" value="20" />
+          <entry key="SQL" value="11" />
           <entry key="Scratch" value="9" />
         </counts>
       </usages-collector>
@@ -154,16 +167,16 @@
           <entry key="Python Console" value="562" />
           <entry key="cell" value="846" />
           <entry key="dummy" value="9" />
-          <entry key="py" value="3828" />
-          <entry key="sql" value="1659" />
+          <entry key="py" value="3848" />
+          <entry key="sql" value="1708" />
           <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="4387" />
-          <entry key="SQL" value="310" />
+          <entry key="Python" value="4407" />
+          <entry key="SQL" value="359" />
           <entry key="Scratch" value="2198" />
         </counts>
       </usages-collector>
@@ -171,11 +184,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0d4d7d20-0511-4f1b-9a34-6293c4e71d04/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="5" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="10" selection-end-column="85" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -201,9 +256,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>xtick</find>
-      <find>bar</find>
-      <find>05</find>
       <find>Lab</find>
       <find>col_names</find>
       <find>figu</find>
@@ -231,6 +283,9 @@
       <find>tok</find>
       <find>chest</find>
       <find>TIME</find>
+      <find>CQL</find>
+      <find>keysp</find>
+      <find>keyspace</find>
     </findStrings>
     <replaceStrings>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/output_</replace>
@@ -244,7 +299,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -276,11 +331,13 @@
         <option value="d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/SHIFT.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/console.sql" />
         <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/shift.sql" />
-        <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql" />
         <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/schedule.sql" />
         <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employee.sql" />
         <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0d4d7d20-0511-4f1b-9a34-6293c4e71d04/console.sql" />
+        <option value="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" />
+        <option value="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" />
+        <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql" />
       </list>
     </option>
   </component>
@@ -319,22 +376,52 @@
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds200" type="462c0819:PsiDirectoryNode" />
+              <item name="ds220" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds200" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="ds220" type="462c0819:PsiDirectoryNode" />
+              <item name="Extra" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds200" type="462c0819:PsiDirectoryNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="ds220" type="462c0819:PsiDirectoryNode" />
+              <item name="Extra" type="462c0819:PsiDirectoryNode" />
+              <item name="twissandra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds220" type="462c0819:PsiDirectoryNode" />
+              <item name="Extra" type="462c0819:PsiDirectoryNode" />
+              <item name="twissandra" type="462c0819:PsiDirectoryNode" />
+              <item name="tweets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds220" type="462c0819:PsiDirectoryNode" />
+              <item name="Extra" type="462c0819:PsiDirectoryNode" />
+              <item name="twissandra" type="462c0819:PsiDirectoryNode" />
+              <item name="tweets" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds220" type="462c0819:PsiDirectoryNode" />
+              <item name="Extra" type="462c0819:PsiDirectoryNode" />
+              <item name="twissandra" type="462c0819:PsiDirectoryNode" />
+              <item name="tweets" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
@@ -547,7 +634,7 @@
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14090909" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14545454" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -565,7 +652,7 @@
       <window_info anchor="right" id="JWT" order="0" />
       <window_info anchor="right" id="JSON Viewer" order="1" />
       <window_info anchor="right" id="JSON Utils" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.21212122" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.21212122" />
       <window_info anchor="right" id="Data View" order="4" weight="0.3296875" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -740,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/schedule.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -810,10 +890,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="10" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/schedule">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
