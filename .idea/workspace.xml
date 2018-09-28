@@ -3,24 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7c6e0677-9997-4944-a61f-695f842b82f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/.ipynb_checkpoints/how-to-handle-imbalance-data-study-in-detail-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/.ipynb_checkpoints/in-depth-skewed-data-classif-93-recall-acc-now-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/how-to-handle-imbalance-data-study-in-detail.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/imbalanced_data_experiment_relevant_tweets.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/imbalanced_data_experiment_relevant_tweets.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/in-depth-skewed-data-classif-93-recall-acc-now.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/lab5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/lab5.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/notes-on-semi-supervised-learning.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/predicting-fraud-with-tensorflow.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/semi-supervised-anomaly-detection-survey.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/.ipynb_checkpoints/extra-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/.ipynb_checkpoints/extra-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/extra.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/extra.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab6-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab6-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab6.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec_files/.ipynb_checkpoints/lec9-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/lec_files/lec9.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/2. Machine Learning Models/Support Vector Machines for Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/2. Machine Learning Models/Support Vector Machines for Classification.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/6. Model Building/Topic Modeling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/TF_nlp/nltk/NLP-Python-NLTK/6. Model Building/Topic Modeling.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +94,7 @@
           <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.54" value="4" />
+          <entry key="project.open.time.54" value="5" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.59" value="2" />
           <entry key="project.open.time.62" value="1" />
@@ -119,7 +106,7 @@
           <entry key="project.open.time.69" value="2" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -196,8 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+            <state relative-caret-position="990">
+              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -208,8 +195,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -359,7 +346,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -451,6 +437,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -634,7 +621,7 @@
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14545454" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -890,6 +877,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -914,20 +911,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="70" column="47" lean-forward="true" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
