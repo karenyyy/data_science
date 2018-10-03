@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c6e0677-9997-4944-a61f-695f842b82f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0d4d7d20-0511-4f1b-9a34-6293c4e71d04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0d4d7d20-0511-4f1b-9a34-6293c4e71d04.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d3fbd3ff-0f4f-4989-a45f-35f7d29d3724.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/.ipynb_checkpoints/hw5-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/.ipynb_checkpoints/hw5-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab_6-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab_6-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_4.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_5.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab_6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab_6.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/.ipynb_checkpoints/lab1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/.ipynb_checkpoints/lab1-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +101,7 @@
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.48" value="2" />
-          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.54" value="5" />
@@ -129,7 +118,7 @@
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -144,13 +133,14 @@
           <entry key="airline data" value="3" />
           <entry key="airline name" value="1" />
           <entry key="csv" value="12" />
-          <entry key="department" value="3" />
+          <entry key="department" value="4" />
+          <entry key="department_managers" value="1" />
           <entry key="employee" value="1" />
           <entry key="employees" value="1" />
           <entry key="ipynb" value="6" />
           <entry key="json" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="25" />
+          <entry key="py" value="26" />
           <entry key="raw_tweets" value="1" />
           <entry key="schedule" value="3" />
           <entry key="sentiment" value="4" />
@@ -162,12 +152,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSV" value="3" />
-          <entry key="Database Element" value="30" />
+          <entry key="Database Element" value="32" />
           <entry key="IPNB" value="6" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="26" />
           <entry key="SQL" value="11" />
           <entry key="Scratch" value="9" />
         </counts>
@@ -178,7 +168,7 @@
           <entry key="cell" value="846" />
           <entry key="dummy" value="9" />
           <entry key="py" value="5468" />
-          <entry key="sql" value="1708" />
+          <entry key="sql" value="1729" />
           <entry key="txt" value="33" />
         </counts>
       </usages-collector>
@@ -186,7 +176,7 @@
         <counts>
           <entry key="PLAIN_TEXT" value="42" />
           <entry key="Python" value="6027" />
-          <entry key="SQL" value="359" />
+          <entry key="SQL" value="380" />
           <entry key="Scratch" value="2198" />
         </counts>
       </usages-collector>
@@ -194,11 +184,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="210" lean-forward="true" selection-start-line="138" selection-end-line="210" />
+            <state relative-caret-position="1230">
+              <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <marker date="1538593255187" expanded="true" signature="1878:2098" ph="..." />
@@ -210,14 +200,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" selection-start-line="16" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department_managers">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -333,10 +320,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="246" />
-    <option name="y" value="38" />
-    <option name="width" value="864" />
-    <option name="height" value="661" />
+    <option name="x" value="521" />
+    <option name="y" value="-78" />
+    <option name="width" value="856" />
+    <option name="height" value="656" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -344,6 +331,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,7 +361,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,13 +544,13 @@
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1659091" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16818182" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.205291" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="3" visible="true" weight="0.54662377" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="3" visible="true" weight="0.37299034" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32910052" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.39871383" />
@@ -575,12 +562,12 @@
       <window_info anchor="right" id="JWT" order="0" />
       <window_info anchor="right" id="JSON Viewer" order="1" />
       <window_info anchor="right" id="JSON Utils" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.21212122" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2621212" />
       <window_info anchor="right" id="Data View" order="4" weight="0.3296875" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.36136365" />
+      <window_info anchor="right" id="Run" order="8" weight="0.36136365" />
       <window_info anchor="right" id="R Graphics" order="9" weight="0.32954547" />
       <window_info anchor="right" id="R Packages" order="10" weight="0.32954547" />
       <window_info anchor="right" id="SciView" order="11" weight="0.3810606" />
@@ -627,18 +614,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TF_nlp/word2vec_cbow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/console.sql" />
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.DEPARTMENT" />
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.DEPARTMENT" />
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.EMPLOYEE" />
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION" />
     <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.ROOM" />
     <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.ROOM" />
     <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.SHIFT" />
@@ -693,7 +668,6 @@
     <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department.sql" />
     <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employee" />
     <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/shift" />
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department" />
     <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees" />
     <entry file="file://$PROJECT_DIR$/TF_nlp/NaturalLanguageProcessingwithTensorFlow_Code/ch3/ch3_wordnet.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
@@ -761,10 +735,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py" />
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="210" lean-forward="true" selection-start-line="138" selection-end-line="210" />
+        <state relative-caret-position="1230">
+          <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <marker date="1538593255187" expanded="true" signature="1878:2098" ph="..." />
@@ -775,13 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" selection-start-line="16" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department_managers">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
