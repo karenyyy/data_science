@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c6e0677-9997-4944-a61f-695f842b82f3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab6-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab6-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab6.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/.ipynb_checkpoints/hw5-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/.ipynb_checkpoints/hw5-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab_6-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab_6-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/SentientClassifier-Fold_5.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab_6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab_6.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4/hw4.synctex.gz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +35,11 @@
     <SUITE FILE_PATH="coverage/data_science$gather_tweets_pipeline.coverage" NAME="gather_tweets_pipeline Coverage Results" MODIFIED="1536716276685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2" />
     <SUITE FILE_PATH="coverage/data_science$test.coverage" NAME="test Coverage Results" MODIFIED="1536712960771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2" />
     <SUITE FILE_PATH="coverage/data_science$tag.coverage" NAME="tag Coverage Results" MODIFIED="1536720477151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4" />
-    <SUITE FILE_PATH="coverage/data_science$bigquery_practice_1.coverage" NAME="bigquery_practice_1 Coverage Results" MODIFIED="1537285081676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds220" />
+    <SUITE FILE_PATH="coverage/data_science$lab1.coverage" NAME="lab1 Coverage Results" MODIFIED="1538592688716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab" />
+    <SUITE FILE_PATH="coverage/data_science$bigquery_practice_1.coverage" NAME="bigquery_practice_1 Coverage Results" MODIFIED="1538407989996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds220" />
     <SUITE FILE_PATH="coverage/data_science$training1.coverage" NAME="training1 Coverage Results" MODIFIED="1537147472632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ndl" />
     <SUITE FILE_PATH="coverage/data_science$twitter_stream.coverage" NAME="twitter_stream Coverage Results" MODIFIED="1536717825219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_app/live_twitter_sentiment" />
+    <SUITE FILE_PATH="coverage/data_science$hw5.coverage" NAME="hw5 Coverage Results" MODIFIED="1538162153764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5" />
     <SUITE FILE_PATH="coverage/data_science$07_sentiment_with_doc2vec.coverage" NAME="07_sentiment_with_doc2vec Coverage Results" MODIFIED="1537135525204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TF_nlp" />
     <SUITE FILE_PATH="coverage/data_science$db_test.coverage" NAME="db_test Coverage Results" MODIFIED="1536682821580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds220" />
   </component>
@@ -80,10 +98,12 @@
     <session id="1975649013">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.114" value="1" />
           <entry key="project.open.time.181" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
@@ -93,20 +113,23 @@
           <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.54" value="5" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.59" value="2" />
+          <entry key="project.open.time.59" value="3" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.67" value="1" />
-          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.68" value="2" />
           <entry key="project.open.time.69" value="2" />
+          <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -124,10 +147,10 @@
           <entry key="department" value="3" />
           <entry key="employee" value="1" />
           <entry key="employees" value="1" />
-          <entry key="ipynb" value="4" />
+          <entry key="ipynb" value="6" />
           <entry key="json" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="20" />
+          <entry key="py" value="25" />
           <entry key="raw_tweets" value="1" />
           <entry key="schedule" value="3" />
           <entry key="sentiment" value="4" />
@@ -140,11 +163,11 @@
         <counts>
           <entry key="CSV" value="3" />
           <entry key="Database Element" value="30" />
-          <entry key="IPNB" value="4" />
+          <entry key="IPNB" value="6" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="20" />
+          <entry key="Python" value="25" />
           <entry key="SQL" value="11" />
           <entry key="Scratch" value="9" />
         </counts>
@@ -154,7 +177,7 @@
           <entry key="Python Console" value="562" />
           <entry key="cell" value="846" />
           <entry key="dummy" value="9" />
-          <entry key="py" value="3848" />
+          <entry key="py" value="5468" />
           <entry key="sql" value="1708" />
           <entry key="txt" value="33" />
         </counts>
@@ -162,7 +185,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="4407" />
+          <entry key="Python" value="6027" />
           <entry key="SQL" value="359" />
           <entry key="Scratch" value="2198" />
         </counts>
@@ -171,62 +194,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0d4d7d20-0511-4f1b-9a34-6293c4e71d04/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="10" selection-end-column="85" />
+            <state relative-caret-position="407">
+              <caret line="210" lean-forward="true" selection-start-line="138" selection-end-line="210" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
+                <marker date="1538593255187" expanded="true" signature="1878:2098" ph="..." />
+                <marker date="1538593255187" expanded="true" signature="3897:3899" ph="..." />
+                <marker date="1538593255187" expanded="true" signature="4443:4595" ph="..." />
+                <marker date="1538593255187" expanded="true" signature="6764:6916" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/settings.py">
+        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/schedule">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="135">
+              <caret line="16" selection-start-line="16" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -243,12 +234,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Lab</find>
-      <find>col_names</find>
-      <find>figu</find>
-      <find>live</find>
-      <find>data_n</find>
-      <find>live-graph</find>
       <find>figure</find>
       <find>chil</find>
       <find>554</find>
@@ -273,6 +258,12 @@
       <find>CQL</find>
       <find>keysp</find>
       <find>keyspace</find>
+      <find># ###</find>
+      <find>cro</find>
+      <find>KNNRegression</find>
+      <find>Regression</find>
+      <find>self.regression_model</find>
+      <find>loss\(</find>
     </findStrings>
     <replaceStrings>
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/images/lec1/output_</replace>
@@ -283,10 +274,14 @@
       <replace>https://raw.githubusercontent.com/karenyyy/data_science/master/Datasci_Fall_18/ds310/</replace>
       <replace>live-update</replace>
       <replace>self.col_names</replace>
+      <replace>#</replace>
+      <replace>KNNRegressionModel</replace>
+      <replace>Model</replace>
+      <replace>self.model</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -325,6 +320,9 @@
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" />
         <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql" />
+        <option value="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.py" />
+        <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py" />
+        <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py" />
       </list>
     </option>
   </component>
@@ -362,76 +360,14 @@
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds220" type="462c0819:PsiDirectoryNode" />
+              <item name="ds310" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds220" type="462c0819:PsiDirectoryNode" />
-              <item name="Extra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds220" type="462c0819:PsiDirectoryNode" />
-              <item name="Extra" type="462c0819:PsiDirectoryNode" />
-              <item name="twissandra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds220" type="462c0819:PsiDirectoryNode" />
-              <item name="Extra" type="462c0819:PsiDirectoryNode" />
-              <item name="twissandra" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds220" type="462c0819:PsiDirectoryNode" />
-              <item name="Extra" type="462c0819:PsiDirectoryNode" />
-              <item name="twissandra" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds220" type="462c0819:PsiDirectoryNode" />
-              <item name="Extra" type="462c0819:PsiDirectoryNode" />
-              <item name="twissandra" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
-              <item name="management" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ndl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ndl" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="TF_nlp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_science" type="462c0819:PsiDirectoryNode" />
-              <item name="TF_nlp" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
+              <item name="ds310" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -476,7 +412,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bigquery_practice_1">
+  <component name="RunManager" selected="Python.lab1">
     <configuration name="07_sentiment_with_doc2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -521,7 +457,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tag" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hw5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -529,12 +465,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4/tag.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lab1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_science" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -565,42 +523,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="twitter_stream" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_science" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_app/live_twitter_sentiment" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_app/live_twitter_sentiment/twitter_stream.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.twitter_stream" />
-      <item itemvalue="Python.tag" />
       <item itemvalue="Python.07_sentiment_with_doc2vec" />
       <item itemvalue="Python.training1" />
       <item itemvalue="Python.bigquery_practice_1" />
+      <item itemvalue="Python.hw5" />
+      <item itemvalue="Python.lab1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lab1" />
         <item itemvalue="Python.bigquery_practice_1" />
+        <item itemvalue="Python.hw5" />
         <item itemvalue="Python.training1" />
         <item itemvalue="Python.07_sentiment_with_doc2vec" />
-        <item itemvalue="Python.tag" />
-        <item itemvalue="Python.twitter_stream" />
       </list>
     </recent_temporary>
   </component>
@@ -621,7 +557,7 @@
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1659091" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -639,12 +575,12 @@
       <window_info anchor="right" id="JWT" order="0" />
       <window_info anchor="right" id="JSON Viewer" order="1" />
       <window_info anchor="right" id="JSON Utils" order="2" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.21212122" />
+      <window_info anchor="right" id="Database" order="3" weight="0.21212122" />
       <window_info anchor="right" id="Data View" order="4" weight="0.3296875" />
       <window_info anchor="right" id="Commander" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Run" order="8" weight="0.79901963" />
+      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.36136365" />
       <window_info anchor="right" id="R Graphics" order="9" weight="0.32954547" />
       <window_info anchor="right" id="R Packages" order="10" weight="0.32954547" />
       <window_info anchor="right" id="SciView" order="11" weight="0.3810606" />
@@ -713,13 +649,6 @@
     <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.EMPLOYEE" />
     <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION" />
     <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.SHIFT" />
-    <entry file="file://$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ndl/training1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -727,48 +656,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/EMPLOYEE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/DEPARTMENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/AFFILIATION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/SHIFT.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/PATIENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/ROOM">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/EMPLOYEE" />
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/DEPARTMENT" />
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/AFFILIATION" />
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/SHIFT.sql" />
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/PATIENT" />
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/ROOM" />
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/bigquery_practice_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -776,20 +669,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/APPOINTMENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/SHIFT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/APPOINTMENT" />
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/SHIFT" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -797,37 +678,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/AFFILIATION.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/APPOINTMENT.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/shift.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/schedule.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employee.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/AFFILIATION.sql" />
+    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/APPOINTMENT.sql" />
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/shift.sql" />
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/schedule.sql" />
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employee.sql" />
     <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/gather_tweets_pipeline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -835,38 +690,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department.sql">
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department.sql" />
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employee" />
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/shift" />
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department" />
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees" />
+    <entry file="file://$PROJECT_DIR$/TF_nlp/NaturalLanguageProcessingwithTensorFlow_Code/ch3/ch3_wordnet.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employee">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/shift">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="120">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="10" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -881,19 +720,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py">
+    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="10" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1920">
+          <caret line="130" column="31" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -911,10 +754,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql">
+    <entry file="file://$PROJECT_DIR$/TF_nlp/NaturalLanguageProcessingwithTensorFlow_Code/ch4/ch4_document_embedding.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="407">
+          <caret line="210" lean-forward="true" selection-start-line="138" selection-end-line="210" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <marker date="1538593255187" expanded="true" signature="1878:2098" ph="..." />
+            <marker date="1538593255187" expanded="true" signature="3897:3899" ph="..." />
+            <marker date="1538593255187" expanded="true" signature="4443:4595" ph="..." />
+            <marker date="1538593255187" expanded="true" signature="6764:6916" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" selection-start-line="16" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

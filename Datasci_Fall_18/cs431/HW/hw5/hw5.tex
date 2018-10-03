@@ -151,8 +151,8 @@
     % Document title
     \title{Assignment 5}
     
-    
     \author{Jiarong Ye}
+    
     
     
 
@@ -278,7 +278,7 @@
       }
     % Slightly bigger margins than the latex defaults
     
-    \geometry{a4paper,left=1cm,right=1cm,top=2cm,bottom=2cm}
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in, left=1cm, right=1cm}
     
     
 
@@ -293,158 +293,158 @@
     \subsubsection*{Load the data}\label{load-the-data}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}94}]:} \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
-         \PY{k+kn}{from} \PY{n+nn}{datetime} \PY{k}{import} \PY{n}{datetime}
-         \PY{k+kn}{import} \PY{n+nn}{pymysql} 
+{\color{incolor}In [{\color{incolor}2}]:} \PY{k+kn}{import} \PY{n+nn}{pandas} \PY{k}{as} \PY{n+nn}{pd}
+        \PY{k+kn}{from} \PY{n+nn}{datetime} \PY{k}{import} \PY{n}{datetime}
+        \PY{k+kn}{import} \PY{n+nn}{pymysql} 
 \end{Verbatim}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}268}]:} \PY{n}{department} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{departments.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{department}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{department\PYZus{}name}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-          \PY{n}{shift} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{shifts.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{shift}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{from\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{length}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
-          \PY{n}{employees} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{employees.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{employees}\PY{o}{.}\PY{n}{emptype} \PY{o}{=} \PY{n}{employees}\PY{o}{.}\PY{n}{emptype}\PY{o}{.}\PY{n}{fillna}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{schedule} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{schedule.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{schedule}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{empid}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dept}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{start\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{shift\PYZus{}length}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+{\color{incolor}In [{\color{incolor}3}]:} \PY{n}{department} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{departments.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{department}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{department\PYZus{}name}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{shift} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{shifts.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{shift}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{from\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{length}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
+        \PY{n}{employees} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{employees.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{employees}\PY{o}{.}\PY{n}{emptype} \PY{o}{=} \PY{n}{employees}\PY{o}{.}\PY{n}{emptype}\PY{o}{.}\PY{n}{fillna}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{schedule} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}csv}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{schedule.csv}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{n}{sep}\PY{o}{=}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{,}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{schedule}\PY{o}{.}\PY{n}{columns} \PY{o}{=} \PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{empid}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{dept}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{start\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{shift\PYZus{}length}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}
 \end{Verbatim}
 
     \subsubsection*{Manipulate the data}\label{manipulate-the-data}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}316}]:} \PY{k}{class} \PY{n+nc}{DataSqlLoader}\PY{p}{:}
-              \PY{k}{def} \PY{n+nf}{\PYZus{}\PYZus{}init\PYZus{}\PYZus{}}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{database}\PY{p}{)}\PY{p}{:}
-                  \PY{c+c1}{\PYZsh{} connect to mysql local server}
-                  \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{db} \PY{o}{=} \PY{n}{pymysql}\PY{o}{.}\PY{n}{Connect}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{localhost}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
-                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{root}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
-                         \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
-                         \PY{n}{database}\PY{p}{)}
-                  \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c} \PY{o}{=} \PY{n}{db}\PY{o}{.}\PY{n}{cursor}\PY{p}{(}\PY{p}{)}
-              
-              \PY{c+c1}{\PYZsh{} convert the shift and schedule time to `time` format compatible in MySQL}
-              \PY{k}{def} \PY{n+nf}{convert\PYZus{}time\PYZus{}format}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{time}\PY{p}{)}\PY{p}{:}
-                  \PY{k}{return} \PY{n}{datetime}\PY{o}{.}\PY{n}{strptime}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{time}\PY{p}{)}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{I}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{p}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{strftime}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{H:}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{M:}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{S}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-              
-              \PY{c+c1}{\PYZsh{} convert schedule date to `date` format compatible in MySQL}
-              \PY{k}{def} \PY{n+nf}{convert\PYZus{}date\PYZus{}format}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{time}\PY{p}{)}\PY{p}{:}
-                  \PY{k}{return} \PY{n}{datetime}\PY{o}{.}\PY{n}{strptime}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{time}\PY{p}{)}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{m/}\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s1}{/}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{Y}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{strftime}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{Y\PYZhy{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{m\PYZhy{}}\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-              
-              \PY{k}{def} \PY{n+nf}{creat\PYZus{}tables}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
-                  \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
-          \PY{l+s+s1}{                create table if not exists department}
-          \PY{l+s+s1}{                (}
-          \PY{l+s+s1}{                  department\PYZus{}id  int auto\PYZus{}increment}
-          \PY{l+s+s1}{                    primary key,}
-          \PY{l+s+s1}{                  department\PYZus{}name varchar(50) not null}
-          \PY{l+s+s1}{                );}
-          \PY{l+s+s1}{                }\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}\PY{p}{)}
-                  \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
-          \PY{l+s+s1}{            create table if not exists shift}
-          \PY{l+s+s1}{            (}
-          \PY{l+s+s1}{              shift\PYZus{}id int auto\PYZus{}increment}
-          \PY{l+s+s1}{                primary key,}
-          \PY{l+s+s1}{              from\PYZus{}time   time not null,}
-          \PY{l+s+s1}{              length   int  not null}
-          \PY{l+s+s1}{            );}
-          \PY{l+s+s1}{            }\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}\PY{p}{)}
-                  \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
-          \PY{l+s+s1}{            create table if not exists schedule}
-          \PY{l+s+s1}{            (}
-          \PY{l+s+s1}{              schedule\PYZus{}id  int auto\PYZus{}increment}
-          \PY{l+s+s1}{                primary key,}
-          \PY{l+s+s1}{              date         date        not null,}
-          \PY{l+s+s1}{              empid        varchar(10) not null,}
-          \PY{l+s+s1}{              dept         varchar(50) not null,}
-          \PY{l+s+s1}{              start\PYZus{}time   time        not null,}
-          \PY{l+s+s1}{              shift\PYZus{}length int         not null}
-          \PY{l+s+s1}{            );}
-          \PY{l+s+s1}{            }\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}\PY{p}{)}
-                  \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
-          \PY{l+s+s1}{            create table if not exists employees}
-          \PY{l+s+s1}{            (}
-          \PY{l+s+s1}{              empid     varchar(10) not null primary key,}
-          \PY{l+s+s1}{              lastname  varchar(20) not null,}
-          \PY{l+s+s1}{              firstname varchar(20) not null,}
-          \PY{l+s+s1}{              emptype   varchar(3)  null,}
-          \PY{l+s+s1}{              cellphone varchar(20) null,}
-          \PY{l+s+s1}{              homephone varchar(20) null,}
-          \PY{l+s+s1}{              ftpt      varchar(2)  not null,}
-          \PY{l+s+s1}{              constraint employee\PYZus{}empid\PYZus{}uindex}
-          \PY{l+s+s1}{              unique (empid)}
-          \PY{l+s+s1}{            );}
-          \PY{l+s+s1}{        }\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}\PY{p}{)}
-              
-              \PY{k}{def} \PY{n+nf}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{table}\PY{p}{,} \PY{n}{table\PYZus{}name}\PY{p}{)}\PY{p}{:}
-                  \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{table}\PY{p}{)}\PY{p}{)}\PY{p}{:}
-                      \PY{n}{attributes} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{tuple}\PY{p}{(}\PY{n}{table}\PY{o}{.}\PY{n}{columns}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZsq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-                      \PY{n}{query} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{insert into }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ values }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{;}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}
-                          \PY{n}{table\PYZus{}name}\PY{p}{,} \PY{n}{attributes}\PY{p}{,} \PY{n+nb}{tuple}\PY{p}{(}\PY{n}{table}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{i}\PY{p}{,}\PY{p}{:}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)}\PY{p}{)}
-                      \PY{n}{query} \PY{o}{=} \PY{n}{query}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{(none)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-                      \PY{n}{query} \PY{o}{=} \PY{n}{query}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+sa}{r}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{,)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
-                      \PY{c+c1}{\PYZsh{} print(query)}
-                      \PY{k}{try}\PY{p}{:}
-                          \PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{n}{query}\PY{p}{)}
-                          \PY{n}{db}\PY{o}{.}\PY{n}{commit}\PY{p}{(}\PY{p}{)}
-                      \PY{k}{except} \PY{n+ne}{Exception} \PY{k}{as} \PY{n}{e}\PY{p}{:}
-                          \PY{n+nb}{print}\PY{p}{(}\PY{n}{e}\PY{p}{)}
-                          
-              \PY{k}{def} \PY{n+nf}{close}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
-                  \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{db}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}4}]:} \PY{k}{class} \PY{n+nc}{DataSqlLoader}\PY{p}{:}
+            \PY{k}{def} \PY{n+nf}{\PYZus{}\PYZus{}init\PYZus{}\PYZus{}}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{database}\PY{p}{)}\PY{p}{:}
+                \PY{c+c1}{\PYZsh{} connect to mysql local server}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{db} \PY{o}{=} \PY{n}{pymysql}\PY{o}{.}\PY{n}{Connect}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{localhost}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                       \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{root}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                       \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZsq{}}\PY{p}{,}
+                       \PY{n}{database}\PY{p}{)}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c} \PY{o}{=} \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{db}\PY{o}{.}\PY{n}{cursor}\PY{p}{(}\PY{p}{)}
+            
+            \PY{c+c1}{\PYZsh{} convert the shift and schedule time to `time` format compatible in MySQL}
+            \PY{k}{def} \PY{n+nf}{convert\PYZus{}time\PYZus{}format}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{time}\PY{p}{)}\PY{p}{:}
+                \PY{k}{return} \PY{n}{datetime}\PY{o}{.}\PY{n}{strptime}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{time}\PY{p}{)}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{I}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{p}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{strftime}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{H:}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{M:}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{S}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+            
+            \PY{c+c1}{\PYZsh{} convert schedule date to `date` format compatible in MySQL}
+            \PY{k}{def} \PY{n+nf}{convert\PYZus{}date\PYZus{}format}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{time}\PY{p}{)}\PY{p}{:}
+                \PY{k}{return} \PY{n}{datetime}\PY{o}{.}\PY{n}{strptime}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n}{time}\PY{p}{)}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{m/}\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s1}{/}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{Y}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{o}{.}\PY{n}{strftime}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{Y\PYZhy{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{m\PYZhy{}}\PY{l+s+si}{\PYZpc{}d}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+            
+            \PY{k}{def} \PY{n+nf}{creat\PYZus{}tables}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
+        \PY{l+s+s1}{                create table if not exists department}
+        \PY{l+s+s1}{                (}
+        \PY{l+s+s1}{                  department\PYZus{}id  int auto\PYZus{}increment}
+        \PY{l+s+s1}{                    primary key,}
+        \PY{l+s+s1}{                  department\PYZus{}name varchar(50) not null}
+        \PY{l+s+s1}{                );}
+        \PY{l+s+s1}{                }\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}\PY{p}{)}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
+        \PY{l+s+s1}{            create table if not exists shift}
+        \PY{l+s+s1}{            (}
+        \PY{l+s+s1}{              shift\PYZus{}id int auto\PYZus{}increment}
+        \PY{l+s+s1}{                primary key,}
+        \PY{l+s+s1}{              from\PYZus{}time   time not null,}
+        \PY{l+s+s1}{              length   int  not null}
+        \PY{l+s+s1}{            );}
+        \PY{l+s+s1}{            }\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}\PY{p}{)}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
+        \PY{l+s+s1}{            create table if not exists schedule}
+        \PY{l+s+s1}{            (}
+        \PY{l+s+s1}{              schedule\PYZus{}id  int auto\PYZus{}increment}
+        \PY{l+s+s1}{                primary key,}
+        \PY{l+s+s1}{              date         date        not null,}
+        \PY{l+s+s1}{              empid        varchar(10) not null,}
+        \PY{l+s+s1}{              dept         varchar(50) not null,}
+        \PY{l+s+s1}{              start\PYZus{}time   time        not null,}
+        \PY{l+s+s1}{              shift\PYZus{}length int         not null}
+        \PY{l+s+s1}{            );}
+        \PY{l+s+s1}{            }\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}\PY{p}{)}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
+        \PY{l+s+s1}{            create table if not exists employees}
+        \PY{l+s+s1}{            (}
+        \PY{l+s+s1}{              empid     varchar(10) not null primary key,}
+        \PY{l+s+s1}{              lastname  varchar(20) not null,}
+        \PY{l+s+s1}{              firstname varchar(20) not null,}
+        \PY{l+s+s1}{              emptype   varchar(3)  null,}
+        \PY{l+s+s1}{              cellphone varchar(20) null,}
+        \PY{l+s+s1}{              homephone varchar(20) null,}
+        \PY{l+s+s1}{              ftpt      varchar(2)  not null,}
+        \PY{l+s+s1}{              constraint employee\PYZus{}empid\PYZus{}uindex}
+        \PY{l+s+s1}{              unique (empid)}
+        \PY{l+s+s1}{            );}
+        \PY{l+s+s1}{        }\PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}\PY{p}{)}
+            
+            \PY{k}{def} \PY{n+nf}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{,} \PY{n}{table}\PY{p}{,} \PY{n}{table\PYZus{}name}\PY{p}{)}\PY{p}{:}
+                \PY{k}{for} \PY{n}{i} \PY{o+ow}{in} \PY{n+nb}{range}\PY{p}{(}\PY{n+nb}{len}\PY{p}{(}\PY{n}{table}\PY{p}{)}\PY{p}{)}\PY{p}{:}
+                    \PY{n}{attributes} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s1}{\PYZsq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}\PY{n+nb}{tuple}\PY{p}{(}\PY{n}{table}\PY{o}{.}\PY{n}{columns}\PY{o}{.}\PY{n}{tolist}\PY{p}{(}\PY{p}{)}\PY{p}{)}\PY{p}{)}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZsq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+                    \PY{n}{query} \PY{o}{=} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{insert into }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{ values }\PY{l+s+si}{\PYZob{}\PYZcb{}}\PY{l+s+s2}{;}\PY{l+s+s2}{\PYZdq{}}\PY{o}{.}\PY{n}{format}\PY{p}{(}
+                        \PY{n}{table\PYZus{}name}\PY{p}{,} \PY{n}{attributes}\PY{p}{,} \PY{n+nb}{tuple}\PY{p}{(}\PY{n}{table}\PY{o}{.}\PY{n}{iloc}\PY{p}{[}\PY{n}{i}\PY{p}{,}\PY{p}{:}\PY{p}{]}\PY{o}{.}\PY{n}{values}\PY{p}{)}\PY{p}{)}
+                    \PY{n}{query} \PY{o}{=} \PY{n}{query}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{(none)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+                    \PY{n}{query} \PY{o}{=} \PY{n}{query}\PY{o}{.}\PY{n}{replace}\PY{p}{(}\PY{l+s+sa}{r}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{,)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{,}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
+                    \PY{c+c1}{\PYZsh{} print(query)}
+                    \PY{k}{try}\PY{p}{:}
+                        \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{c}\PY{o}{.}\PY{n}{execute}\PY{p}{(}\PY{n}{query}\PY{p}{)}
+                        \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{db}\PY{o}{.}\PY{n}{commit}\PY{p}{(}\PY{p}{)}
+                    \PY{k}{except} \PY{n+ne}{Exception} \PY{k}{as} \PY{n}{e}\PY{p}{:}
+                        \PY{n+nb}{print}\PY{p}{(}\PY{n}{e}\PY{p}{)}
+                        
+            \PY{k}{def} \PY{n+nf}{close}\PY{p}{(}\PY{n+nb+bp}{self}\PY{p}{)}\PY{p}{:}
+                \PY{n+nb+bp}{self}\PY{o}{.}\PY{n}{db}\PY{o}{.}\PY{n}{close}\PY{p}{(}\PY{p}{)}
 \end{Verbatim}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}317}]:} \PY{n}{dsl} \PY{o}{=} \PY{n}{DataSqlLoader}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{cs431\PYZus{}project}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{dsl}\PY{o}{.}\PY{n}{creat\PYZus{}tables}\PY{p}{(}\PY{p}{)}
-          
-          \PY{n}{schedule}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{start\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{dsl}\PY{o}{.}\PY{n}{convert\PYZus{}time\PYZus{}format}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{,} 
-                                            \PY{n}{schedule}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{start\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
-          \PY{n}{shift}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{from\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{dsl}\PY{o}{.}\PY{n}{convert\PYZus{}time\PYZus{}format}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{,} 
-                                        \PY{n}{shift}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{from\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
-          \PY{n}{schedule}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{dsl}\PY{o}{.}\PY{n}{convert\PYZus{}date\PYZus{}format}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{,} 
-                                      \PY{n}{schedule}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
-          
-          \PY{n}{dsl}\PY{o}{.}\PY{n}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n}{department}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{department}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{dsl}\PY{o}{.}\PY{n}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n}{shift}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{shift}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{dsl}\PY{o}{.}\PY{n}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n}{schedule}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{schedule}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
-          \PY{n}{dsl}\PY{o}{.}\PY{n}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n}{employees}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{employees}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+{\color{incolor}In [{\color{incolor}6}]:} \PY{n}{dsl} \PY{o}{=} \PY{n}{DataSqlLoader}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{cs431\PYZus{}project}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{dsl}\PY{o}{.}\PY{n}{creat\PYZus{}tables}\PY{p}{(}\PY{p}{)}
+        
+        \PY{n}{schedule}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{start\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{dsl}\PY{o}{.}\PY{n}{convert\PYZus{}time\PYZus{}format}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{,} 
+                                          \PY{n}{schedule}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{start\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+        \PY{n}{shift}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{from\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{dsl}\PY{o}{.}\PY{n}{convert\PYZus{}time\PYZus{}format}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{,} 
+                                      \PY{n}{shift}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{from\PYZus{}time}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+        \PY{n}{schedule}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]} \PY{o}{=} \PY{n+nb}{list}\PY{p}{(}\PY{n+nb}{map}\PY{p}{(}\PY{k}{lambda} \PY{n}{x}\PY{p}{:} \PY{n}{dsl}\PY{o}{.}\PY{n}{convert\PYZus{}date\PYZus{}format}\PY{p}{(}\PY{n}{x}\PY{p}{)}\PY{p}{,} 
+                                    \PY{n}{schedule}\PY{p}{[}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{date}\PY{l+s+s1}{\PYZsq{}}\PY{p}{]}\PY{p}{)}\PY{p}{)}
+        
+        \PY{n}{dsl}\PY{o}{.}\PY{n}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n}{department}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{department}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{dsl}\PY{o}{.}\PY{n}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n}{shift}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{shift}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{dsl}\PY{o}{.}\PY{n}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n}{schedule}\PY{p}{,}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{schedule}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
+        \PY{n}{dsl}\PY{o}{.}\PY{n}{insert\PYZus{}into\PYZus{}tables}\PY{p}{(}\PY{n}{employees}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{employees}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}
 \end{Verbatim}
 
     \subsubsection*{SQL Query}\label{sql-query}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor} }]:} \PY{n}{select} \PY{n}{e}\PY{o}{.}\PY{n}{lastname} \PY{k}{as} \PY{n}{LAST}\PY{p}{,} \PY{n}{e}\PY{o}{.}\PY{n}{firstname} \PY{k}{as} \PY{n}{FIRST}\PY{p}{,} \PY{n}{e}\PY{o}{.}\PY{n}{cellphone} \PY{k}{as} \PY{n}{CELL}\PY{p}{,}
-               \PY{n}{s}\PY{o}{.}\PY{n}{date} \PY{k}{as} \PY{n}{DATE}\PY{p}{,} \PY{n}{d}\PY{o}{.}\PY{n}{department\PYZus{}name} \PY{k}{as} \PY{n}{DEPT}\PY{p}{,} 
-               \PY{n}{date\PYZus{}format}\PY{p}{(}\PY{n}{s}\PY{o}{.}\PY{n}{start\PYZus{}time}\PY{p}{,} \PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{I}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{p}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)} \PY{k}{as} \PY{n}{START}\PY{p}{,} \PY{n}{s}\PY{o}{.}\PY{n}{shift\PYZus{}length} \PY{k}{as} \PY{n}{SHIFT\PYZus{}LENGTH}
+{\color{incolor}In [{\color{incolor}5}]:} \PY{n}{select} \PY{n}{e}\PY{o}{.}\PY{n}{lastname} \PY{k}{as} \PY{n}{LAST}\PY{p}{,} \PY{n}{e}\PY{o}{.}\PY{n}{firstname} \PY{k}{as} \PY{n}{FIRST}\PY{p}{,} \PY{n}{e}\PY{o}{.}\PY{n}{cellphone} \PY{k}{as} \PY{n}{CELL}\PY{p}{,}
+               \PY{n}{s}\PY{o}{.}\PY{n}{date} \PY{k}{as} \PY{n}{DATE}\PY{p}{,} \PY{n}{d}\PY{o}{.}\PY{n}{department\PYZus{}name} \PY{k}{as} \PY{n}{DEPT}\PY{p}{,} \PY{n}{date\PYZus{}format}\PY{p}{(}\PY{n}{s}\PY{o}{.}\PY{n}{start\PYZus{}time}\PY{p}{,} \PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{I}\PY{l+s+s2}{\PYZpc{}}\PY{l+s+s2}{p}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)} 
+            \PY{k}{as} \PY{n}{START}\PY{p}{,} \PY{n}{s}\PY{o}{.}\PY{n}{shift\PYZus{}length} \PY{k}{as} \PY{n}{SHIFT\PYZus{}LENGTH}
         \PY{k+kn}{from} \PY{n+nn}{department} \PY{k}{as} \PY{n}{d}\PY{p}{,} \PY{n}{employees} \PY{k}{as} \PY{n}{e}\PY{p}{,} \PY{n}{schedule} \PY{k}{as} \PY{n}{s}
         \PY{n}{where} \PY{n}{s}\PY{o}{.}\PY{n}{dept}\PY{o}{=}\PY{n}{d}\PY{o}{.}\PY{n}{department\PYZus{}name}
         \PY{o+ow}{and} \PY{n}{s}\PY{o}{.}\PY{n}{empid}\PY{o}{=}\PY{n}{e}\PY{o}{.}\PY{n}{empid}
-        \PY{n}{order} \PY{n}{by} \PY{n}{LAST}\PY{p}{,} \PY{n}{DATE}\PY{p}{,} \PY{n}{SHIFT\PYZus{}LENGTH asc, DEPT desc} \PY{n}{limit} \PY{l+m+mi}{50}\PY{p}{;}
+        \PY{n}{order} \PY{n}{by} \PY{n}{LAST}\PY{p}{,} \PY{n}{FIRST}\PY{p}{,} \PY{n}{DATE}\PY{p}{,} \PY{n}{DEPT}\PY{p}{,} \PY{n}{START} \PY{n}{asc} \PY{n}{limit} \PY{l+m+mi}{50}\PY{p}{;}
 \end{Verbatim}
 
     \paragraph{display results}\label{display-results}
 
     \begin{Verbatim}[commandchars=\\\{\}]
-{\color{incolor}In [{\color{incolor}315}]:} \PY{n}{query} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
-          \PY{l+s+s1}{    select e.lastname as LAST, e.firstname as FIRST, e.cellphone as CELL,}
-          \PY{l+s+s1}{       s.date as DATE, d.department\PYZus{}name as DEPT, }
-          \PY{l+s+s1}{       date\PYZus{}format(s.start\PYZus{}time, }\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{I}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{p}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{) as START, s.shift\PYZus{}length as SHIFT\PYZus{}LENGTH}
-          \PY{l+s+s1}{from department as d, employees as e, schedule as s}
-          \PY{l+s+s1}{where s.dept=d.department\PYZus{}name}
-          \PY{l+s+s1}{and s.empid=e.empid}
-          \PY{l+s+s1}{order by LAST, DATE, START, SHIFT\PYZus{}LENGTH asc, DEPT desc limit 50;}
-          \PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
-          
-          \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}sql}\PY{p}{(}\PY{n}{query}\PY{p}{,} \PY{n}{dsl}\PY{o}{.}\PY{n}{db}\PY{p}{)}
-          \PY{c+c1}{\PYZsh{}print(df.to\PYZus{}latex())}
+{\color{incolor}In [{\color{incolor}8}]:} \PY{n}{query} \PY{o}{=} \PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
+        \PY{l+s+s1}{    select e.lastname as LAST, e.firstname as FIRST, e.cellphone as CELL,}
+        \PY{l+s+s1}{       s.date as DATE, d.department\PYZus{}name as DEPT, }
+        \PY{l+s+s1}{       date\PYZus{}format(s.start\PYZus{}time, }\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{I}\PY{l+s+s1}{\PYZpc{}}\PY{l+s+s1}{p}\PY{l+s+s1}{\PYZdq{}}\PY{l+s+s1}{) as START, s.shift\PYZus{}length as SHIFT\PYZus{}LENGTH}
+        \PY{l+s+s1}{from department as d, employees as e, schedule as s}
+        \PY{l+s+s1}{where s.dept=d.department\PYZus{}name}
+        \PY{l+s+s1}{and s.empid=e.empid}
+        \PY{l+s+s1}{order by LAST, FIRST, DATE, START, SHIFT\PYZus{}LENGTH, DEPT asc limit 50;}
+        \PY{l+s+s1}{\PYZsq{}\PYZsq{}\PYZsq{}}
+        
+        \PY{n}{df} \PY{o}{=} \PY{n}{pd}\PY{o}{.}\PY{n}{read\PYZus{}sql}\PY{p}{(}\PY{n}{query}\PY{p}{,} \PY{n}{dsl}\PY{o}{.}\PY{n}{db}\PY{p}{)}
+        \PY{n}{df}
 \end{Verbatim}
 
-\begin{tabular}{|l|l|l|l|l|l|l|r|}
+\begin{tabular}{lllllllr}
 	\toprule
 	{} &       LAST &    FIRST &            CELL &        DATE &            DEPT & START &  SHIFT\_LENGTH \\
 	\midrule
 	0  &       Ault &  Rosendo &  (571)7252-4785 &  2018-09-24 &      CARDIOLOGY &  03PM &             8 \\
-	1  &       Ault &  Rosendo &  (571)7252-4785 &  2018-09-25 &      PEDIATRICS &  03PM &             8 \\
-	2  &       Ault &  Rosendo &  (571)7252-4785 &  2018-09-25 &        ONCOLOGY &  03PM &             8 \\
+	1  &       Ault &  Rosendo &  (571)7252-4785 &  2018-09-25 &        ONCOLOGY &  03PM &             8 \\
+	2  &       Ault &  Rosendo &  (571)7252-4785 &  2018-09-25 &      PEDIATRICS &  03PM &             8 \\
 	3  &       Ault &  Rosendo &  (571)7252-4785 &  2018-09-26 &      PEDIATRICS &  11PM &             8 \\
 	4  &       Ault &  Rosendo &  (571)7252-4785 &  2018-09-28 &        ONCOLOGY &  03PM &             8 \\
 	5  &       Ault &  Rosendo &  (571)7252-4785 &  2018-09-29 &      CARDIOLOGY &  07AM &            12 \\
@@ -457,27 +457,27 @@
 	12 &       Ault &  Rosendo &  (571)7252-4785 &  2018-10-07 &      CARDIOLOGY &  07PM &            12 \\
 	13 &     Beaver &     Viva &  (612)7951-8931 &  2018-09-25 &       MATERNITY &  03PM &             8 \\
 	14 &     Beaver &     Viva &  (612)7951-8931 &  2018-09-25 &       EMERGENCY &  07AM &             8 \\
-	15 &     Beaver &     Viva &  (612)7951-8931 &  2018-09-26 &        ONCOLOGY &  07AM &             8 \\
+	15 &     Beaver &     Viva &  (612)7951-8931 &  2018-09-26 &  INTENSIVE CARE &  07AM &             8 \\
 	16 &     Beaver &     Viva &  (612)7951-8931 &  2018-09-26 &        ONCOLOGY &  07AM &             8 \\
-	17 &     Beaver &     Viva &  (612)7951-8931 &  2018-09-26 &  INTENSIVE CARE &  07AM &             8 \\
+	17 &     Beaver &     Viva &  (612)7951-8931 &  2018-09-26 &        ONCOLOGY &  07AM &             8 \\
 	18 &     Beaver &     Viva &  (612)7951-8931 &  2018-09-27 &      PEDIATRICS &  11PM &             8 \\
 	19 &     Beaver &     Viva &  (612)7951-8931 &  2018-09-28 &      CARDIOLOGY &  07AM &             8 \\
 	20 &     Beaver &     Viva &  (612)7951-8931 &  2018-10-02 &  INTENSIVE CARE &  07AM &             8 \\
 	21 &     Beaver &     Viva &  (612)7951-8931 &  2018-10-03 &      PEDIATRICS &  11PM &             8 \\
 	22 &     Beaver &     Viva &  (612)7951-8931 &  2018-10-06 &       RADIOLOGY &  07AM &            12 \\
-	23 &     Beaver &     Viva &  (612)7951-8931 &  2018-10-07 &      PEDIATRICS &  07PM &            12 \\
+	23 &     Beaver &     Viva &  (612)7951-8931 &  2018-10-07 &       EMERGENCY &  07PM &            12 \\
 	24 &     Beaver &     Viva &  (612)7951-8931 &  2018-10-07 &       MATERNITY &  07PM &            12 \\
-	25 &     Beaver &     Viva &  (612)7951-8931 &  2018-10-07 &       EMERGENCY &  07PM &            12 \\
+	25 &     Beaver &     Viva &  (612)7951-8931 &  2018-10-07 &      PEDIATRICS &  07PM &            12 \\
 	26 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-09-24 &       EMERGENCY &  07AM &             8 \\
 	27 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-09-28 &      CARDIOLOGY &  03PM &             8 \\
 	28 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-09-29 &      CARDIOLOGY &  07AM &            12 \\
 	29 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-03 &         SURGERY &  03PM &             8 \\
 	30 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-04 &       EMERGENCY &  03PM &             8 \\
-	31 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-04 &        ONCOLOGY &  11PM &             8 \\
-	32 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-04 &  INTENSIVE CARE &  11PM &             8 \\
-	33 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-06 &      PEDIATRICS &  07AM &            12 \\
+	31 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-04 &  INTENSIVE CARE &  11PM &             8 \\
+	32 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-04 &        ONCOLOGY &  11PM &             8 \\
+	33 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-06 &       MATERNITY &  07AM &            12 \\
 	34 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-06 &        ONCOLOGY &  07AM &            12 \\
-	35 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-06 &       MATERNITY &  07AM &            12 \\
+	35 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-06 &      PEDIATRICS &  07AM &            12 \\
 	36 &   Berryman &  Sabrina &  (806)6465-4545 &  2018-10-07 &      CARDIOLOGY &  07AM &            12 \\
 	37 &      Blagg &  Lorenzo &  (863)2419-9105 &  2018-09-26 &       EMERGENCY &  07AM &             8 \\
 	38 &      Blagg &  Lorenzo &  (863)2419-9105 &  2018-09-27 &  INTENSIVE CARE &  03PM &             8 \\
@@ -489,8 +489,8 @@
 	44 &      Blagg &  Lorenzo &  (863)2419-9105 &  2018-10-06 &        ONCOLOGY &  07PM &            12 \\
 	45 &      Blagg &  Lorenzo &  (863)2419-9105 &  2018-10-07 &        ONCOLOGY &  07PM &            12 \\
 	46 &  Catanzaro &   Imelda &  (220)3748-1866 &  2018-09-24 &      PEDIATRICS &  07AM &             8 \\
-	47 &  Catanzaro &   Imelda &  (220)3748-1866 &  2018-09-30 &        ONCOLOGY &  07PM &            12 \\
-	48 &  Catanzaro &   Imelda &  (220)3748-1866 &  2018-09-30 &       EMERGENCY &  07PM &            12 \\
+	47 &  Catanzaro &   Imelda &  (220)3748-1866 &  2018-09-30 &       EMERGENCY &  07PM &            12 \\
+	48 &  Catanzaro &   Imelda &  (220)3748-1866 &  2018-09-30 &        ONCOLOGY &  07PM &            12 \\
 	49 &  Catanzaro &   Imelda &  (220)3748-1866 &  2018-10-01 &       MATERNITY &  03PM &             8 \\
 	\bottomrule
 \end{tabular}
