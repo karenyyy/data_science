@@ -17,7 +17,6 @@
     \usepackage[T1]{fontenc}
     % Nicer default font (+ math font) than Computer Modern for most use cases
     \usepackage{mathpazo}
-
     % Basic figure setup, for now with no caption control since it's done
     % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
     \usepackage{graphicx}
@@ -67,7 +66,18 @@
                                 % normalem makes italics be italics, not underlines
     
 
-    
+    \hypersetup{
+    	bookmarks=true,         % show bookmarks bar?
+    	unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    	pdftoolbar=true,        % show Acrobat’s toolbar?
+    	pdfmenubar=true,        % show Acrobat’s menu?
+    	pdffitwindow=false,     % window fit to page when opened
+    	pdfstartview={FitH},    % fits the width of the page to the window
+    	pdfauthor={Kevin Multani},     % author
+    	colorlinks=true,       % false: boxed links; true: colored links
+    	linkcolor=blue,          % color of internal links
+    	citecolor=red,        % color of links to bibliography
+    }
     
     % Colors for the hyperref package
     \definecolor{urlcolor}{rgb}{0,.145,.698}
@@ -449,8 +459,17 @@ In the CAP(Consistency, Availability, Partition tolerance) theorem,
 Cassandra satisfied the Availability and Partition tolerance, these are
 its major advantages. It needs to trade-off between availability and
 consistency depending on the actual context of tasks, it can achieve
-strong consistency and eventual consistency by configuration.
+strong consistency and eventual consistency by configuration.\cite{DBLP:journals/corr/MoniruzzamanH13}
+\cite{DBLP:journals/corr/Sharma15b}
+\cite{DBLP:journals/corr/abs-1804-00465}
+\cite{Truica2015PerformanceEF}
+\cite{Loureno2015ChoosingTR}
+\cite{Strl2015SchemalessND}
+\newpage
 
+
+\bibliographystyle{plain}
+\bibliography{references}
 
     % Add a bibliography block to the postdoc
     

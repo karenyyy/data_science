@@ -2,19 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c6e0677-9997-4944-a61f-695f842b82f3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0d4d7d20-0511-4f1b-9a34-6293c4e71d04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0d4d7d20-0511-4f1b-9a34-6293c4e71d04.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d3fbd3ff-0f4f-4989-a45f-35f7d29d3724.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/.ipynb_checkpoints/lab1-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/.ipynb_checkpoints/lab1-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py" beforeDir="false" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw7/.ipynb_checkpoints/hw7-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw7/PROJECT ASSIGNMENT WEEK 7.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw7/departments.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw7/employees.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw7/hw7.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw7/schedule.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw7/shifts.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/proposal.pdf" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/proposal.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/0d4d7d20-0511-4f1b-9a34-6293c4e71d04.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0d4d7d20-0511-4f1b-9a34-6293c4e71d04.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/data_science.iml" afterPath="$PROJECT_DIR$/.idea/data_science.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/proposal.tex" afterPath="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/proposal.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/lab5.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/lab5.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/relevant_binary_tagged.csv" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/relevant_binary_tagged.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/tweets_test.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab5/tweets_test.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab_6-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/.ipynb_checkpoints/lab_6-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab_6.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab6/lab_6.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4.ipynb" afterPath="$PROJECT_DIR$/Datasci_Fall_18/stat461/hw/4/hw4.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,63 +33,39 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/data_science$gather_tweets_pipeline.coverage" NAME="gather_tweets_pipeline Coverage Results" MODIFIED="1536716276685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2" />
-    <SUITE FILE_PATH="coverage/data_science$test.coverage" NAME="test Coverage Results" MODIFIED="1536712960771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2" />
     <SUITE FILE_PATH="coverage/data_science$tag.coverage" NAME="tag Coverage Results" MODIFIED="1536720477151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab4" />
-    <SUITE FILE_PATH="coverage/data_science$lab1.coverage" NAME="lab1 Coverage Results" MODIFIED="1538592688716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab" />
-    <SUITE FILE_PATH="coverage/data_science$bigquery_practice_1.coverage" NAME="bigquery_practice_1 Coverage Results" MODIFIED="1538407989996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds220" />
-    <SUITE FILE_PATH="coverage/data_science$training1.coverage" NAME="training1 Coverage Results" MODIFIED="1537147472632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ndl" />
     <SUITE FILE_PATH="coverage/data_science$twitter_stream.coverage" NAME="twitter_stream Coverage Results" MODIFIED="1536717825219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_app/live_twitter_sentiment" />
+    <SUITE FILE_PATH="coverage/data_science$lab1.coverage" NAME="lab1 Coverage Results" MODIFIED="1538592688716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab" />
     <SUITE FILE_PATH="coverage/data_science$hw5.coverage" NAME="hw5 Coverage Results" MODIFIED="1538162153764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5" />
     <SUITE FILE_PATH="coverage/data_science$07_sentiment_with_doc2vec.coverage" NAME="07_sentiment_with_doc2vec Coverage Results" MODIFIED="1537135525204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TF_nlp" />
+    <SUITE FILE_PATH="coverage/data_science$training1.coverage" NAME="training1 Coverage Results" MODIFIED="1537147472632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ndl" />
     <SUITE FILE_PATH="coverage/data_science$db_test.coverage" NAME="db_test Coverage Results" MODIFIED="1536682821580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds220" />
+    <SUITE FILE_PATH="coverage/data_science$test.coverage" NAME="test Coverage Results" MODIFIED="1536712960771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2" />
+    <SUITE FILE_PATH="coverage/data_science$bigquery_practice_1.coverage" NAME="bigquery_practice_1 Coverage Results" MODIFIED="1538407989996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Datasci_Fall_18/ds220" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
     <expand>
       <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cs431_project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="oaklandcrime.db" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cs431_project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="oaklandcrime.db" type="e3449647:DbNodeDescriptor" />
+        <item name="main" type="e3449647:DbNodeDescriptor" />
       </path>
       <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cs431_project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cs431_project: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cs431_project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cs431_project: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="employees: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cs431_project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cs431_project: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="schedule: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cs431_project@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cs431_project: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="shift: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="oaklandcrime.db" type="e3449647:DbNodeDescriptor" />
+        <item name="main" type="e3449647:DbNodeDescriptor" />
+        <item name="crimedata_2011" type="e3449647:DbNodeDescriptor" />
       </path>
     </expand>
     <select />
@@ -184,27 +171,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <marker date="1538593255187" expanded="true" signature="1878:2098" ph="..." />
-                <marker date="1538593255187" expanded="true" signature="3897:3899" ph="..." />
-                <marker date="1538593255187" expanded="true" signature="4443:4595" ph="..." />
-                <marker date="1538593255187" expanded="true" signature="6764:6916" ph="..." />
-              </folding>
+      <file leaf-file-name="crimedata_2011" pinned="false" current-in-tab="false">
+        <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2011">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department_managers">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e48db4fd-b0d4-4589-9e66-d35655d90e59/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -303,13 +284,18 @@
         <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/schedule.sql" />
         <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employee.sql" />
         <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0d4d7d20-0511-4f1b-9a34-6293c4e71d04/console.sql" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py" />
         <option value="0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py" />
         <option value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0d4d7d20-0511-4f1b-9a34-6293c4e71d04/console.sql" />
+        <option value="src:table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011" />
+        <option value="src:table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2015" />
+        <option value="src:table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e48db4fd-b0d4-4589-9e66-d35655d90e59/console.sql" />
       </list>
     </option>
   </component>
@@ -320,18 +306,29 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="521" />
-    <option name="y" value="-78" />
-    <option name="width" value="856" />
-    <option name="height" value="656" />
+    <option name="x" value="-36" />
+    <option name="y" value="100" />
+    <option name="width" value="1019" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,14 +345,20 @@
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds310" type="462c0819:PsiDirectoryNode" />
+              <item name="cs431" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_science" type="462c0819:PsiDirectoryNode" />
               <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
-              <item name="ds310" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab" type="462c0819:PsiDirectoryNode" />
+              <item name="ds220" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_science" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_science" type="462c0819:PsiDirectoryNode" />
+              <item name="Datasci_Fall_18" type="462c0819:PsiDirectoryNode" />
+              <item name="ds220" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,10 +369,11 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Sqlite (Xerial)" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../karenyyyBlog" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Datasci_Fall_18/ds220/project" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="SQLite&#10;MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -399,9 +403,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lab1">
+  <component name="RunManager">
     <configuration name="07_sentiment_with_doc2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -412,18 +415,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="data_science" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="bigquery_practice_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -434,18 +433,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="data_science" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ds220/bigquery_practice_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="hw5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -456,18 +451,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="data_science" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="lab1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -478,18 +469,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="data_science" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="training1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -500,32 +487,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="data_science" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Datasci_Fall_18/ndl/training1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.07_sentiment_with_doc2vec" />
-      <item itemvalue="Python.training1" />
-      <item itemvalue="Python.bigquery_practice_1" />
-      <item itemvalue="Python.hw5" />
-      <item itemvalue="Python.lab1" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.bigquery_practice_1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.lab1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.hw5" />
+      <item index="3" class="java.lang.String" itemvalue="Python.07_sentiment_with_doc2vec" />
+      <item index="4" class="java.lang.String" itemvalue="Python.training1" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.lab1" />
-        <item itemvalue="Python.bigquery_practice_1" />
-        <item itemvalue="Python.hw5" />
-        <item itemvalue="Python.training1" />
-        <item itemvalue="Python.07_sentiment_with_doc2vec" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.training1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.07_sentiment_with_doc2vec" />
+        <item index="2" class="java.lang.String" itemvalue="Python.hw5" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lab1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.bigquery_practice_1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -541,68 +528,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-3" y="31" width="1926" height="1052" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16818182" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.205291" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="3" visible="true" weight="0.37299034" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32910052" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39871383" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="right" id="JWT" order="0" />
-      <window_info anchor="right" id="JSON Viewer" order="1" />
-      <window_info anchor="right" id="JSON Utils" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2621212" />
-      <window_info anchor="right" id="Data View" order="4" weight="0.3296875" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Run" order="8" weight="0.36136365" />
-      <window_info anchor="right" id="R Graphics" order="9" weight="0.32954547" />
-      <window_info anchor="right" id="R Packages" order="10" weight="0.32954547" />
-      <window_info anchor="right" id="SciView" order="11" weight="0.3810606" />
-      <window_info anchor="right" id="Python Console" order="12" weight="0.7090909" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JWT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07513227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16613756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31927082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13636364" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.205291" />
-      <window_info anchor="bottom" id="Database Console" order="3" weight="0.23151125" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32910052" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.39871383" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="right" id="JWT" order="0" />
-      <window_info anchor="right" id="JSON Viewer" order="1" />
-      <window_info anchor="right" id="JSON Utils" order="2" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.27045456" />
-      <window_info anchor="right" id="Data View" order="4" weight="0.3296875" />
-      <window_info anchor="right" id="Commander" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Run" order="8" weight="0.79901963" />
-      <window_info anchor="right" id="R Graphics" order="9" weight="0.32954547" />
-      <window_info anchor="right" id="R Packages" order="10" weight="0.32954547" />
-      <window_info anchor="right" id="SciView" order="11" weight="0.3810606" />
-      <window_info anchor="right" id="Python Console" order="12" weight="0.7090909" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -613,154 +564,368 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.ROOM" />
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.ROOM" />
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.SHIFT" />
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.PATIENT" />
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.PATIENT" />
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.APPOINTMENT" />
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.APPOINTMENT" />
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.EMPLOYEE" />
-    <entry file="das://src:table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.AFFILIATION" />
-    <entry file="das://table:/826f60b4/ef51bdda-c82e-4ea2-ba51-bef05bcf9a92/cs431.SHIFT" />
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ndl/training1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/EMPLOYEE" />
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/DEPARTMENT" />
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/AFFILIATION" />
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/SHIFT.sql" />
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/PATIENT" />
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/ROOM" />
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/bigquery_practice_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/APPOINTMENT" />
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/SHIFT" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/AFFILIATION.sql" />
-    <entry file="das://d3fbd3ff-0f4f-4989-a45f-35f7d29d3724/schema/cs431/table/APPOINTMENT.sql" />
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/shift.sql" />
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/schedule.sql" />
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employee.sql" />
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds200/Labs/lab2/gather_tweets_pipeline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department.sql" />
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employee" />
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/shift" />
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees" />
-    <entry file="file://$PROJECT_DIR$/TF_nlp/NaturalLanguageProcessingwithTensorFlow_Code/ch3/ch3_wordnet.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/tweets/management/commands/sync_cassandra.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="10" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0d4d7d20-0511-4f1b-9a34-6293c4e71d04/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/cass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="70" column="47" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/employees.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/cs431/HW/hw5/hw5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="130" column="31" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TF_nlp/07_sentiment_with_doc2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds220/Extra/twissandra/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/schedule">
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TF_nlp/NaturalLanguageProcessingwithTensorFlow_Code/ch4/ch4_document_embedding.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1_2.py" />
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department">
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Datasci_Fall_18/ds310/Lab/lab1.py">
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1538593255187" expanded="true" signature="1878:2098" ph="..." />
-            <marker date="1538593255187" expanded="true" signature="3897:3899" ph="..." />
-            <marker date="1538593255187" expanded="true" signature="4443:4595" ph="..." />
-            <marker date="1538593255187" expanded="true" signature="6764:6916" ph="..." />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://0d4d7d20-0511-4f1b-9a34-6293c4e71d04/schema/cs431_project/table/department_managers">
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2012">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/7ef5c5f5-094b-4d9a-b399-ec2f658b05ed/ds220_project.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.test">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.sqlite_master">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2012012-01-01T02:59:48">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2012012">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2012">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2013">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2014">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2016">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2015">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/826f60b4/e48db4fd-b0d4-4589-9e66-d35655d90e59/main.crimedata_2011">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e48db4fd-b0d4-4589-9e66-d35655d90e59/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
